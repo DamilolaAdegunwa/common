@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{AA71C2C5-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.API", "Authentication\Auth.API\Auth.API.csproj", "{E2D4950D-0C02-4A51-B9D2-991B7356EABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Identity.MVC", "Authentication\Auth.Identity.MVC\Auth.Identity.MVC.csproj", "{94F59ACB-6A43-4762-8796-EC894D419C50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Identity.MVC", "Authentication\Auth.Identity.MVC\Auth.Identity.MVC.csproj", "{94F59ACB-6A43-4762-8796-EC894D419C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Cookie.MVC", "Authentication\Auth.Cookie.MVC\Auth.Cookie.MVC.csproj", "{EF146BE9-520C-425D-A00D-67407EE55837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{94F59ACB-6A43-4762-8796-EC894D419C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F59ACB-6A43-4762-8796-EC894D419C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F59ACB-6A43-4762-8796-EC894D419C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF146BE9-520C-425D-A00D-67407EE55837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF146BE9-520C-425D-A00D-67407EE55837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF146BE9-520C-425D-A00D-67407EE55837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF146BE9-520C-425D-A00D-67407EE55837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E2D4950D-0C02-4A51-B9D2-991B7356EABC} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
 		{94F59ACB-6A43-4762-8796-EC894D419C50} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
+		{EF146BE9-520C-425D-A00D-67407EE55837} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}
