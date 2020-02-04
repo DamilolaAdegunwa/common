@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.API", "Authentication\Auth.API\Auth.API.csproj", "{E2D4950D-0C02-4A51-B9D2-991B7356EABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Identity.MVC", "Authentication\Auth.Identity.MVC\Auth.Identity.MVC.csproj", "{94F59ACB-6A43-4762-8796-EC894D419C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D4950D-0C02-4A51-B9D2-991B7356EABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D4950D-0C02-4A51-B9D2-991B7356EABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D4950D-0C02-4A51-B9D2-991B7356EABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D4950D-0C02-4A51-B9D2-991B7356EABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F59ACB-6A43-4762-8796-EC894D419C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F59ACB-6A43-4762-8796-EC894D419C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F59ACB-6A43-4762-8796-EC894D419C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F59ACB-6A43-4762-8796-EC894D419C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2D4950D-0C02-4A51-B9D2-991B7356EABC} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
+		{94F59ACB-6A43-4762-8796-EC894D419C50} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}
+	EndGlobalSection
+EndGlobal
