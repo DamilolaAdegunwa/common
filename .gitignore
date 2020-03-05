@@ -3,3 +3,16 @@
 ################################################################################
 
 /.vs/Engine/v16/Server/sqlite3
+/.vs/Engine/v16
+/.vs/Engine
+/.vs
+/
+
+
+Authentication/Auth.API/obj
+Authentication/Auth.Cookie.MVC/obj
+Authentication/Auth.Identity.MVC/obj
+
+Auth/Auth.API/obj
+Auth/Auth.Cookie.MVC/obj
+Auth/Auth.Identity.MVC/obj

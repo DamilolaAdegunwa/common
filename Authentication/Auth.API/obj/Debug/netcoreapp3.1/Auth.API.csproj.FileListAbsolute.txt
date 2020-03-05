@@ -2,7 +2,6 @@ C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\bin\Debug\netcorea
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.exe
-C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.csprojAssemblyReference.cache
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\staticwebassets\Auth.API.StaticWebAssets.Manifest.cache
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\staticwebassets\Auth.API.StaticWebAssets.xml
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.AssemblyInfoInputs.cache
