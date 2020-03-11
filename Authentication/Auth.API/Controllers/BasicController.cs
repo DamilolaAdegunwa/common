@@ -11,5 +11,6 @@ namespace Auth.API.Controllers
     [ApiController]
     public class BasicController : ControllerBase
     {
+        //I'd be writting some cool stuff here!!
     }
 }
