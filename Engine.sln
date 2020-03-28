@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.API", "Authentication\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Identity.MVC", "Authentication\Auth.Identity.MVC\Auth.Identity.MVC.csproj", "{94F59ACB-6A43-4762-8796-EC894D419C50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Cookie.MVC", "Authentication\Auth.Cookie.MVC\Auth.Cookie.MVC.csproj", "{EF146BE9-520C-425D-A00D-67407EE55837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Cookie.MVC", "Authentication\Auth.Cookie.MVC\Auth.Cookie.MVC.csproj", "{EF146BE9-520C-425D-A00D-67407EE55837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.AspNet.MVC", "Authentication\Auth.AspNet.MVC\Auth.AspNet.MVC.csproj", "{05144397-6B8A-4B82-B9B3-ECEB021A2785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthenticationMVC", "Authentication\CustomAuthenticationMVC\CustomAuthenticationMVC.csproj", "{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{EF146BE9-520C-425D-A00D-67407EE55837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF146BE9-520C-425D-A00D-67407EE55837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF146BE9-520C-425D-A00D-67407EE55837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05144397-6B8A-4B82-B9B3-ECEB021A2785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05144397-6B8A-4B82-B9B3-ECEB021A2785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05144397-6B8A-4B82-B9B3-ECEB021A2785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05144397-6B8A-4B82-B9B3-ECEB021A2785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 		{E2D4950D-0C02-4A51-B9D2-991B7356EABC} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
 		{94F59ACB-6A43-4762-8796-EC894D419C50} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
 		{EF146BE9-520C-425D-A00D-67407EE55837} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
+		{05144397-6B8A-4B82-B9B3-ECEB021A2785} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
+		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB} = {AA71C2C5-DC3D-4ABC-8C00-896B9B09C53A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}
