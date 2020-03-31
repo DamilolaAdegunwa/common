@@ -5,7 +5,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Configuration;
-
+//other namespaces
 namespace CustomAuthenticationMVC.DataAccess
 {
     public class AuthenticationDB : DbContext
@@ -15,7 +15,7 @@ namespace CustomAuthenticationMVC.DataAccess
         {
 
         }
-
+        //other ctors
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
@@ -28,7 +28,7 @@ namespace CustomAuthenticationMVC.DataAccess
                     m.MapRightKey("RoleId");
                 });
         }
-
+        //override other methods
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
     }

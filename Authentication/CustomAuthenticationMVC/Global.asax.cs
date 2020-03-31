@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-
+using System.Threading.Tasks;
 namespace CustomAuthenticationMVC
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -22,6 +22,7 @@ namespace CustomAuthenticationMVC
         protected void Application_PostAuthenticateRequest(Object sender, EventArgs e)
         {
             HttpCookie authCookie = Request.Cookies["Cookie1"];
+            var altCookie = FormsAuthentication.GetCookie("Cookie1");
             if (authCookie != null)
             {
                 FormsAuthenticationTicket authTicket = FormsAuthentication.Decrypt(authCookie.Value);
@@ -36,7 +37,12 @@ namespace CustomAuthenticationMVC
                 principal.Roles = serializeModel.RoleName.ToArray<string>();
 
                 HttpContext.Current.User = principal;
+                Thread.CurrentPrincipal = principal; 
             }
+
+        }
+        protected void Application_TestRequest(Object sender, EventArgs e)
+        {
 
         }
     }

@@ -16,6 +16,6 @@ namespace CustomAuthenticationMVC.DataAccess
         public bool IsActive { get; set; }
         public Guid ActivationCode { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
-
+        //Can add other properties and constructures to this class 
     }
 }

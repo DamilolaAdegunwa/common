@@ -10,5 +10,6 @@ namespace CustomAuthenticationMVC.DataAccess
         public int RoleId { get; set; }
         public string RoleName { get; set; }
         public virtual ICollection<User> Users { get; set; }
+        //Can add other properties and constructures to this class 
     }
 }

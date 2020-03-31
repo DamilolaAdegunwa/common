@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
+    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
+    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "projectName": "Auth.Identity.MVC",
-        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
-        "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\obj\\",
+        "projectPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "packagesPath": "C:\\Users\\DamilolaAdegunwa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DamilolaAdegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
