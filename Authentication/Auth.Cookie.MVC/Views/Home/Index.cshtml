@@ -6,3 +6,34 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+am binding my view with a view bag as follows
+
+<div class="col-md-3 scroll-container" style="padding:0px;">
+    <div class="panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            @{ int i = 0; string collapse = "header";}
+            @foreach (var result in ViewBag.studentListof)
+            {
+                {
+                    i++;
+                    collapse = collapse + i.ToString();
+                }
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-target="#@collapse" data-parent="#accordionMenu" href="#@collapse" aria-expanded="true">
+                            <small><i class="more-less glyphicon glyphicon-chevron-down"></i></small> &nbsp;@result.Grade (@result.StudentModel.Count items)
+                        </a>
+                    </h4>
+                </div>
+                <div class="panel-collapse collapse in" id="@collapse" role="tabpanel">
+                    @foreach (var result1 in result.StudentModel)
+                    {
+                        <div class="studentlist" data-value="@result1.StudentId">
+                            &nbsp;&nbsp;@result1.StudentName<span class="loader pull-right" style="display:none"><img style="height:1em" src="@Url.Content("~/Content/images/28.gif")" /></span>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -9,8 +9,6 @@ namespace CustomAuthenticationMVC.CustomAuthentication
 {
     public class CustomMembership : MembershipProvider
     {
-
-
         /// <summary>
         /// 
         /// </summary>
