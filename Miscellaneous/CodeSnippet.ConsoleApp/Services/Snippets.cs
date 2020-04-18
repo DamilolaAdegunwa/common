@@ -5,73 +5,77 @@ using System.Linq;
 using System.Linq.Expressions;
 namespace CodeSnippet.ConsoleApp.Services
 {
+    #region orchard
+    //[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
+    //public class BackgroundTaskAttribute : Attribute
+    //{
+    //    public bool Enable { get; set; } = true;
+    //    public string Schedule { get; set; } = "*/5 * * * *";
+    //    public string Description { get; set; } = String.Empty;
+    //}
+    //[BackgroundTask]
+    //public class BGTest
+    //{
 
+    //}
+    #endregion
     #region fake it easy
-
-    //Model
-    public class Request
-    {
-        public string Param { get; set; }
-    }
-
-    //Repository
-    public class MyRepository : IMyRepository
-    {
-        public string Get(Expression<Func<Request, bool>> query) { return default; }
-    }
-
-    //Service
-    public class MyService
-    {
-        private readonly IMyRepository _myRepository;
-        public MyService(IMyRepository myRepository)
-        {
-            _myRepository = myRepository;
-        }
-
-        public string Search(string searchText)
-        {
-            return _myRepository.Get(x => x.Param == searchText);
-        }
-    }
-    [TestClass]
-    public class DashboardServiceTest
-    {
-        MyService service;
-        IMyRepository _fakeMyRepository;
-
-        public void Initialize()
-        {
-            _fakeMyRepository = A.Fake<IMyRepository>();
-            service = new MyService(_fakeMyRepository);
-        }
-
-        [TestMethod]
-        public void GetFilteredRfqs_FilterBy_RfqId()
-        {
-            //var result = service.Search("abc");
-            //A.CallTo(() => _fakeMyRepository.Get(A<Expression<Func<Request, bool>>>._)).MustHaveHappened();
-            //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).MustHaveHappened();
-            //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch(default);
-            //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch((Expression<Func<Request, bool>> query) => true).Returns("Correctly worked!!");
-            //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch((Expression<Func<Request, bool>> query) => query.ReturnType.Name == "xyz").Throws<Exception>();
-            //var s = A<string>.That.Matches(s => s.Length == 3 && s[1] == 'X');
-            //query.Equals(default)
-            var req = new Request
-            {
-                Param = "My Soul"
-            };
-            Expression<Func<Request, bool>> ExReq = req => req.Param.Contains("q");
-            A.CallTo(() => _fakeMyRepository.Get(A<Expression<Func<Request, bool>>>.That.Matches(ExReq => ExReq.Body.ToString() == "req.Param.Contains(\"q\")"))).MustHaveHappened();
-        }
-    }
-
-    public interface IMyRepository
-    {
-        public string Get(Expression<Func<Request, bool>> query);
-    }
-
-
+    ////Model
+    //public class Request
+    //{
+    //    public string Param { get; set; }
+    //}
+    ////Repository
+    //public class MyRepository : IMyRepository
+    //{
+    //    public string Get(Expression<Func<Request, bool>> query) { return default; }
+    //}
+    ////Service
+    //public class MyService
+    //{
+    //    private readonly IMyRepository _myRepository;
+    //    public MyService(IMyRepository myRepository)
+    //    {
+    //        _myRepository = myRepository;
+    //    }
+    //    public string Search(string searchText)
+    //    {
+    //        return _myRepository.Get(x => x.Param == searchText);
+    //    }
+    //}
+    //[TestClass]
+    //public class DashboardServiceTest
+    //{
+    //    MyService service;
+    //    IMyRepository _fakeMyRepository;
+    //    public void Initialize()
+    //    {
+    //        _fakeMyRepository = A.Fake<IMyRepository>();
+    //        service = new MyService(_fakeMyRepository);
+    //    }
+    //    [TestMethod]
+    //    public void GetFilteredRfqs_FilterBy_RfqId()
+    //    {
+    //        //var result = service.Search("abc");
+    //        //A.CallTo(() => _fakeMyRepository.Get(A<Expression<Func<Request, bool>>>._)).MustHaveHappened();
+    //        //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).MustHaveHappened();
+    //        //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch(default);
+    //        //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch((Expression<Func<Request, bool>> query) => true).Returns("Correctly worked!!");
+    //        //A.CallTo(() => _fakeMyRepository.Get(x => x.Param == "abc")).WhenArgumentsMatch((Expression<Func<Request, bool>> query) => query.ReturnType.Name == "xyz").Throws<Exception>();
+    //        //var s = A<string>.That.Matches(s => s.Length == 3 && s[1] == 'X');
+    //        //query.Equals(default)
+    //        var req = new Request
+    //        {
+    //            Param = "My Soul"
+    //        };
+    //        Expression<Func<Request, bool>> ExReq = req => req.Param.Contains("q");
+    //        A.CallTo(() => _fakeMyRepository.Get(A<Expression<Func<Request, bool>>>.That.Matches(ExReq => ExReq.Body.ToString() == "req.Param.Contains(\"q\")"))).MustHaveHappened();
+    //    }
+    //}
+    //public interface IMyRepository
+    //{
+    //    public string Get(Expression<Func<Request, bool>> query);
+    //}
     #endregion
 
     #region Smaller numbers than current
