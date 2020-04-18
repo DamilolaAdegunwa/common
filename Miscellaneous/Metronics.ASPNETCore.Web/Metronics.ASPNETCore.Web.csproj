@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Metronics.ASPNETCore.Web</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
