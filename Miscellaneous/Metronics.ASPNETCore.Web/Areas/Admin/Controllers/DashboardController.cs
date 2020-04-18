@@ -12,7 +12,6 @@ using DataTables.AspNet.Core;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
-using PagedList;
 using System.IO;
 using System.Net.Http;
 using System.Text.RegularExpressions;

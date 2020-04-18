@@ -1,7 +1,6 @@
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.csprojAssemblyReference.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\staticwebassets\Metronics.ASPNETCore.Web.StaticWebAssets.Manifest.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\staticwebassets\Metronics.ASPNETCore.Web.StaticWebAssets.xml
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.AssemblyInfoInputs.cache
@@ -111,7 +110,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Globalization.CultureInfoCache.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\PagedList.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
@@ -126,5 +124,4 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
