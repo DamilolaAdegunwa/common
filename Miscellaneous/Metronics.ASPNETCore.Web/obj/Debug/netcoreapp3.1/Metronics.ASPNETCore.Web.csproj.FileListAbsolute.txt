@@ -126,3 +126,5 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.Web\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.Web.MvcApplicationPartsAssemblyInfo.cache
