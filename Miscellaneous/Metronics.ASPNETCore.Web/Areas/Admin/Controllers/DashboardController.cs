@@ -18,6 +18,7 @@ using System.Net.Http;
 using System.Text.RegularExpressions;
 namespace Metronics.ASPNETCore.Web.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class DashboardController : Controller
     {
         public IActionResult Index()
