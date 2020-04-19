@@ -1,4 +1,4 @@
-﻿using Metronics.ASPNETCore.API.Core.Domain.Entities.Common;
+﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Metronics.ASPNETCore.API.Core.Domain.Entities
 {
-    public class Driver : FullEntity
+    public class Role : IdentityRole<long>
     {
+
     }
 }

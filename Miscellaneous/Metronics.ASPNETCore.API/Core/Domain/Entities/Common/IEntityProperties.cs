@@ -10,6 +10,9 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     {
         public Key Id { get; set; }
     }
+    public interface IEntity : IEntity<long>
+    {
+    }
     public class Entity<Key> : IEntity<Key>
     {
         public Key Id { get; set; }
@@ -26,12 +29,16 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
         public Key CreationUserId { get; set; }
         public DateTime? CreationTime { get; set; }
     }
+    public interface ICreation : ICreation<long?>
+    {
+
+    }
     public class Creation<Key> : ICreation<Key>
     {
         public Key CreationUserId { get; set; }
         public DateTime? CreationTime { get; set; }
     }
-    public class Creation : Creation<long>
+    public class Creation : Creation<long?>
     {
 
     }
@@ -43,12 +50,16 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
         public Key LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
     }
+    public interface IModification : IModification<long?>
+    {
+
+    }
     public class Modification<Key> : IModification<Key>
     {
         public Key LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
     }
-    public class Modification : Modification<long>
+    public class Modification : Modification<long?>
     {
 
     }
@@ -58,31 +69,35 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     public interface IDeletion<Key>
     {
         public Key DeleterUserId { get; set; }
-        public bool? IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime? DeletionTime { get; set; }
+    }
+    public interface IDeletion : IDeletion<long?>
+    {
+
     }
     public class Deletion<Key> : IDeletion<Key>
     {
         public Key DeleterUserId { get; set; }
-        public bool? IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime? DeletionTime { get; set; }
     }
-    public  class Deletion : Deletion<long>
+    public  class Deletion : Deletion<long?>
     {
 
     }
     #endregion
 
     #region Full Entity Properties
-    public class FullEntity<Key> : IEntity<Key>, ICreation<Key>, IModification<Key>, IDeletion<Key>
+    public class FullEntity<Key> : IEntity<Key>, ICreation<long?>, IModification<long?>, IDeletion<long?>
     {
         public Key Id { get; set; }
-        public Key CreationUserId { get; set; }
+        public long? CreationUserId { get; set; }
         public DateTime? CreationTime { get; set; }
-        public Key LastModifiedUserId { get; set; }
+        public long? LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
-        public Key DeleterUserId { get; set; }
-        public bool? IsDeleted { get; set; }
+        public long? DeleterUserId { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime? DeletionTime { get; set; }
     }
     public class FullEntity<IdentityKey, CreationKey, ModificationKey, DeletionKey> : IEntity<IdentityKey>, ICreation<CreationKey>, IModification<ModificationKey>, IDeletion<DeletionKey>
@@ -93,12 +108,26 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
         public ModificationKey LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
         public DeletionKey DeleterUserId { get; set; }
-        public bool? IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime? DeletionTime { get; set; }
     }
     public class FullEntity : FullEntity<long>
     {
 
+    }
+    public interface IFullEntityWithoutId : ICreation, IModification, IDeletion
+    {
+
+    }
+    public class FullEntityWithoutId : IFullEntityWithoutId
+    {
+        public long? CreationUserId { get; set; }
+        public DateTime? CreationTime { get; set; }
+        public long? LastModifiedUserId { get; set; }
+        public DateTime? LastModifiedTime { get; set; }
+        public long? DeleterUserId { get; set; }
+        public bool IsDeleted { get; set; }
+        public DateTime? DeletionTime { get; set; }
     }
     #endregion
 }
