@@ -8,5 +8,8 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities
 {
     public class Employee : FullEntity
     {
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public string UserId { get; set; }
     }
 }
