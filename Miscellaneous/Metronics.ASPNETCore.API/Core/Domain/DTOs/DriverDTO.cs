@@ -1,4 +1,5 @@
-﻿using Metronics.ASPNETCore.API.Core.Domain.Enums;
+﻿using Metronics.ASPNETCore.API.Core.Domain.Entities.Common;
+using Metronics.ASPNETCore.API.Core.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Metronics.ASPNETCore.API.Core.Domain.DTOs
 {
-    public class DriverDTO
+    public class DriverDTO : FullEntity
     {
-        public int Id { get; set; }
         public string Code { get; set; }
         public string HandoverCode { get; set; }
         public virtual DriverStatus DriverStatus { get; set; }

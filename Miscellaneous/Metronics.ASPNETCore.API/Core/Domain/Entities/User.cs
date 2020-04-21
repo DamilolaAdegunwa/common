@@ -10,7 +10,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities
     public class User : IdentityUser<long>, IFullEntityWithoutId
     {
         public long? CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
         public long? LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
         public long? DeleterUserId { get; set; }

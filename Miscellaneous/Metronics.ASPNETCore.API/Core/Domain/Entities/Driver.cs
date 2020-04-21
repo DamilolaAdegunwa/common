@@ -9,7 +9,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities
 {
     public class Driver : FullEntity
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Code { get; set; }
         public string HandoverCode { get; set; }
         public virtual DriverStatus DriverStatus { get; set; }

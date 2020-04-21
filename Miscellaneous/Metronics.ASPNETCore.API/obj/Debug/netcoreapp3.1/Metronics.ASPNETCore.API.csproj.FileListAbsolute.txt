@@ -26,7 +26,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.csproj.CopyComplete
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
@@ -62,7 +61,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.StaticWebAssets.xml
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.deps.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.runtimeconfig.json
@@ -76,3 +74,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.pdb
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\PagedList.dll

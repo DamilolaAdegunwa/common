@@ -12,14 +12,24 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-
+using System.Runtime.Loader;
+using System.Reflection;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 namespace CodeSnippet.ConsoleApp
 {
     public sealed class Program
     {
         public static async Task Main()
         {
-            
+            var context = new MyContext(typeof(Program).Assembly.Location);
+            //var context = new MyContext();
+            var jsonInContext = context.LoadFromAssemblyName(new AssemblyName("Newtonsoft.Json"));
+            var jObjectType = jsonInContext.GetType(typeof(JObject).FullName);
+            var jobj = Activator.CreateInstance(jObjectType);
+            var jObjectInContext = (JObject)jobj;
+            Console.WriteLine("");
+            //new AssemblyDependencyResolver("").
             //await? 
             //int? df ??= 3;
             //var sd = ["name":2];
@@ -56,7 +66,23 @@ namespace CodeSnippet.ConsoleApp
             }
         }
     }
-
+    public class MyContext : AssemblyLoadContext
+    {
+        private AssemblyDependencyResolver _resolver;
+        public MyContext(string path)
+        {
+            _resolver = new AssemblyDependencyResolver(path);
+        }
+        protected override Assembly Load(AssemblyName assemblyName)
+        {
+            var path = _resolver.ResolveAssemblyToPath(assemblyName);
+            if(path!=null)
+            {
+                return LoadFromAssemblyPath(path);
+            }
+            return base.Load(assemblyName);
+        }
+    }
     public class TupleTest
     {
         public TupleTest()

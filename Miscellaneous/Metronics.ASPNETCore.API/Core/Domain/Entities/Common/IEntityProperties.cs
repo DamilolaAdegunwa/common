@@ -27,7 +27,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     public interface ICreation<Key>
     {
         public Key CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
     }
     public interface ICreation : ICreation<long?>
     {
@@ -36,7 +36,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     public class Creation<Key> : ICreation<Key>
     {
         public Key CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
     }
     public class Creation : Creation<long?>
     {
@@ -93,7 +93,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     {
         public Key Id { get; set; }
         public long? CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
         public long? LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
         public long? DeleterUserId { get; set; }
@@ -104,7 +104,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     {
         public IdentityKey Id { get; set; }
         public CreationKey CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
         public ModificationKey LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
         public DeletionKey DeleterUserId { get; set; }
@@ -122,7 +122,7 @@ namespace Metronics.ASPNETCore.API.Core.Domain.Entities.Common
     public class FullEntityWithoutId : IFullEntityWithoutId
     {
         public long? CreationUserId { get; set; }
-        public DateTime? CreationTime { get; set; }
+        public DateTime CreationTime { get; set; }
         public long? LastModifiedUserId { get; set; }
         public DateTime? LastModifiedTime { get; set; }
         public long? DeleterUserId { get; set; }
