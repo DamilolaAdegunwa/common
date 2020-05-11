@@ -21,7 +21,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSnippet.ConsoleApp", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronics.ASPNETCore.Web", "Miscellaneous\Metronics.ASPNETCore.Web\Metronics.ASPNETCore.Web.csproj", "{56A468B4-BD29-408B-816F-FD1F4999A4B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronics.ASPNETCore.API", "Miscellaneous\Metronics.ASPNETCore.API\Metronics.ASPNETCore.API.csproj", "{3E820199-65B0-4564-A0E8-DC30AD3A9415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronics.ASPNETCore.API", "Miscellaneous\Metronics.ASPNETCore.API\Metronics.ASPNETCore.API.csproj", "{3E820199-65B0-4564-A0E8-DC30AD3A9415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{2E6E37AB-9601-4CDB-8BF1-547540652EB8}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
