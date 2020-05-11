@@ -14,113 +14,65 @@ using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using System.Runtime.Loader;
 using System.Reflection;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Timers;
 namespace CodeSnippet.ConsoleApp
 {
     public sealed class Program
     {
+        public enum Boys { kolade, mayowa, adefarati}
         public static async Task Main()
         {
-            var context = new MyContext(typeof(Program).Assembly.Location);
-            //var context = new MyContext();
-            var jsonInContext = context.LoadFromAssemblyName(new AssemblyName("Newtonsoft.Json"));
-            var jObjectType = jsonInContext.GetType(typeof(JObject).FullName);
-            var jobj = Activator.CreateInstance(jObjectType);
-            var jObjectInContext = (JObject)jobj;
-            Console.WriteLine("");
-            //new AssemblyDependencyResolver("").
-            //await? 
-            //int? df ??= 3;
-            //var sd = ["name":2];
-            //using string xx = null!;
-            //Span<int> data = new int[] {0,1,2,3,4,5,6,7,8,9,10 };
-            //foreach(var n in data[^6..])
-            //{
-            //    Console.WriteLine(n);
-            //}
-            //var slice = data.Slice(5..^1);
-            await foreach(var n in GetAsync())
-            {
-
-            }
+            Activator.CreateInstance<string>();
+            Type CardType = typeof(VISA);
+            Console.ReadLine();
         }
-        public static async IAsyncEnumerable<int> GetAsync()
+       
+    }
+    public class VISA { }
+    public class MasterCard { }
+    public class LayeredTask
+    {
+        public static void OuterLayer()
         {
+            Console.ReadLine();
+            //var watch = System.Diagnostics.Stopwatch.StartNew();
+            ////Task.Run(() => {
+            //    for (var x = 1; x < 100_000_000; x++){}
+            //    SecondLayer();
+            ////});
             
-            string ss = "fish";
-            ss ??= "hmm...";
-            //if!(true){ }
-            //if(int is not int){ }
-            //unless(true){ }
-            //bool exist = false;
+            //var elapsedTime = watch.ElapsedMilliseconds;
+            ////without task 791ms, 918ms, 870ms, 756ms,807ms
+            ////with task 279ms
+            ////with nested task 70ms, 63ms, 63ms, 59, 68, 55, 55, 71, 67, 64, 61, 60, 48 (with first async 61, 54, 59, 65, 63 | all async 68, 50, 85, 54, 74, 68, 67 | all await)
 
-            //exist &&= true;
-            //exist ||= true;
-
-            //var sd = ["name":2];
-            using (var st = new SwitchTest()) ;
-            for(var i = 0; i < 10; i++)
-            {
-                yield return await Task.FromResult(i); 
-            }
+            ////conclusions
+            ////1) as much as possible, wrap your work in a Task.Run,
+            ////2) await affects speed, use wisely!!
+            ////3) async on method makes little difference in speed
+            //watch.Stop();
         }
-    }
-    public class MyContext : AssemblyLoadContext
-    {
-        private AssemblyDependencyResolver _resolver;
-        public MyContext(string path)
-        {
-            _resolver = new AssemblyDependencyResolver(path);
-        }
-        protected override Assembly Load(AssemblyName assemblyName)
-        {
-            var path = _resolver.ResolveAssemblyToPath(assemblyName);
-            if(path!=null)
-            {
-                return LoadFromAssemblyPath(path);
-            }
-            return base.Load(assemblyName);
-        }
-    }
-    public class TupleTest
-    {
-        public TupleTest()
-        {
-            (int x, int y) = (10, 20);
-            (int x, int y) p = (10, 20);
-            var p2 = (10, 20);
-            _ = (10, 20);
-        }
-    }
-    public class SwitchTest : IDisposable
-    {
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void SwitchTestMethod()
-        {
-            Dummy dummy = new Dummy { Id = 1, BarCode = "12345", DateCreated = DateTime.Now.AddDays(-50), Name = "Bon-Boy" };
-            string result = dummy switch
-            {
-                //Dummy { Id: 1 } d => "fine"
-                Dummy (string Id) d => "fine"
-                //Dummy { Id: 1, BarCode : "12345"} d => "fine"
-            };
-        }
-        public class Dummy
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-            public string BarCode { get; set; }
-            public DateTime DateCreated { get; set; }
-
-            public void Deconstruct(out string MyP)
-            {
-                MyP = "12";
-            }
-        }
+        //public static void SecondLayer()
+        //{
+        //    Task.Run(() => {
+        //        for (var x = 1; x < 100_000_000; x++)
+        //        {
+        //            //Console.WriteLine("");
+        //        }
+        //        ThirdLayer();
+        //    });
+            
+        //}
+        //public static void ThirdLayer()
+        //{
+        //    Task.Run(() => {
+        //        for (var x = 1; x < 100_000_000; x++)
+        //        {
+        //            //Console.WriteLine("");
+        //        }
+        //    });
+                
+        //}
     }
 }

@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Business\Events\" />
     <Folder Include="Business\DynamicProxies\" />
     <Folder Include="Controllers\" />
     <Folder Include="Data\efCore\Mapping\" />

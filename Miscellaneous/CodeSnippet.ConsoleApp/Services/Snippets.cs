@@ -1,10 +1,27 @@
 ﻿using FakeItEasy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
+
 namespace CodeSnippet.ConsoleApp.Services
 {
+    public interface ISomeInInterface<in T>
+    {
+        //this code deos not compile
+        //Task<T> method1();
+        //T method1();
+        void method2(T t);
+    }
+
+    public interface ISomeOutInterface<out T>
+    {
+        T method1();
+        //this code deos not compile
+        //void method2(int d, T t, string s);
+    }
     #region orchard
     //[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
     //public class BackgroundTaskAttribute : Attribute
@@ -288,31 +305,170 @@ namespace Common {
     */
     #endregion
 
+    #region I didn't make out time to organize it
     //public static class myExtension
     //{
     //    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     //    public static void NoWarning(this Task task) { }
     //}
-//    string path = AppDomain.CurrentDomain.BaseDirectory;
-//    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\
-//    var enviroment = Environment.CurrentDirectory;
-//    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1
-//    string currentDirectory = Directory.GetCurrentDirectory();
-//    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1
-//    string projectDirectory = Directory.GetParent(enviroment).Parent.Parent.FullName;
+    //    string path = AppDomain.CurrentDomain.BaseDirectory;
+    //    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\
+    //    var enviroment = Environment.CurrentDirectory;
+    //    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1
+    //    string currentDirectory = Directory.GetCurrentDirectory();
+    //    //C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1
+    //    string projectDirectory = Directory.GetParent(enviroment).Parent.Parent.FullName;
 
-//    var processes = Process.GetProcesses();
-//    var processesCount = processes.Count();
-//    var processNumber = 0;
-//            foreach (var p in processes)
-//            {
-//                var processName = p.ProcessName;
-//    var threadsInProcess = p.Threads.Count;
-//    Console.WriteLine($"Process {++processNumber}: {processName} having {threadsInProcess} thread(s)\n");
-//                for (var t = 0; t<threadsInProcess; ++t)
-//                {
-//                    var eachThread = p.Threads[t];
-//    //Console.WriteLine();
-//}
-//            }
+    //    var processes = Process.GetProcesses();
+    //    var processesCount = processes.Count();
+    //    var processNumber = 0;
+    //            foreach (var p in processes)
+    //            {
+    //                var processName = p.ProcessName;
+    //    var threadsInProcess = p.Threads.Count;
+    //    Console.WriteLine($"Process {++processNumber}: {processName} having {threadsInProcess} thread(s)\n");
+    //                for (var t = 0; t<threadsInProcess; ++t)
+    //                {
+    //                    var eachThread = p.Threads[t];
+    //    //Console.WriteLine();
+    //}
+    //            }
+    //public class MyContext : AssemblyLoadContext
+    //{
+    //    private AssemblyDependencyResolver _resolver;
+    //    public MyContext(string path)
+    //    {
+    //        _resolver = new AssemblyDependencyResolver(path);
+    //    }
+    //    protected override Assembly Load(AssemblyName assemblyName)
+    //    {
+    //        var path = _resolver.ResolveAssemblyToPath(assemblyName);
+    //        if (path != null)
+    //        {
+    //            return LoadFromAssemblyPath(path);
+    //        }
+    //        return base.Load(assemblyName);
+    //    }
+    //}
+    //public class TupleTest
+    //{
+    //    public TupleTest()
+    //    {
+    //        (int x, int y) = (10, 20);
+    //        (int x, int y) p = (10, 20);
+    //        var p2 = (10, 20);
+    //        _ = (10, 20);
+    //    }
+    //}
+    //public class SwitchTest : IDisposable
+    //{
+    //    public void Dispose()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+
+    //    public void SwitchTestMethod()
+    //    {
+    //        Dummy dummy = new Dummy { Id = 1, BarCode = "12345", DateCreated = DateTime.Now.AddDays(-50), Name = "Bon-Boy" };
+    //        string result = dummy switch
+    //        {
+    //            //Dummy { Id: 1 } d => "fine"
+    //            Dummy(string Id) d => "fine"
+    //            //Dummy { Id: 1, BarCode : "12345"} d => "fine"
+    //        };
+    //    }
+    //    public class Dummy
+    //    {
+    //        public int Id { get; set; }
+    //        public string Name { get; set; }
+    //        public string BarCode { get; set; }
+    //        public DateTime DateCreated { get; set; }
+
+    //        public void Deconstruct(out string MyP)
+    //        {
+    //            MyP = "12";
+    //        }
+    //    }
+    //}
+    //var context = new MyContext(typeof(Program).Assembly.Location);
+    ////var context = new MyContext();
+    //var jsonInContext = context.LoadFromAssemblyName(new AssemblyName("Newtonsoft.Json"));
+    //var jObjectType = jsonInContext.GetType(typeof(JObject).FullName);
+    //var jobj = Activator.CreateInstance(jObjectType);
+    //var jObjectInContext = (JObject)jobj;
+    //Console.WriteLine("");
+    ////new AssemblyDependencyResolver("").
+    ////await? 
+    ////int? df ??= 3;
+    ////var sd = ["name":2];
+    ////using string xx = null!;
+    ////Span<int> data = new int[] {0,1,2,3,4,5,6,7,8,9,10 };
+    ////foreach(var n in data[^6..])
+    ////{
+    ////    Console.WriteLine(n);
+    ////}
+    ////var slice = data.Slice(5..^1);
+    //await foreach(var n in GetAsync())
+    //{
+
+    //}
+    //public static async IAsyncEnumerable<int> GetAsync()
+    //{
+
+    //    string ss = "fish";
+    //    ss ??= "hmm...";
+    //    //if!(true){ }
+    //    //if(int is not int){ }
+    //    //unless(true){ }
+    //    //bool exist = false;
+
+    //    //exist &&= true;
+    //    //exist ||= true;
+
+    //    //var sd = ["name":2];
+    //    using (var st = new SwitchTest()) ;
+    //    for (var i = 0; i < 10; i++)
+    //    {
+    //        yield return await Task.FromResult(i);
+    //    }
+    //}
+    #endregion
+
+    #region learning to write implicit/explicit with ConvertAll and extension method
+    //List<Person> person = new List<Human>().ConvertAll(h => (Person)h).ToList();
+    public static class EnumerableExtension
+    {
+        public static List<Human> Humen(this List<Human> humen)
+        {
+            return default;
+        }
+    }
+    public class Human
+    {
+        public int Id { get; set; }
+        public string BotanicalName { get; set; }
+        public int BioAge { get; set; }
+    }
+    public class Person
+    {
+        public int Reference { get; set; }
+        public string FullName { get; set; }
+        public int Age { get; set; }
+
+        public static explicit operator Person(Human human)
+        {
+            var p = new Person
+            {
+                Reference = human.Id,
+                FullName = human.BotanicalName,
+                Age = human.BioAge
+            };
+            return p;
+        }
+    }
+    #endregion
 }
+
+/*
+I'd write out my task here 
+*/
