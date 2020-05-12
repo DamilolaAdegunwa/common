@@ -2,7 +2,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\bin\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.exe
-C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.csprojAssemblyReference.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\staticwebassets\Metronics.ASPNETCore.API.StaticWebAssets.Manifest.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\staticwebassets\Metronics.ASPNETCore.API.StaticWebAssets.xml
 C:\Users\DamilolaAdegunwa\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\obj\Debug\netcoreapp3.1\Metronics.ASPNETCore.API.AssemblyInfoInputs.cache

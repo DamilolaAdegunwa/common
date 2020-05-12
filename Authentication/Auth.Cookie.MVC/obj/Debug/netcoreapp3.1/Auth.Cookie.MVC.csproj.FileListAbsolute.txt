@@ -44,7 +44,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.pdb
-C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csprojAssemblyReference.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Cookie.MVC.StaticWebAssets.Manifest.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Cookie.MVC.StaticWebAssets.xml
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.MvcApplicationPartsAssemblyInfo.cache

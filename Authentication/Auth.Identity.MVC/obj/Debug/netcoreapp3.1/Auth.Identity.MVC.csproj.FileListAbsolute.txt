@@ -101,7 +101,6 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\b
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.csprojAssemblyReference.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Identity.MVC.StaticWebAssets.Manifest.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Identity.MVC.StaticWebAssets.xml
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.MvcApplicationPartsAssemblyInfo.cs
@@ -128,3 +127,4 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\o
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.csproj.CopyComplete
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.pdb
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Identity.MVC\obj\Debug\netcoreapp3.1\Auth.Identity.MVC.csprojAssemblyReference.cache
