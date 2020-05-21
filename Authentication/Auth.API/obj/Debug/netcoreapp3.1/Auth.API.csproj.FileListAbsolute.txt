@@ -302,3 +302,5 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\bin\Debug\
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.RazorTargetAssemblyInfo.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.csproj.CopyComplete
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.API\bin\Debug\netcoreapp3.1\System.Web.Http.dll

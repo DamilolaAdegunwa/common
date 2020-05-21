@@ -8,6 +8,28 @@ using System.Threading.Tasks;
 
 namespace CodeSnippet.ConsoleApp.Services
 {
+    public class Class1
+    {
+        public static void/*async Task*/ StringInterploationSample1()
+        {
+            var titles = new Dictionary<string, string>()
+            {
+                ["Doyle, Arthur Conan"] = "Hound of the Baskervilles, The",
+                ["London, Jack"] = "Call of the Wild, The",
+                ["Shakespeare, William"] = "Tempest, The"
+            };
+            Console.WriteLine("Author and Title List");
+            Console.WriteLine();
+            Console.WriteLine($"|{"Author",25}|{"Title",30}|");
+            foreach (var title in titles)
+            {
+                Console.WriteLine($"|{title.Key,25}|{title.Value,30}|");
+            }
+            Console.WriteLine($"[{DateTime.Now,-20:d}] Hour [{DateTime.Now,-10:HH}] [{1063.342,15:N2}] feet");
+            Console.ReadLine();
+        }
+    }
+
     public interface ISomeInInterface<in T>
     {
         //this code deos not compile
@@ -519,6 +541,12 @@ namespace Common {
     //    //}
     //}
     #endregion
+
+    //new Partitioning().ForEachPartition();
+    //var a = Enumerable.Range(1, 300);
+    //var b = Enumerable.Repeat("Win", 10);
+    //var c = Enumerable.Cast<string>(new int[] { 1, 2, 3 }).ToList();
+    //var fileInfo = new FileInfo(Path.Combine(""));
 }
 
 /*

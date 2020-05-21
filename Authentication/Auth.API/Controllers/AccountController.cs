@@ -26,7 +26,8 @@ using System.IO;
 using System.Collections.Specialized;
 using Microsoft.AspNetCore.Cors;
 using System.Web.Http;
-
+using Microsoft.Build.Framework;
+using System.Data;
 namespace Auth.API.Controllers
 {
     //[EnableCors(origins: "*", headers: "*", methods: "*")]
@@ -36,6 +37,8 @@ namespace Auth.API.Controllers
     {
         public IActionResult Index()
         {
+            new DataSet();
+            new DataTable();
             return View();
         }
     }
