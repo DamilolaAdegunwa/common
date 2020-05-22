@@ -67,4 +67,3 @@ C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CopyComplete
-C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csprojAssemblyReference.cache

@@ -24,6 +24,7 @@ using Polly.Extensions.Http;
 using Microsoft.Extensions.Http;
 using System.Device.Location;
 using System.Collections.Specialized;
+using static System.Text.StringBuilder;
 
 namespace CodeSnippet.ConsoleApp
 {
@@ -33,6 +34,8 @@ namespace CodeSnippet.ConsoleApp
         {
             NameValueCollection v;
             //KeyValueMapping
+            ChunkEnumerator ce = default;
+            //Microsoft.
             foreach(var s in "1234567890")
             {
                 Console.WriteLine("this would show!");

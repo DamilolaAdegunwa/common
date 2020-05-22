@@ -9,6 +9,8 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Threading.Tasks;
+using System.Threading;
+
 namespace CustomAuthenticationMVC
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -22,7 +24,7 @@ namespace CustomAuthenticationMVC
         protected void Application_PostAuthenticateRequest(Object sender, EventArgs e)
         {
             HttpCookie authCookie = Request.Cookies["Cookie1"];
-            var altCookie = FormsAuthentication.GetCookie("Cookie1");
+            var altCookie = FormsAuthentication.GetAuthCookie("damee1993@gmail.com",true);
             if (authCookie != null)
             {
                 FormsAuthenticationTicket authTicket = FormsAuthentication.Decrypt(authCookie.Value);

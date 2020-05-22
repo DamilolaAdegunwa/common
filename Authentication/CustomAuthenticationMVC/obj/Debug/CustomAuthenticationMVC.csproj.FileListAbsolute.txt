@@ -109,3 +109,6 @@ C:\Users\EL MAHDI AR\Desktop\CustomAuthenticationMVC\CustomAuthenticationMVC\obj
 C:\Users\EL MAHDI AR\Desktop\CustomAuthenticationMVC\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csproj.GenerateResource.Cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.dll
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.pdb
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csprojAssemblyReference.cache
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.Migrations.initial_migration.resources
+C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csproj.GenerateResource.cache
