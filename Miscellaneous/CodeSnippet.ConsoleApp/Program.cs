@@ -22,7 +22,7 @@ using Microsoft.Extensions.FileProviders;
 using Polly;
 using Polly.Extensions.Http;
 using Microsoft.Extensions.Http;
-using System.Device.Location;
+//using System.Device.Location;
 using System.Collections.Specialized;
 using static System.Text.StringBuilder;
 

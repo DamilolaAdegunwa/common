@@ -33,4 +33,8 @@ namespace Auth.API.Filters
             //throw new NotImplementedException();
         }
     }
+    public class someAttribute : Attribute
+    {
+
+    }
 }
