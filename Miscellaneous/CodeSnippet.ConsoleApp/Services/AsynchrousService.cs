@@ -1,8 +1,10 @@
-﻿using System;
+﻿#nullable enable
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using CodeSnippet.ConsoleApp.Models;
+using Microsoft.Extensions.DependencyInjection;
 //using System.Windows.Threading;
 namespace CodeSnippet.ConsoleApp.Services
 {
@@ -23,8 +25,17 @@ namespace CodeSnippet.ConsoleApp.Services
             this.Service = new AsynchrousService();
         }
 
+        static ServiceProvider GetContainer()
+        {
+            var services = new ServiceCollection();
+            //services.AddTransient<IGreetingService, GreetingService>();
+            //services.AddTransient<HelloController>();
+            return services.BuildServiceProvider();
+        }
+
         public async Task<Customer> GetCustomers()
         {
+            await Task.Yield();
             return _ = await Service.GetCustomersAsync();
         }
         public void Execute()
@@ -145,5 +156,29 @@ namespace CodeSnippet.ConsoleApp.Services
     {
         public T X;
         public T Y;
+
+        public static double Calculate(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
+        {
+            var radiansOverDegrees = (Math.PI / 180.0);
+
+            var sLatitudeRadians = sLatitude * radiansOverDegrees;
+            var sLongitudeRadians = sLongitude * radiansOverDegrees;
+            var eLatitudeRadians = eLatitude * radiansOverDegrees;
+            var eLongitudeRadians = eLongitude * radiansOverDegrees;
+
+            var dLongitude = eLongitudeRadians - sLongitudeRadians;
+            var dLatitude = eLatitudeRadians - sLatitudeRadians;
+
+            var result1 = Math.Pow(Math.Sin(dLatitude / 2.0), 2.0) +
+                          Math.Cos(sLatitudeRadians) * Math.Cos(eLatitudeRadians) *
+                          Math.Pow(Math.Sin(dLongitude / 2.0), 2.0);
+
+            // Using 3956 as the number of miles around the earth
+            //var result2 = 3956.0 * 2.0 * Math.Atan2(Math.Sqrt(result1), Math.Sqrt(1.0 - result1));
+
+            //in km 
+            var result2 = 6366.56486 * 2.0 * Math.Atan2(Math.Sqrt(result1), Math.Sqrt(1.0 - result1));
+            return result2;
+        }
     }
 }

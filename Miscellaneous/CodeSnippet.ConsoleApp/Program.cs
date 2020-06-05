@@ -25,64 +25,56 @@ using Microsoft.Extensions.Http;
 //using System.Device.Location;
 using System.Collections.Specialized;
 using static System.Text.StringBuilder;
-
+using System.Threading.Channels;
 namespace CodeSnippet.ConsoleApp
 {
     public sealed class Program
     {
+        public enum AccountType
+        {
+            Android = 0, IOS = 1, Web = 2, Mobile = Android | IOS
+        }
         public static void Main()
         {
-            NameValueCollection v;
-            //KeyValueMapping
-            ChunkEnumerator ce = default;
-            //Microsoft.
-            foreach(var s in "1234567890")
+            //void x = ;
+            AccountType accountType1 = AccountType.Android;
+            AccountType accountType2 = AccountType.IOS;
+
+            if(accountType1 == AccountType.Mobile || accountType2 == AccountType.Mobile)
             {
-                Console.WriteLine("this would show!");
-                continue;
-                Console.WriteLine("this would not show!");
+                Console.WriteLine("both accounts are mobile!!");
+            }else
+            {
+                Console.WriteLine("they are not!!");
             }
-            //new GeoCoordinate();
-            //the distance between okota & aba
-            //Console.WriteLine(Calculate(6.5088, 3.3137, 5.1216, 7.3733));
+            //unsafe
+            //{
+            //    int a = 10;
+            //    int b = 20;
+            //    int c = 30;
 
-            //distance between lagos and abuja is (698.7 km) (distance)
-            //Console.WriteLine(Calculate(6.5236, 3.6006, 9.0765, 7.3986)); //505.23466046853935 (displacement)
+            //    int* ptra = &a;
+            //    int* ptrb = &b;
+            //    int* ptrc = &c;
 
-            //the distance between lagos and kaduna is (770.4 km) (distance)
-            //Console.WriteLine(Calculate(6.5236, 3.6006, 10.3764 , 7.7095));//622.2162062356526 (displacement)
 
-            //okota and mile 2 (9.8 km), 8, 7.8, 6 (distance)
-            //Console.WriteLine(Calculate(6.4659, 3.3198, 6.5088, 3.3137));//4.839564161881872 | 4.8142811141800745 (displacement)
+            //    Console.WriteLine((int)ptra);
+            //    Console.WriteLine(*ptra);
 
-            //Console.WriteLine(new List<string>().FirstOrDefault().Length);
+                
+            //}
+
+            ////string ptr = Convert.ToInt32(&x);
+            //byte[] byt = new byte[] { };
+            //BitConverter.ToInt32(byt);
+            //BinaryReader binaryReader = default;
+
+
 
             Console.WriteLine("done");
             Console.ReadLine();
         }
-        public static double Calculate(double sLatitude, double sLongitude, double eLatitude, double eLongitude)
-        {
-            var radiansOverDegrees = (Math.PI / 180.0);
-
-            var sLatitudeRadians = sLatitude * radiansOverDegrees;
-            var sLongitudeRadians = sLongitude * radiansOverDegrees;
-            var eLatitudeRadians = eLatitude * radiansOverDegrees;
-            var eLongitudeRadians = eLongitude * radiansOverDegrees;
-
-            var dLongitude = eLongitudeRadians - sLongitudeRadians;
-            var dLatitude = eLatitudeRadians - sLatitudeRadians;
-
-            var result1 = Math.Pow(Math.Sin(dLatitude / 2.0), 2.0) +
-                          Math.Cos(sLatitudeRadians) * Math.Cos(eLatitudeRadians) *
-                          Math.Pow(Math.Sin(dLongitude / 2.0), 2.0);
-
-            // Using 3956 as the number of miles around the earth
-            //var result2 = 3956.0 * 2.0 * Math.Atan2(Math.Sqrt(result1), Math.Sqrt(1.0 - result1));
-
-            //in km 
-            var result2 = 6366.56486 * 2.0 * Math.Atan2(Math.Sqrt(result1), Math.Sqrt(1.0 - result1));
-            return result2;
-        }
+        
 
     }
 
