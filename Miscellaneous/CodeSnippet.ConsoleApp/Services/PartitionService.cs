@@ -23,7 +23,8 @@ namespace CodeSnippet.ConsoleApp.Services
                             await Task.Factory.StartNew(()=> Console.WriteLine(partition.Current));
                         }
                     }
-                }));
+                })
+            );
         }
     }
 }
