@@ -18,11 +18,9 @@ using Newtonsoft.Json.Linq;
 using System.Timers;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Extensions.FileProviders;
-//using Microsoft.Extensions.Http.Polly;
 using Polly;
 using Polly.Extensions.Http;
 using Microsoft.Extensions.Http;
-//using System.Device.Location;
 using System.Collections.Specialized;
 using static System.Text.StringBuilder;
 using System.Threading.Channels;
@@ -71,7 +69,7 @@ namespace CodeSnippet.ConsoleApp
 
 
 
-            Console.WriteLine("done");
+            Console.WriteLine("done!");
             Console.ReadLine();
         }
         

@@ -38,15 +38,30 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Options;
 using System.Threading;
-
+using System.Collections;
+using System.Numerics;
+using System.Runtime.InteropServices;
+using Newtonsoft.Json;
+using System.Linq.Expressions;
+using System.Web;
+using System.Runtime.Loader;
+using Newtonsoft.Json.Linq;
+using System.Timers;
+using Microsoft.Extensions.Primitives;
+using Microsoft.Extensions.Http;
+using System.Collections.Specialized;
+using static System.Text.StringBuilder;
+using System.Threading.Channels;
+using Microsoft.AspNetCore.Connections;
 namespace Metronics.ASPNETCore.Web.Controllers
 {
     public class HomeController : Controller
     {
+        
         public IActionResult Index()
         {
-            PipeWriter pipeWriter;
-            IAsyncDisposable s;
+            //PipeWriter pipeWriter;
+            //IAsyncDisposable s;
             //Interlocked interlocked;
             return View();
         }
