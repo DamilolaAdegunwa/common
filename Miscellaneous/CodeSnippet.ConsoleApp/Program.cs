@@ -38,34 +38,40 @@ using System.Reactive.Linq;
 using System.Reactive.PlatformServices;
 using Microsoft.Reactive.Testing;
 using EO.Base.UI;
+using System.Fabric.Description;
 
 namespace CodeSnippet.ConsoleApp
 {
     public sealed class Program
     {
-        #region p p 3
-        public static async Task Main()
-        {
-            Action action = () => { Console.WriteLine("Done!!"); };
+        #region parallel programming (to be cont'd)
+        //public static async Task Main()
+        //{
+        //    Action action = () => { Console.WriteLine("Done!!"); };
+        //    IObservable<string> observable = Observable.Return<string>("Damilola");
+        //    //Observable.Return("stub").Delay(Delay, Scheduler);
+        //    var t = new TaskCompletionSource<string>();
+        //    t.TrySetResult("doom!");
+        //    var tt = await t.Task;
+        //    StatefulServiceDescription d = Activator.CreateInstance<StatefulServiceDescription>();
+        //    var multiplyBlock = new TransformBlock<int, int>(item => item * 2);
+        //    var subtractBlock = new TransformBlock<int, int>(item => item - 2);
+        //    // After linking, values that exit multiplyBlock will enter subtractBlock.
+        //    multiplyBlock.LinkTo(subtractBlock);
+        //}
+        //IEnumerable<bool> PrimalityTest(IEnumerable<int> values)
+        //{
+        //    return values.AsParallel().Select(val => {
+        //        var x = 1;
+        //        var y = 2;
+        //        var z = 3;
 
-            var multiplyBlock = new TransformBlock<int, int>(item => item * 2);
-            var subtractBlock = new TransformBlock<int, int>(item => item - 2);
-            // After linking, values that exit multiplyBlock will enter subtractBlock.
-            multiplyBlock.LinkTo(subtractBlock);
-        }
-        IEnumerable<bool> PrimalityTest(IEnumerable<int> values)
-        {
-            return values.AsParallel().Select(val => {
-                var x = 1;
-                var y = 2;
-                var z = 3;
-
-                var a = 4;
-                var b = 5;
-                var c = 6;
-                return a == b;
-            }/*IsPrime(val)*/);
-        }
+        //        var a = 4;
+        //        var b = 5;
+        //        var c = 6;
+        //        return a == b;
+        //    }/*IsPrime(val)*/);
+        //}
         //private void Button_Click(object sender, RoutedEventArgs e)
         //{
         //    Observable.FromEventPattern<MouseEventHandler, MouseEventArgs>(

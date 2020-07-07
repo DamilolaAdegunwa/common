@@ -22,6 +22,7 @@
           "Nito.AsyncEx": "5.0.0",
           "Nito.AsyncEx.Context": "5.0.0",
           "Nito.AsyncEx.Coordination": "5.0.0",
+          "Nito.AsyncEx.Interop.WaitHandles": "5.0.0",
           "Nito.AsyncEx.Oop": "5.0.0",
           "Nito.AsyncEx.Tasks": "5.0.0",
           "System.Linq.Async": "4.1.1",
