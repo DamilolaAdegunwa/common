@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Firebase.Notification": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "MSTest.TestFramework": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -58,6 +62,10 @@
             "Microsoft.Bcl": {
               "target": "Package",
               "version": "[1.1.10, )"
+            },
+            "Microsoft.Bcl.Async": {
+              "target": "Package",
+              "version": "[1.0.168, )"
             },
             "Microsoft.Bcl.Immutable": {
               "target": "Package",
@@ -126,6 +134,10 @@
             "Nito.AsyncEx.Tasks": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20305.6, )"
             },
             "System.Linq.Async": {
               "target": "Package",
