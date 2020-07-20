@@ -9,114 +9,220 @@ using System.Threading.Tasks.Dataflow;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-//using System.Drawing.Common;
 using System.Runtime.Remoting;
 using System.Runtime;
 using System.Diagnostics;
-//using Microsoft.;
 using FireBase.Notification;
 using FireBase;
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Storage.V1;
+using FirebaseAdmin;
+using System.IO;
+using FirebaseAdmin.Auth;
+using System.Net;
+using System.Web.Script.Serialization;
+using System.Text;
+using FirebaseAdmin.Messaging;
+//using System.Web.Extensions;
+using RestSharp;
 namespace CodeSnippet.ConsoleApp
 {
     public class Program
     {
-        public readonly int x = 4;
+        public readonly static string projectId = "express-dispatch"; //project Id
+        public readonly static string path_to_private_key = "C:/Projects/express-dispatch-firebase-adminsdk-gk7qg-a556ad0d32.json";//generated private key
+        public readonly static string public_facing_name = "project-985216774624";
+        public readonly static string projectName = "Express Dispatch";
+        public readonly static string WebAPIKey = "AIzaSyBb6F742Wgp5Q9ysGnMC0ln2rttB8IfUII";
+        public readonly static string Server_Key = "AAAA5WN-8eA:APA91bHK1LKIibbKsoELnzn5cXZqCI94sX92fBhIHYcZuxKEuFgzuU8FJiqo6JoEoD5MKgy3q35DuckXJwCtkOEtYUPXBJMBSpadRIv0Uav9-yXoLKyv43ZEWWfuLBvhqGjLabK6X488";
+        public readonly static string sender_Id = "985216774624";
         public static void Main()
         {
-            
             using (var firebase = new FireBase.Notification.Firebase())
             {
-                firebase.ServerKey = "{Your Server Key}";
-                var id = "{Your Device Id}";
-                firebase.PushNotifyAsync(id, "Hello", "World").Wait();
-                Console.ReadLine();
+                
+                FileStream serviceAccount = new FileStream(path_to_private_key, FileMode.Open);// get the content of the file
+                var credential = GoogleCredential.FromStream(serviceAccount);// obtain the credential from the file
+                serviceAccount.Close();//close the file (release the file handle, and possibly the thread!)
+                var storage = StorageClient.Create(credential);//storage details
+                // Make an authenticated API request.
+                new FCMPushNotification().SendNotification("_title", "_message", "_topic", "deviceId");
+                //firebase.PushNotifyAsync(id, "Hello", "World").Wait();
+                var buckets = storage.ListBuckets(projectId);//Todo: check why the bucket was empty!
+                //buckets
+                foreach (var bucket in buckets)
+                {
+                    Console.WriteLine($"{bucket.Name}::{bucket}");
+                }
+
+                //try
+                //{
+                //    FirebaseApp.Create(new AppOptions()
+                //    {
+                //        Credential = GoogleCredential.GetApplicationDefault(),
+                //    });
+                //}
+                //catch (Exception ex)
+                //{
+
+                //}
+                try
+                {
+                    FirebaseApp.Create(new AppOptions()
+                    {
+                        Credential = GoogleCredential.FromFile(path_to_private_key),
+                    });
+                }
+                catch (Exception ex)
+                {
+
+                }
+                new FCMPushNotification().SendNotification("_title", "_message", "_topic", "deviceId");
+                new Program().SendNotification(new List<string>() { "focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2" }, "title", "body");
+                //try
+                //{
+                //    FirebaseApp.Create();
+                //    // Initialize the default app
+                //    var defaultApp = FirebaseApp.Create("defaultOptions");
+
+                //    // Initialize another app with a different config
+                //    var otherApp = FirebaseApp.Create("other");
+
+                //    Console.WriteLine(defaultApp.Name); // "defaultOptions"
+                //    Console.WriteLine(otherApp.Name); // "other"
+
+                //    // Use the shorthand notation to retrieve the default app's services
+                //    var defaultAuth = FirebaseAuth.DefaultInstance;
+
+                //    // Use the otherApp variable to retrieve the other app's services
+                //    var otherAuth = FirebaseAuth.GetAuth(otherApp);
+
+                //}
+                //catch (Exception ex)
+                //{
+
+                //}
             }
-            //autolayout
-
-            //    class
-            //sealed
-            //AnsiClass
-            //BeforeFieldInit
-            #region ---
-            //ImmutableStack<T> ist = default;
-            ////System.Collections.Immutable includes many others!!
-
-            //ConcurrentDictionary<string, int> cdtt = default;
-            //BlockingCollection<T> ts = default;
-            ////System.Collections.Concurrent ...
-
-            //AsyncProducerConsumerQueue<T> asyncpc = default;
-            //AsyncCollection<T> asyncC = default;
-            ////Nito.AsyncEx ...
-
-            //BufferBlock<T> bb = default;
-            ////System.Threading.Tasks.Dataflow
-
-            someService some = Activator.CreateInstance<someService>();
-            some.MyProperty = 125;
-            Console.WriteLine(some.MyProperty);
-            Console.ReadLine();
-            #endregion
         }
-        void DoLongOperation()
+        public virtual async Task<string> SendNotification(List<string> clientToken, string title, string body)
         {
-            var operationId = Guid.NewGuid();
-            //CallContext.LogicalSetData("OperationId", operationId);
-            DoSomeStepOfOperation();
-            //CallContext.FreeNamedDataSlot("OperationId");
-        }
-        void DoSomeStepOfOperation()
-        {
-            // Do some logging here.
-            //Trace.WriteLine("In operation: " + CallContext.LogicalGetData("OperationId"));
-        }
-        IEnumerable<int> ParallelMultiplyBy2(IEnumerable<int> values)
-        {
-            return values.AsParallel()
-            .WithDegreeOfParallelism(10)
-            .Select(item => item * 2);
-        }
-        // Using the Parallel class
-        void ParallelRotateMatrices(IEnumerable<Matrix> matrices, float degrees)
-        {
-            var options = new ParallelOptions
+            var registrationTokens = clientToken;
+            var message = new MulticastMessage()
             {
-                MaxDegreeOfParallelism = 10
+                Tokens = registrationTokens,
+                Data = new Dictionary<string, string>()
+                 {
+                     {"title", title},
+                     {"body", body},
+                 },
             };
-            Parallel.ForEach(matrices, options, matrix => matrix.Rotate(degrees));
+            var response = await FirebaseMessaging.DefaultInstance.SendMulticastAsync(message).ConfigureAwait(true);
+            return "";
         }
-        public AsyncLazy<int> Data
+        public class FCMPushNotification
         {
-            get { return _data; }
-        }
-        public void Fetch(in int x, int y, in string z)
-        {
-            y = 10 + x;
-
-            //x = 40; //compile time error!
-        }
-
-        private readonly AsyncLazy<int> _data =
-        new AsyncLazy<int>(async () =>
-        {
-            await Task.Delay(TimeSpan.FromSeconds(1));
-            return 13;
-        });
-        public static class AsyncInitialization
-        {
-            static Task WhenAllInitializedAsync(params object[] instances)
+            public FCMPushNotification()
             {
-                 return Task.WhenAll(Task.FromResult(instances.OfType<string>().Select(x => x)));
+                // TODO: Add constructor logic here  
+            }
+            public bool Successful
+            {
+                get;
+                set;
+            }
+            public string Response
+            {
+                get;
+                set;
+            }
+            public Exception Error
+            {
+                get;
+                set;
+            }
+            public FCMPushNotification SendNotification(string _title, string _message, string _topic, string deviceId)
+            {
+                FCMPushNotification result = new FCMPushNotification();
+                try
+                {
+                    result.Successful = true;
+                    result.Error = null; 
+                    string serverKey = Server_Key;
+                    string senderId = sender_Id;
+                    var requestUri = "https://fcm.googleapis.com/fcm/send";
+
+                    RestClient client = new RestClient(requestUri);
+                    RestRequest request = new RestRequest()
+                    {
+                        Method = Method.POST,
+                        RequestFormat = DataFormat.Json
+                    };
+                    request.AddHeader("Authorization", $"key={serverKey}");
+                    request.AddHeader("Sender", $"id={senderId}");
+                    var data = new
+                    {
+                        to = deviceId, 
+                        priority = "high",
+                        notification = new
+                        {
+                            title = _title,
+                            body = _message,
+                            show_in_foreground = "True",
+                            icon = "myicon"
+                        }
+                    };
+                    IRestResponse response = client.Execute(request);
+                    var content = response.Content;
+                    var resultStatusCode = response.StatusCode;
+                    return result;
+                    #region WeRequest Implementation
+                    //WebRequest webRequest = WebRequest.Create(requestUri);
+                    //webRequest.Method = "POST";
+                    //webRequest.Headers.Add(string.Format("Authorization: key={0}", serverKey));
+                    //webRequest.Headers.Add(string.Format("Sender: id={0}", senderId));
+                    //webRequest.ContentType = "application/json";
+                    //var data = new
+                    //{
+                    //    to = deviceId, // this if you want to test for a single device  
+                    //                   //to = "/topics/" + _topic, // this is for topic  
+                    //    priority = "high",
+                    //    notification = new
+                    //    {
+                    //        title = _title,
+                    //        body = _message,
+                    //        show_in_foreground = "True",
+                    //        icon = "myicon"
+                    //    }
+                    //};
+                    //var serializer = new JavaScriptSerializer();
+                    //var json = serializer.Serialize(data);
+                    //Byte[] byteArray = Encoding.UTF8.GetBytes(json);
+                    //webRequest.ContentLength = byteArray.Length;
+                    //using (Stream dataStream = webRequest.GetRequestStream())
+                    //{
+                    //    dataStream.Write(byteArray, 0, byteArray.Length);
+                    //    using (WebResponse webResponse = webRequest.GetResponse())
+                    //    {
+                    //        using (Stream dataStreamResponse = webResponse.GetResponseStream())
+                    //        {
+                    //            using (StreamReader tReader = new StreamReader(dataStreamResponse))
+                    //            {
+                    //                String sResponseFromServer = tReader.ReadToEnd();
+                    //                result.Response = sResponseFromServer;
+                    //            }
+                    //        }
+                    //    }
+                    //}
+                    #endregion
+                }
+                catch (Exception ex)
+                {
+                    result.Successful = false;
+                    result.Response = null;
+                    result.Error = ex;
+                }
+                return result;
             }
         }
-    }
-
-    public class someService
-    {
-        public someService()
-        {
-            Console.WriteLine("the constructor was called!");
-        }
-        public int MyProperty { get; set; }
     }
 }

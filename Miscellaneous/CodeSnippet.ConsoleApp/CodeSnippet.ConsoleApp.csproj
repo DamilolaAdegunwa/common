@@ -10,12 +10,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <DefineConstants />
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="EO.WebBrowser" Version="20.1.88" />
     <PackageReference Include="FakeItEasy" Version="6.0.0" />
     <PackageReference Include="Firebase.Notification" Version="1.0.0" />
+    <PackageReference Include="FirebaseAdmin" Version="1.14.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.2.0" />
     <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
     <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />
@@ -34,6 +37,7 @@
     <PackageReference Include="Nito.AsyncEx.Oop" Version="5.0.0" />
     <PackageReference Include="Nito.AsyncEx.Tasks" Version="5.0.0" />
     <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="RestSharp" Version="106.11.4" />
     <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.6.20305.6" />
     <PackageReference Include="System.Linq.Async" Version="4.1.1" />
 
@@ -45,6 +49,12 @@
     <PackageReference Include="Microsoft.Reactive.Testing" />
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />
     <PackageReference Include="Microsoft.Tpl.Dataflow" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Web.Extensions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
