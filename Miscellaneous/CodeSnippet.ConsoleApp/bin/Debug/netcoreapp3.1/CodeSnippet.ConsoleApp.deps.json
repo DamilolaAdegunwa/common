@@ -33,6 +33,7 @@
           "Nito.AsyncEx.Interop.WaitHandles": "5.0.0",
           "Nito.AsyncEx.Oop": "5.0.0",
           "Nito.AsyncEx.Tasks": "5.0.0",
+          "RestSharp": "106.11.4",
           "System.Drawing.Common": "5.0.0-preview.6.20305.6",
           "System.Linq.Async": "4.1.1",
           "System.Reactive": "3.0.0",
@@ -700,6 +701,14 @@
           "lib/netstandard2.0/Polly.Extensions.Http.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "RestSharp/106.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.4.0",
+            "fileVersion": "106.11.4.0"
           }
         }
       },
@@ -1843,6 +1852,13 @@
       "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
       "path": "polly.extensions.http/3.0.0",
       "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    },
+    "RestSharp/106.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vx35q52cM3UQNOiN3UqSQ9U7I5UeoyzVmjsWKQxOxn6FVu+n01+SNwhxc/jvf92WPBmmwzTV4VYTeTg4KviJdA==",
+      "path": "restsharp/106.11.4",
+      "hashPath": "restsharp.106.11.4.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

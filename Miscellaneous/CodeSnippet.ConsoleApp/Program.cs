@@ -25,6 +25,7 @@ using System.Text;
 using FirebaseAdmin.Messaging;
 //using System.Web.Extensions;
 using RestSharp;
+using FirebaseAdmin.Auth;
 namespace CodeSnippet.ConsoleApp
 {
     public class Program
@@ -36,17 +37,21 @@ namespace CodeSnippet.ConsoleApp
         public readonly static string WebAPIKey = "AIzaSyBb6F742Wgp5Q9ysGnMC0ln2rttB8IfUII";
         public readonly static string Server_Key = "AAAA5WN-8eA:APA91bHK1LKIibbKsoELnzn5cXZqCI94sX92fBhIHYcZuxKEuFgzuU8FJiqo6JoEoD5MKgy3q35DuckXJwCtkOEtYUPXBJMBSpadRIv0Uav9-yXoLKyv43ZEWWfuLBvhqGjLabK6X488";
         public readonly static string sender_Id = "985216774624";
-        public static void Main()
+        public readonly static string deviceId = "focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2";
+        public static async Task Main()
         {
             using (var firebase = new FireBase.Notification.Firebase())
             {
-                
+                await firebase.PushNotifyAsync(sender_Id, "Hello", "World");
+
                 FileStream serviceAccount = new FileStream(path_to_private_key, FileMode.Open);// get the content of the file
                 var credential = GoogleCredential.FromStream(serviceAccount);// obtain the credential from the file
                 serviceAccount.Close();//close the file (release the file handle, and possibly the thread!)
                 var storage = StorageClient.Create(credential);//storage details
+                
                 // Make an authenticated API request.
-                new FCMPushNotification().SendNotification("_title", "_message", "_topic", "deviceId");
+                //new FCMPushNotification().SendNotification("_title", "_message", "_topic", "deviceId");
+
                 //firebase.PushNotifyAsync(id, "Hello", "World").Wait();
                 var buckets = storage.ListBuckets(projectId);//Todo: check why the bucket was empty!
                 //buckets
@@ -54,7 +59,7 @@ namespace CodeSnippet.ConsoleApp
                 {
                     Console.WriteLine($"{bucket.Name}::{bucket}");
                 }
-
+                //FirebaseInstanceId.getInstance().getToken();
                 //try
                 //{
                 //    FirebaseApp.Create(new AppOptions()
@@ -68,17 +73,24 @@ namespace CodeSnippet.ConsoleApp
                 //}
                 try
                 {
-                    FirebaseApp.Create(new AppOptions()
+                    var firebaseApp = FirebaseApp.Create(new AppOptions()
                     {
                         Credential = GoogleCredential.FromFile(path_to_private_key),
-                    });
+                    },"My_Beautiful_App");
+                    FirebaseMessaging.GetMessaging(firebaseApp);
+                    new FCMPushNotification().SendNotification("title", "message", "topic", deviceId);
+                    await new Program().SendNotification(new List<string>() { deviceId, deviceId }, "title", "body: some sort of msg to be sent to a device!");
+
+                }
+                catch(FirebaseException fex)
+                {
+
                 }
                 catch (Exception ex)
                 {
 
                 }
-                new FCMPushNotification().SendNotification("_title", "_message", "_topic", "deviceId");
-                new Program().SendNotification(new List<string>() { "focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2" }, "title", "body");
+                
                 //try
                 //{
                 //    FirebaseApp.Create();
@@ -116,7 +128,15 @@ namespace CodeSnippet.ConsoleApp
                      {"body", body},
                  },
             };
-            var response = await FirebaseMessaging.DefaultInstance.SendMulticastAsync(message).ConfigureAwait(true);
+            var firebaseApp = FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile(path_to_private_key),
+            }, "My_Sexy_App");
+            //FirebaseMessaging.GetMessaging(firebaseApp);
+            //var response = await FirebaseMessaging.DefaultInstance.SendMulticastAsync(message).ConfigureAwait(true);
+            var response = await FirebaseMessaging.GetMessaging(firebaseApp).SendMulticastAsync(message).ConfigureAwait(true);
+            var nresp = response.FailureCount + response.SuccessCount;
+            var eachResp = response.Responses;
             return "";
         }
         public class FCMPushNotification
@@ -140,7 +160,7 @@ namespace CodeSnippet.ConsoleApp
                 get;
                 set;
             }
-            public FCMPushNotification SendNotification(string _title, string _message, string _topic, string deviceId)
+            public FCMPushNotification SendNotification(string title, string message, string topic, string deviceId)
             {
                 FCMPushNotification result = new FCMPushNotification();
                 try
@@ -157,24 +177,27 @@ namespace CodeSnippet.ConsoleApp
                         Method = Method.POST,
                         RequestFormat = DataFormat.Json
                     };
+                    request.AddHeader("Content-Type", "application/json");
                     request.AddHeader("Authorization", $"key={serverKey}");
                     request.AddHeader("Sender", $"id={senderId}");
+                    
                     var data = new
                     {
                         to = deviceId, 
                         priority = "high",
                         notification = new
                         {
-                            title = _title,
-                            body = _message,
-                            show_in_foreground = "True",
+                            title = title,
+                            body = message,
+                            show_in_foreground = "true",
                             icon = "myicon"
                         }
                     };
+                    request.AddBody(data);
                     IRestResponse response = client.Execute(request);
                     var content = response.Content;
                     var resultStatusCode = response.StatusCode;
-                    return result;
+                    //return result;
                     #region WeRequest Implementation
                     //WebRequest webRequest = WebRequest.Create(requestUri);
                     //webRequest.Method = "POST";
