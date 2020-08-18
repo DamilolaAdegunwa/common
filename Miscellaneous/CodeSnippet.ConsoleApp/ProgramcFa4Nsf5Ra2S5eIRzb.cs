@@ -28,7 +28,7 @@ using RestSharp;
 using FirebaseAdmin.Auth;
 namespace CodeSnippet.ConsoleApp
 {
-    public class Program
+    public class ProgramcFa4Nsf5Ra2S5eIRzb
     {
         public readonly static string projectId = "express-dispatch"; //project Id
         public readonly static string path_to_private_key = "C:/Projects/express-dispatch-firebase-adminsdk-gk7qg-a556ad0d32.json";//generated private key
@@ -37,8 +37,8 @@ namespace CodeSnippet.ConsoleApp
         public readonly static string WebAPIKey = "AIzaSyBb6F742Wgp5Q9ysGnMC0ln2rttB8IfUII";
         public readonly static string Server_Key = "AAAA5WN-8eA:APA91bHK1LKIibbKsoELnzn5cXZqCI94sX92fBhIHYcZuxKEuFgzuU8FJiqo6JoEoD5MKgy3q35DuckXJwCtkOEtYUPXBJMBSpadRIv0Uav9-yXoLKyv43ZEWWfuLBvhqGjLabK6X488";
         public readonly static string sender_Id = "985216774624";
-        public readonly static string deviceId = "focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2focyYrcwRxu4E7tKl2M6QN:APA91bFT5a8LG5RuI9Jzb_v6-4G7LMOP19r0tXEHIlCGQpmrzQAiUaL8nzWYz9B66fUHWOZvp3TH9EWI4hcbWh6BwTsvrTOWOLUv17kXOlhluJgJoEjBswBgKKmL4Is4Yfe1TMKBi_w2";
-        public static async Task Main()
+        public readonly static string deviceId = "cFa4Nsf5Ra2S5eIRzb-I8N:APA91bGbY8vadiScZN2JWX8aZL91xJdC3ot08t0CHZJ9Hzl3DjgALUj3mkGwnaWmHER6XLam6mHP51hVbzEz1YgjQG9FE2DpFHl3AwN8G9FIXpU7gCDqPTxy1enSrxiup49zuPPfejx7";
+        public static async Task Mainrrrrr()
         {
             using (var firebase = new FireBase.Notification.Firebase())
             {
@@ -79,7 +79,7 @@ namespace CodeSnippet.ConsoleApp
                     },"My_Beautiful_App");
                     FirebaseMessaging.GetMessaging(firebaseApp);
                     new FCMPushNotification().SendNotification("title", "message", "topic", deviceId);
-                    await new Program().SendNotification(new List<string>() { deviceId, deviceId }, "title", "body: some sort of msg to be sent to a device!");
+                    await new ProgramcFa4Nsf5Ra2S5eIRzb().SendNotification(new List<string>() { deviceId, deviceId }, "title", "body: some sort of msg to be sent to a device!");
 
                 }
                 catch(FirebaseException fex)
