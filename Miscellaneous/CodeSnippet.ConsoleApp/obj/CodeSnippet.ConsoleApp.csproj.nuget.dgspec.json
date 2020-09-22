@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {}
+    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {
+    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
         "projectName": "CodeSnippet.ConsoleApp",
-        "projectPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\DamilolaAdegunwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\obj\\",
+        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
+        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\CodeSnippet.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DamilolaAdegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,6 +62,10 @@
             "Google.Cloud.Storage.V1": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "GoogleMapsApi": {
+              "target": "Package",
+              "version": "[0.80.0, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
@@ -174,10 +178,6 @@
             "System.Reactive.PlatformServices": {
               "target": "Package",
               "version": "(, )"
-            },
-            "Xamarin.Firebase.Common": {
-              "target": "Package",
-              "version": "[71.1610.4, )"
             }
           },
           "imports": [

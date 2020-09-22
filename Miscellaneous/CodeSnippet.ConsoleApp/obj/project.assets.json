@@ -166,6 +166,18 @@
           "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {}
         }
       },
+      "GoogleMapsApi/0.80.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/net40/GoogleMapsApi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/GoogleMapsApi.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -1786,6 +1798,18 @@
         "lib/netstandard2.0/Google.Cloud.Storage.V1.dll",
         "lib/netstandard2.0/Google.Cloud.Storage.V1.pdb",
         "lib/netstandard2.0/Google.Cloud.Storage.V1.xml"
+      ]
+    },
+    "GoogleMapsApi/0.80.0": {
+      "sha512": "7NLUWu0ftxbkhUiUwvgfiFkT/2uMh1cYxPk2U+ZSzHIuEKK/WM4T+nUNBYNTMXV02y3S1DfOQess0iLUEd4tug==",
+      "type": "package",
+      "path": "googlemapsapi/0.80.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "googlemapsapi.0.80.0.nupkg.sha512",
+        "googlemapsapi.nuspec",
+        "lib/net40/GoogleMapsApi.dll"
       ]
     },
     "Microsoft.Bcl/1.1.10": {
@@ -5742,6 +5766,7 @@
       "Firebase.Notification >= 1.0.0",
       "FirebaseAdmin >= 1.14.0",
       "Google.Cloud.Storage.V1 >= 3.2.0",
+      "GoogleMapsApi >= 0.80.0",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Async >= 1.0.168",
@@ -5834,6 +5859,10 @@
           "Google.Cloud.Storage.V1": {
             "target": "Package",
             "version": "[3.2.0, )"
+          },
+          "GoogleMapsApi": {
+            "target": "Package",
+            "version": "[0.80.0, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
@@ -6064,6 +6093,16 @@
       "warningLevel": 1,
       "message": "Package 'Firebase.Notification 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Firebase.Notification",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GoogleMapsApi 0.80.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "GoogleMapsApi",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

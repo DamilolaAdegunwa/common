@@ -19,6 +19,7 @@
     <PackageReference Include="Firebase.Notification" Version="1.0.0" />
     <PackageReference Include="FirebaseAdmin" Version="1.14.0" />
     <PackageReference Include="Google.Cloud.Storage.V1" Version="3.2.0" />
+    <PackageReference Include="GoogleMapsApi" Version="0.80.0" />
     <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
     <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />

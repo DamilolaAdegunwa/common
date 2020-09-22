@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\DamilolaAdegunwa\\.nuget\\packages\\": {},
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+      "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
       "projectName": "Auth.Cookie.MVC",
-      "projectPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
-      "packagesPath": "C:\\Users\\DamilolaAdegunwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\obj\\",
+      "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+      "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
+      "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DamilolaAdegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

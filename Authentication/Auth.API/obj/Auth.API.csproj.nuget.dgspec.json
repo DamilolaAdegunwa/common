@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {}
+    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {
+    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
+        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
         "projectName": "Auth.API",
-        "projectPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
-        "packagesPath": "C:\\Users\\DamilolaAdegunwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DamilolaAdegunwa\\source\\repos\\common\\Authentication\\Auth.API\\obj\\",
+        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
+        "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
+        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DamilolaAdegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

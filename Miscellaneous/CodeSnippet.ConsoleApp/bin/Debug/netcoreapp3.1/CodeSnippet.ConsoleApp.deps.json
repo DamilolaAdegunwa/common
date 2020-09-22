@@ -13,6 +13,7 @@
           "Firebase.Notification": "1.0.0",
           "FirebaseAdmin": "1.14.0",
           "Google.Cloud.Storage.V1": "3.2.0",
+          "GoogleMapsApi": "0.80.0",
           "MSTest.TestFramework": "2.1.1",
           "Microsoft.Bcl": "1.1.10",
           "Microsoft.Bcl.Async": "1.0.168",
@@ -202,6 +203,17 @@
           "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {
             "assemblyVersion": "3.2.0.0",
             "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "GoogleMapsApi/0.80.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/net40/GoogleMapsApi.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.41.0.0"
           }
         }
       },
@@ -1579,6 +1591,13 @@
       "sha512": "sha512-P5LG0N4Qs0Sy1SULHvn8bPuhZeqaBaRRj+RSRXWfa5Ss8hDIApYKJNNuUVePdKTxIZrBdSd8rxYXN1SiF0+5Uw==",
       "path": "google.cloud.storage.v1/3.2.0",
       "hashPath": "google.cloud.storage.v1.3.2.0.nupkg.sha512"
+    },
+    "GoogleMapsApi/0.80.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7NLUWu0ftxbkhUiUwvgfiFkT/2uMh1cYxPk2U+ZSzHIuEKK/WM4T+nUNBYNTMXV02y3S1DfOQess0iLUEd4tug==",
+      "path": "googlemapsapi/0.80.0",
+      "hashPath": "googlemapsapi.0.80.0.nupkg.sha512"
     },
     "Microsoft.Bcl/1.1.10": {
       "type": "package",

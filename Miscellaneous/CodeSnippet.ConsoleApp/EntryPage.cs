@@ -1,105 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-public class Solution
+﻿namespace CodeSnippet.ConsoleApp
 {
-    public static void Main(String[] args)
+    using GoogleMapsApi;
+    using GoogleMapsApi.Entities.Common;
+    using GoogleMapsApi.Entities.Directions.Request;
+    using GoogleMapsApi.Entities.Directions.Response;
+    using GoogleMapsApi.Entities.Geocoding.Request;
+    using GoogleMapsApi.Entities.Geocoding.Response;
+    using GoogleMapsApi.StaticMaps;
+    using GoogleMapsApi.StaticMaps.Entities;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class EntryPage
     {
-        /* 
-        Enter your code here. Read input from STDIN. Print output to STDOUT. 
-        Your class should be named Solution 
-        */
-        List<string> inputList = new List<string>();//taking in inputs, line after line
-        bool keepingGetting = true;
-        while (keepingGetting)
+        public static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(input))
+            GoogleMapsApiTestMethod();
+            Console.ReadLine();
+        }
+        public static void GoogleMapsApiTestMethod()
+        {
+            //Static class use (Directions) (Can be made from static/instance class)
+            DirectionsRequest directionsRequest = new DirectionsRequest()
             {
-                break;
-            }
-            inputList.Add(input);
-        }
-        string[] inputArr = inputList.ToArray();
-        for (var i = 1; i < inputArr.Length; i++)
-        {
-            string[] nm = inputArr[i].Split(' ');
-            int n = Convert.ToInt32(nm[0]);
-            int m = Convert.ToInt32(nm[1]);
-            var sigma = new Solution().SigmaSumOfGi(n);
-            Console.WriteLine(sigma % m);
+                Origin = "NYC, 5th and 39",
+                Destination = "Philladephia, Chesnut and Wallnut",
+            };
 
-        }
-    }
-    public int SigmaSumOfGi(int n)
-    {
-        // if(n < 1)
-        // {
-        //     throw new Exception("\'n\' shouldn\'t be less than one!!");
-        // }
-        int sigma = 0;
-        for (var i = 1; i <= n; i++)
-        {
-            var gi = SmallestPositiveIntegerNSuchThatSfnEqualsGi(i);
-            var sgi = SumOfDigits(gi);
+            DirectionsResponse directions = GoogleMaps.Directions.Query(directionsRequest);
+            Console.WriteLine(directions);
 
-            sigma += sgi;
-        }
-        return sigma;
-    }
-
-    public int SmallestPositiveIntegerNSuchThatSfnEqualsGi(int givenSfn)
-    {
-        int n = 1;
-        int gi = -1;
-        while (gi == -1)
-        {
-            var fn = SumOfFactorialsOfDigitsOfN(n);
-            var sfn = SumOfDigits(fn);
-            if (sfn == givenSfn)
+            //Instance class use (Geocode)  (Can be made from static/instance class)
+            GeocodingRequest geocodeRequest = new GeocodingRequest()
             {
-                gi = n;
-                break;
-            }
-            n++;
-        }
-        return gi;
-    }
-    public int SumOfDigits(int number)//sf(n), sg(i)
-    {
-        char[] numberCharArr = number.ToString().ToArray();
-        int sum = 0;
-        for (var i = 0; i < numberCharArr.Length; i++)
-        {
-            sum += Convert.ToInt32(numberCharArr[i].ToString());
-        }
-        return sum;
-    }
-    public int SumOfFactorialsOfDigitsOfN(int n)
-    {
-        //Define f(n) as the sum of the factorials of the digits of n. For example, 
-        //f(342) = 3! + 4! + 2! = 32.
-        char[] ncharArr = n.ToString().ToArray();
-        int fOfn = 0;
-        for (var i = 0; i < ncharArr.Length; i++)
-        {
-            fOfn += Factorial(Convert.ToInt32(ncharArr[i].ToString()));
+                Address = "new york city",
+            };
+            var geocodingEngine = GoogleMaps.Geocode;
+            GeocodingResponse geocode = geocodingEngine.Query(geocodeRequest);
+            Console.WriteLine(geocode);
 
-        }
-        return fOfn;
-    }
-    public int Factorial(int x)
+            // Static maps API - get static map of with the path of the directions request
+            StaticMapsEngine staticMapGenerator = new StaticMapsEngine();
+
+            //Path from previos directions request
+            IEnumerable<Step> steps = directions.Routes.First().Legs.First().Steps;
+            // All start locations
+            IList<ILocationString> path = steps.Select(step => step.StartLocation).ToList<ILocationString>();
+            // also the end location of the last step
+            path.Add(steps.Last().EndLocation);
+
+            string url = staticMapGenerator.GenerateStaticMapURL(new StaticMapRequest(new Location(40.38742, -74.55366), 9, new ImageSize(800, 400))
+            {
+                Pathes = new List<GoogleMapsApi.StaticMaps.Entities.Path>(){ new GoogleMapsApi.StaticMaps.Entities.Path()
     {
-        // if(x<0)
-        // {
-        //     throw new Exception("This \'Factorial\' function does not cater for negative values of x");
-        // }
-        if (x == 0 || x == 1)
-        {
-            return 1;
+            Style = new PathStyle()
+            {
+                    Color = "red"
+            },
+            Locations = path
+    }}
+            });
+            Console.WriteLine("Map with path: " + url);
         }
-        var result = x * Factorial(x - 1);
-        return result;
     }
 }

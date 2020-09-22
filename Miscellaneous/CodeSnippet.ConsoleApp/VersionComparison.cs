@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeSnippet.ConsoleApp
 {
-    public class Class4
+    public class VersionComparison
     {
         public static void MainDamn()
         {
