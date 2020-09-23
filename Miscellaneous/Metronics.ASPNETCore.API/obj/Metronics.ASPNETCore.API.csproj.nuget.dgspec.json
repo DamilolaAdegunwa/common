@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
   },
   "projects": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
         "projectName": "Metronics.ASPNETCore.API",
-        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
         "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\obj\\",
+        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

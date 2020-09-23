@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
   },
   "projects": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "projectName": "Auth.Identity.MVC",
-        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Identity.MVC\\obj\\",
+        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Identity.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

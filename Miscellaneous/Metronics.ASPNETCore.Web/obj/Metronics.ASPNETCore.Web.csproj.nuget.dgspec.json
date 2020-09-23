@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj": {}
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj": {}
   },
   "projects": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj": {
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
+        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
         "projectName": "Metronics.ASPNETCore.Web",
-        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
+        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
         "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\obj\\",
+        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Miscellaneous\\Metronics.ASPNETCore.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

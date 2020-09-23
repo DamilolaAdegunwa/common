@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
       "projectName": "Auth.Cookie.MVC",
-      "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+      "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
       "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-      "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.Cookie.MVC\\obj\\",
+      "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.Cookie.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

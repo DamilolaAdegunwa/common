@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {}
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {}
   },
   "projects": {
-    "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {
+    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
+        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
         "projectName": "Auth.API",
-        "projectPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
+        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.API\\Auth.API.csproj",
         "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "E:\\from_libmot\\my_projects\\repos\\common\\Authentication\\Auth.API\\obj\\",
+        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Authentication\\Auth.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
