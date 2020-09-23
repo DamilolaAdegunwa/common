@@ -1,6 +1,3 @@
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csprojAssemblyReference.cache
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfo.cs
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.exe
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\EO.Base.dll
@@ -84,7 +81,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Reactive.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Web.Extensions.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.ServiceModel.Activation.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Web.ApplicationServices.dll
@@ -115,7 +111,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Configuration.Install.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Web.Extensions.xml
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Reactive.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.ServiceModel.Activation.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Web.ApplicationServices.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.ServiceModel.xml
@@ -145,4 +140,7 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Configuration.Install.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfo.cs
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csproj.CopyComplete
