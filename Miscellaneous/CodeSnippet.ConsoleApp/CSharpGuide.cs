@@ -28,19 +28,45 @@ namespace CodeSnippet.ConsoleApp
         public class DelegateSecondTest
         {
             public static SingleAnswer Mathematics { get; set; }
+            public static SingleAnswer BooleanAnswer { get; set; }
             public void Test()
             {
                 Mathematics += AddInts;
-                Mathematics += AddInts;
-                Mathematics += AddInts;
-                Mathematics += AddInts;
+                Mathematics += SubtractInts;
+                Mathematics += MultiplyInts;
+                Mathematics += DivideInts;
 
-                string m = Mathematics(10, 20);
+                //string m = Mathematics(10, 20);
+                //UseMathematics(10, 20, Mathematics);
+                UseMathematics(10, 20, AddInts);
             }
             public string AddInts(int a, int b)
             {
                 Console.WriteLine(a + b);
+                
                 return (a + b).ToString();
+            }
+            public string SubtractInts(int a, int b)
+            {//delegate invocation target,
+                Console.WriteLine(a - b);
+
+                return (a - b).ToString();
+            }
+            public string MultiplyInts(int a, int b)
+            {//delegate invocation target,
+                Console.WriteLine(a * b);
+
+                return (a * b).ToString();
+            }
+            public string DivideInts(int a, int b)
+            {//delegate invocation target,
+                Console.WriteLine(a / b);
+
+                return (a / b).ToString();
+            }
+            public void UseMathematics(int a, int b, SingleAnswer singleAnswer)
+            {
+                singleAnswer(a, b);
             }
         }
 

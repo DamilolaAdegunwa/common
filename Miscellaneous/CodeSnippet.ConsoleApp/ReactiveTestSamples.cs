@@ -25,9 +25,9 @@ namespace CodeSnippet.ConsoleApp
                 Console.WriteLine(number);
             }
             ImDone();
-            var observableQuery = query.ToObservable();
-            var or = Observable.Range(1, 5);
-            var or2 = Observable.Timer(TimeSpan.FromSeconds(30));
+            //var observableQuery = query.ToObservable();
+            //var or = Observable.Range(1, 5);
+            //var or2 = Observable.Timer(TimeSpan.FromSeconds(30));
             
         }
         public static void ImDone()
