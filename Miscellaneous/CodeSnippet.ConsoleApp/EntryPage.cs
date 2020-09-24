@@ -12,7 +12,7 @@
     {
         public static void Main(string[] args)
         {
-            ReactiveTestSamples.Sample1();
+            new CSharpGuide.DelegateSecondTest().Test();
             Console.ReadLine();
         }
         

@@ -151,6 +151,10 @@
               "target": "Package",
               "version": "[106.11.4, )"
             },
+            "System": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[5.0.0-preview.6.20305.6, )"
@@ -167,17 +171,25 @@
               "target": "Package",
               "version": "[4.4.1, )"
             },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
             "System.Reactive.Interfaces": {
               "target": "Package",
               "version": "(, )"
             },
             "System.Reactive.Linq": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "(, )"
             },
             "System.Reactive.PlatformServices": {
               "target": "Package",
               "version": "(, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1451, )"
             }
           },
           "imports": [

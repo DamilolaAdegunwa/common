@@ -43,13 +43,16 @@
     <PackageReference Include="System.Linq" Version="4.3.0" />
     <PackageReference Include="System.Linq.Async" Version="4.1.1" />
     <PackageReference Include="System.Reactive" Version="4.4.1" />
+    <PackageReference Include="System.Reactive.Core" Version="4.4.1" />
     <PackageReference Include="System.Reactive.Interfaces" />
     <PackageReference Include="System.Reactive.Linq" Version="4.4.1" />
     <PackageReference Include="System.Reactive.Linq" />
+    <PackageReference Include="System" />
     <PackageReference Include="System.Reactive.PlatformServices" />
     <PackageReference Include="Microsoft.Reactive.Testing" />
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />
     <PackageReference Include="Microsoft.Tpl.Dataflow" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
   </ItemGroup>
 
   <ItemGroup>
