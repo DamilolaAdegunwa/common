@@ -69,7 +69,36 @@ namespace CodeSnippet.ConsoleApp
                 singleAnswer(a, b);
             }
         }
+        public static class Logger// third party logger service
+        {
+            public static Action<string> WriteMessage;
+            public static void LogMessage(string msg)
+            {
+                WriteMessage(msg);
+            }
+        }
 
+        public static class LoggingMethods// user-defined log-to-console implementation
+        {
+            public static void LogToConsole(string message)
+            {
+                Console.Error.WriteLine(message);
+            }
+            //LogToFile
+            //LogToElasticSearch
+            //LogToMSSQL
+            //LogToEventSource
+            //LogToOSEventLog
+        }
+
+        public class UseLogger
+        {
+            public void Index()
+            {
+                //compliment the WriteMessage function to inc a log to console function
+                Logger.WriteMessage += LoggingMethods.LogToConsole;
+            }
+        }
         #endregion
     }
 }
