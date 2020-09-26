@@ -380,7 +380,7 @@ ExamScores = new List<int>{ 96, 85, 91, 60}}
     }
     public class Program
     {
-        public static void Main()
+        public static void MainProgram()
         {
             StudentClass sc = new StudentClass();
             sc.QueryHighScores(1, 90);
@@ -400,7 +400,7 @@ ExamScores = new List<int>{ 96, 85, 91, 60}}
     class StoreQueryResults
     {
         static List<int> numbers = new List<int>() { 1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
-        static void Main()
+        static void MainStoreQueryResults()
         {
             IEnumerable<int> queryFactorsOfFour =
             from num in numbers

@@ -11,7 +11,7 @@
     using System.Reflection;
     public class EntryPage
     {
-        public static void Main(string[] args)
+        public static void monster()//Main2(string[] args)
         {
             //new CSharpGuide.DelegateSecondTest().Test();
             //new UseLoggerContoller(new ConsoleLogger()).Index();

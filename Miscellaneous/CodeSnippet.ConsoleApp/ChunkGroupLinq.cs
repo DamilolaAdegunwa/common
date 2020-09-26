@@ -224,6 +224,23 @@ namespace ChunkIt
             }
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+            /*
+             output:
+                Group key = A
+                        We
+                        think
+                        that
+                Group key = B
+                        Linq
+                Group key = C
+                        is
+                Group key = A
+                        really
+                Group key = B
+                        cool
+                        !
+                Press any key to exit
+             */
         }
     }
 }
