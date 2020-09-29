@@ -11,16 +11,8 @@
     using System.Reflection;
     public class EntryPage
     {
-        public static void monster()//Main2(string[] args)
+        public static void MainEntryPage(string[] args)
         {
-            //new CSharpGuide.DelegateSecondTest().Test();
-            //new UseLoggerContoller(new ConsoleLogger()).Index();
-            //new UseLoggerService().Log("you all need to see this", Logger.WriteMessage);
-            //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
-            //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
-            new LinqTest();
-            Console.ReadLine();
         }
-        
     }
 }

@@ -4,9 +4,17 @@ using System.Text;
 
 namespace CodeSnippet.ConsoleApp
 {
-    public class CSharpGuide
+    public class LearningAboutDelegates
     {
         #region learning about delegates
+        public static void MainLearningAboutDelegates()
+        {
+            //new LearningAboutDelegates.DelegateSecondTest().Test();
+            //new UseLoggerContoller(new ConsoleLogger()).Index();
+            //new UseLoggerService().Log("you all need to see this", Logger.WriteMessage);
+            //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
+            //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
+        }
         public delegate void Simple<T>(T s);
         public class DelegateTest<T>
         {

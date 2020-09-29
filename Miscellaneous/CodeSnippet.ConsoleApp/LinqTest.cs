@@ -4,6 +4,7 @@ using System.Text;
 using System.Linq;
 namespace CodeSnippet.ConsoleApp
 {
+
     #region group result by contiguous keys
 
     #endregion
@@ -402,6 +403,7 @@ ExamScores = new List<int>{ 96, 85, 91, 60}}
         static List<int> numbers = new List<int>() { 1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
         static void MainStoreQueryResults()
         {
+            //new LinqTest();
             IEnumerable<int> queryFactorsOfFour =
             from num in numbers
             where num % 4 == 0

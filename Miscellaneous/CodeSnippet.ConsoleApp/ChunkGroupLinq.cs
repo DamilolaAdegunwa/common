@@ -196,7 +196,7 @@ namespace ChunkIt
         // Query variable declared as class member to be available
         // on different threads.
         static IEnumerable<IGrouping<string, KeyValPair>> query;
-        static void Main(string[] args)
+        static void MainChunk(string[] args)
         {
             // Initialize the source sequence with an array initializer.
             list = new[]

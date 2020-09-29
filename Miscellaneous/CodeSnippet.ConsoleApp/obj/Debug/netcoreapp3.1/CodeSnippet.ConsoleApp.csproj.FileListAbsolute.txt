@@ -73,7 +73,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Xamarin.Forms.Core.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Xamarin.Forms.Platform.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Xamarin.Forms.Xaml.dll
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\Microsoft.ServiceFabric.Internal.McgInterop.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\Microsoft.ServiceFabric.Internal.Strings.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\Microsoft.ServiceFabric.Internal.dll
@@ -116,7 +115,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Selectors.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Accessibility.dll
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Deployment.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
@@ -130,7 +128,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.ServiceModel.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Web.Services.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.Linq.xml
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.Services.Client.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.Services.Design.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.Entity.xml
@@ -146,7 +143,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Selectors.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\Accessibility.xml
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Deployment.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
@@ -157,3 +153,5 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csproj.CopyComplete
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.pdb
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\LINQPad.exe
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\lprun.exe
