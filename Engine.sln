@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{2E6E37AB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETWebFormsApplication", "Miscellaneous\ASPNETWebFormsApplication\ASPNETWebFormsApplication.csproj", "{2EFCA039-D056-4A27-957A-30EFF497F1B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCoreWebApplication", "Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\ASPNETCoreWebApplication.csproj", "{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{2EFCA039-D056-4A27-957A-30EFF497F1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EFCA039-D056-4A27-957A-30EFF497F1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EFCA039-D056-4A27-957A-30EFF497F1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{56A468B4-BD29-408B-816F-FD1F4999A4B0} = {81E40DB2-FD83-4785-B4B4-3967F392ADE9}
 		{3E820199-65B0-4564-A0E8-DC30AD3A9415} = {81E40DB2-FD83-4785-B4B4-3967F392ADE9}
 		{2EFCA039-D056-4A27-957A-30EFF497F1B7} = {81E40DB2-FD83-4785-B4B4-3967F392ADE9}
+		{D53F2C63-3F0F-4A2F-B7B1-145D11E83EF2} = {81E40DB2-FD83-4785-B4B4-3967F392ADE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}

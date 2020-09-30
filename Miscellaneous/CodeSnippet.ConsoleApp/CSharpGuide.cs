@@ -13,7 +13,7 @@ namespace CodeSnippet.ConsoleApp
             //new UseLoggerContoller(new ConsoleLogger()).Index();
             //new UseLoggerService().Log("you all need to see this", Logger.WriteMessage);
             //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
-            //new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", new Logger().LogMessage);
+            new UseLoggerService().Log(Severity.Critical, "EntryPage", "You all need to see this!", Logger.LogMessage);
         }
         public delegate void Simple<T>(T s);
         public class DelegateTest<T>
@@ -79,18 +79,18 @@ namespace CodeSnippet.ConsoleApp
         }
         public static class Logger// third party logger service
         {
-            public static Action<string> WriteMessage;
-            public static void LogMessage(string msg)
+            public static Action<Severity, string, string> WriteMessage;
+            public static void LogMessage(Severity severity, string component, string msg)
             {
-                WriteMessage(msg);
+                WriteMessage(severity, component, msg);
             }
         }
 
         public static class LoggingMethods// user-defined log-to-console implementation
         {
-            public static void LogToConsole(string message)
+            public static void LogToConsole(Severity severity, string component, string msg)
             {
-                Console.Error.WriteLine(message);
+                Console.Error.WriteLine($"{severity} {component} {msg}");
             }
             //LogToFile
             //LogToElasticSearch

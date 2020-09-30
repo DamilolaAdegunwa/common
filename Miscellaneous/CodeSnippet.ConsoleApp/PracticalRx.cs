@@ -18,7 +18,7 @@ namespace CodeSnippet.ConsoleApp
             get;
             protected set;
         }
-        public static void Main()
+        public static void MainPracticalRx()
         {
             //public string Translate(TranslateRequest request);
             //public IAsyncResult BeginTranslate(TranslateRequest request, AsyncCallback callback, objectcontext);
