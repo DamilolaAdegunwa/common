@@ -9,7 +9,7 @@ namespace CodeSnippet.ConsoleApp
 {
     public class StackOverflowQuestionsAndAnswerExercise
     {
-        public static void Main()
+        public static void MainStackOverflow()
         {
 
         }

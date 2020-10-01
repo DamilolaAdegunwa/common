@@ -227,7 +227,7 @@ namespace Auth.AspNet.MVC.Controllers
             {
                 //AppUser user = await UserManager.FindAsync(details.Name, details.Password);
 
-                if (user == null)
+                if (false/*user == null*/)
                 {
                     ModelState.AddModelError("", "Invalid name or password.");
                 }

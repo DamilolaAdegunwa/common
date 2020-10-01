@@ -201,10 +201,6 @@
               "target": "Package",
               "version": "(, )"
             },
-            "System.Windows.Media": {
-              "target": "Package",
-              "version": "(, )"
-            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.8.0.1451, )"

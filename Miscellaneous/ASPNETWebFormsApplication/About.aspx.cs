@@ -11,10 +11,57 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Configuration;
 using System.Web.ModelBinding;
+using System.Security.Principal;
+using System.Web.Security;
+using System.Threading;
 namespace ASPNETWebFormsApplication
 {
     public partial class About : Page
     {
+        protected void Application_AuthenticateRequest(Object sender, EventArgs e)
+        {
+            HttpCookie authCookie = Request.Cookies[
+                     FormsAuthentication.FormsCookieName];
+            if (authCookie != null)
+            {
+                //Extract the forms authentication cookie
+                FormsAuthenticationTicket authTicket =
+                       FormsAuthentication.Decrypt(authCookie.Value);
+                // Create an Identity object
+                //CustomIdentity implements System.Web.Security.IIdentity
+                CustomIdentity id = GetUserIdentity(authTicket.Name);
+                //CustomPrincipal implements System.Web.Security.IPrincipal
+                CustomPrincipal newUser = new CustomPrincipal();
+                Context.User = newUser;
+                Thread.CurrentPrincipal = newUser;
+            }
+        }
+
+        private CustomIdentity GetUserIdentity(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            //Hard Coded for the moment
+            bool isValid = true;
+            if (isValid)
+            {
+                string userData = String.Empty;
+                string userID = null;
+                string username = null;
+                userData = userData + "UserID=" + userID;
+                FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, username, DateTime.Now, DateTime.Now.AddMinutes(30), true, userData);
+                string encTicket = FormsAuthentication.Encrypt(ticket);
+                HttpCookie faCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encTicket);
+                Response.Cookies.Add(faCookie);
+                
+                //And send the user where they were heading
+                string redirectUrl = FormsAuthentication.GetRedirectUrl(username, false);
+                Response.Redirect(redirectUrl);
+            }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             productListView.DataSource = GetProducts();
@@ -44,12 +91,10 @@ namespace ASPNETWebFormsApplication
             
             ScriptManager.RegisterStartupScript(this, this.GetType(), "Pop", "openModal();", true);
         }
-
         private void Item_DataBinding(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
-
         public void Menu_ItemDataBound(object sender, ListViewItemEventArgs e)
         {
             var item = (Product)e.Item.DataItem;
@@ -86,6 +131,20 @@ namespace ASPNETWebFormsApplication
             //    ListView1.DataSource = cmd.ExecuteReader();
             //    ListView1.DataBind();
             //}
+        }
+
+        private class CustomIdentity
+        {
+        }
+
+        private class CustomPrincipal : IPrincipal
+        {
+            public IIdentity Identity => throw new NotImplementedException();
+
+            public bool IsInRole(string role)
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }

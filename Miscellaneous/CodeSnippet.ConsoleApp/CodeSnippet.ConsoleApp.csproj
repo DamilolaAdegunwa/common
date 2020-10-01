@@ -59,7 +59,7 @@
     <PackageReference Include="Microsoft.Tpl.Dataflow" Version="4.5.24" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
     <PackageReference Include="System.Windows.Forms" />
-    <PackageReference Include="System.Windows.Media" />
+    <!--<PackageReference Include="System.Windows.Media" />-->
   </ItemGroup>
 
   <ItemGroup>

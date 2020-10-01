@@ -6045,7 +6045,6 @@
       "System.Reactive.Linq >= 4.4.1",
       "System.Reactive.PlatformServices >= 4.4.1",
       "System.Windows.Forms",
-      "System.Windows.Media",
       "Xamarin.Forms >= 4.8.0.1451"
     ]
   },
@@ -6250,10 +6249,6 @@
             "target": "Package",
             "version": "(, )"
           },
-          "System.Windows.Media": {
-            "target": "Package",
-            "version": "(, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.8.0.1451, )"
@@ -6300,30 +6295,11 @@
       ]
     },
     {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency System.Windows.Media does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "System.Windows.Media",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
       "message": "Microsoft.Bcl.Immutable 1.1.32-beta depends on System.Collections.Immutable (>= 1.1.0) but System.Collections.Immutable 1.1.0 was not found. An approximate best match of System.Collections.Immutable 1.1.36 was resolved.",
       "libraryId": "System.Collections.Immutable",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package System.Windows.Media. No packages exist with this id in source(s): DevExpress 19.2 Local, Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "System.Windows.Media",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
