@@ -169,6 +169,10 @@
               "target": "Package",
               "version": "(, )"
             },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[5.0.0-preview.6.20305.6, )"
@@ -208,6 +212,10 @@
             "System.Windows.Forms": {
               "target": "Package",
               "version": "(, )"
+            },
+            "TextCopy": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

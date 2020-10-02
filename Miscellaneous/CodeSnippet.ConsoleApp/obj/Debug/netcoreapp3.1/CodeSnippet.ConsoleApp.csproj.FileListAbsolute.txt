@@ -155,3 +155,11 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.pdb
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\LINQPad.exe
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\lprun.exe
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\TextCopy.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.dll.config
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
