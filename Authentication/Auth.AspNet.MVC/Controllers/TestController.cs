@@ -48,6 +48,13 @@ using System.Web.Hosting;
 using System.Web.Http;
 //using System.Web.Http.Cors;
 using System.Web.Script.Serialization;
+using System.Threading;
+using System.Web.Http.Routing;
+using System.Web.Http.Controllers;
+using System.Web.Http.Hosting;
+using System.Web.Routing;
+using Moq;
+
 namespace Auth.AspNet.MVC.Controllers
 {
     public class TestController : BaseController//Controller
@@ -329,6 +336,64 @@ namespace Auth.AspNet.MVC.Controllers
         {
         }
         #endregion
+        public void ShowMock()
+        {
+            var userMock = new Mock<IPrincipal>();
+            userMock.Setup(p => p.IsInRole("admin")).Returns(true);
+            userMock.SetupGet(p => p.Identity.Name).Returns("tester");
+            userMock.SetupGet(p => p.Identity.IsAuthenticated).Returns(true);
+
+            var requestContext = new Mock<HttpRequestContext>();
+            requestContext.Setup(x => x.Principal).Returns(userMock.Object);
+
+            var controller = new ControllerToTest()
+            {
+                RequestContext = requestContext.Object,
+                Request = new HttpRequestMessage(),
+                Configuration = new HttpConfiguration()
+            };
+        }
+        public void SetThreadPrincipal()
+        {
+            //var rc = new RequestContext().HttpContext.Request.Principal.Identity.Name;
+
+            Thread.CurrentPrincipal = new GenericPrincipal
+            (
+               new GenericIdentity("Bob", "Passport"),
+               new[] { "managers", "executives" }
+            );
+        }
+
+        private class ControllerToTest
+        {
+            public ControllerToTest()
+            {
+            }
+
+            public object RequestContext { get; set; }
+            public HttpRequestMessage Request { get; set; }
+            public HttpConfiguration Configuration { get; set; }
+        }
+        //public static ResourcesController SetupResourcesController(HttpRequestMessage request, IResourceMetadataRepository repo, IUnitOfWorkService unitOfWorkService)
+        //{
+        //    request.Properties.Add("MS_UserPrincipal", myStubUserPrincipal);
+        //    var config = new HttpConfiguration();
+        //    var defaultRoute = config.Routes.MapHttpRoute(RouteNames.DefaultApi, "api/{controller}/{id}");
+        //    var routeData = new HttpRouteData(defaultRoute, new HttpRouteValueDictionary { { "controller", "resources" } });
+
+        //    var resourcesController = new ResourcesController(repo, unitOfWorkService)
+        //    {
+        //        ControllerContext = new HttpControllerContext(config, routeData, request),
+        //        Request = request
+        //    };
+        //    resourcesController.Request.Properties.Add(HttpPropertyKeys.HttpRouteDataKey, routeData);
+        //    resourcesController.Request.Properties[HttpPropertyKeys.HttpConfigurationKey] = config;
+
+        //    // Compilation fail: The Property 'System.Web.Http.ApiController.User' has no setter.
+        //    resourcesController.User = myStubUserPrincipal;
+
+        //    return resourcesController;
+        //}
     }
     public static class UserHelpers
     {
@@ -337,4 +402,5 @@ namespace Auth.AspNet.MVC.Controllers
             return true; //Do some stuff
         }
     }
+
 }

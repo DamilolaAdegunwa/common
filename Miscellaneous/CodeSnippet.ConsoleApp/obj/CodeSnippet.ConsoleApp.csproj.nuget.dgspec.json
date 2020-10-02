@@ -113,6 +113,10 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
+            "Microsoft.NETCore.Runtime.CoreCLR": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.Reactive.Testing": {
               "target": "Package",
               "version": "[4.4.1, )"
@@ -168,6 +172,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[5.0.0-preview.6.20305.6, )"
+            },
+            "System.Dynamic.Runtime": {
+              "target": "Package",
+              "version": "(, )"
             },
             "System.Linq": {
               "target": "Package",

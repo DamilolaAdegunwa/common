@@ -9,12 +9,17 @@
     using System.Text;
     using System.Reactive.Concurrency;
     using System.Reflection;
-    public class EntryPage
+    //using System.Dynamic.Runtime;
+    using Microsoft.CSharp;
+    //using Microsoft.NETCore.Runtime.CoreCLR;
+     class EntryPage
     {
         public static void Main(string[] args)
         {
-            var s = new EntryPage() + 10;
-            Console.WriteLine(s);
+            //var s = new EntryPage() + 10;
+            //Console.WriteLine(s);
+            dynamic greet = "Hello World!";
+            Console.WriteLine(greet);
             Console.ReadLine();
         }
         public static int  operator +(EntryPage a, int b)

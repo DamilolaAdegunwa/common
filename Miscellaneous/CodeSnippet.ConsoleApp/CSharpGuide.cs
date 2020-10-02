@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Nito.AsyncEx;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CodeSnippet.ConsoleApp
 {
@@ -107,6 +109,54 @@ namespace CodeSnippet.ConsoleApp
                 Logger.WriteMessage += LoggingMethods.LogToConsole;
             }
         }
+        #endregion
+
+        #region about async contructors
+        public sealed class MyClass
+        {
+            private String asyncData;
+            private MyClass() {  }
+
+            private async Task<MyClass> InitializeAsync()
+            {
+                asyncData = await GetDataAsync();
+                return this;
+            }
+
+            private Task<String> GetDataAsync()
+            {
+                throw new NotImplementedException();
+            }
+
+            public static Task<MyClass> CreateAsync()
+            {
+                var ret = new MyClass();
+                return ret.InitializeAsync();
+            }
+            private static AsyncLazy<String> resource = new AsyncLazy<String>(async () =>
+            {
+                string data = await GetResource();
+                //string ~ ReadOnlySpan<char>
+                return new String(data);
+            });
+
+            private static Task<String> GetResource()
+            {
+                return default;
+                //throw new NotImplementedException();
+            }
+
+            public static async Task UseResourceAsync()
+            {
+                String res = await resource;
+            }
+        }
+
+        public static async Task UseMyClassAsync()
+        {
+            MyClass instance = await MyClass.CreateAsync();
+            //...
+}
         #endregion
     }
 }
