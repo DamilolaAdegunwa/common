@@ -17,36 +17,56 @@
     using System.IO;
     using System.Configuration;
     using System.Collections.Specialized;
-
+    using Microsoft.Extensions.Configuration;
     //using Microsoft.NETCore.Runtime.CoreCLR;
+    struct tester
+    {
+        public tester(string data)
+        {
+            Console.WriteLine("from the struct!!");
+        }
+    }
     public class EntryPage
     {
         public static void Main(string[] args)
         {
-            #region a test snippet
-            foreach (string s in ConfigurationManager.AppSettings.AllKeys)
+            //TestEnum.MainTest();
+            Program1.AnotherNumberCheck();
+            if (false)
             {
-                Console.WriteLine(s);
-                System.Diagnostics.Debug.WriteLine(s);
+                #region a test snippet
+                foreach (string s in ConfigurationManager.AppSettings.AllKeys)
+                {
+                    Console.WriteLine(s);
+                    System.Diagnostics.Debug.WriteLine(s);
+                }
+                //Outputs 7 as expected
+                Console.WriteLine(ConfigurationManager.AppSettings.AllKeys.Length);
+                #endregion
+
+                // In your global setup:
+                string configFile = $"{Assembly.GetExecutingAssembly().Location}.config";
+                    string outputConfigFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;
+                    File.Copy(configFile, outputConfigFile, true);
+                string outputConfigFile2 = Path.Combine(Path.GetDirectoryName(configFile), $"{Path.GetFileName(Assembly.GetEntryAssembly().Location)}.config");
+                var appSettingValFromStatic = ConfigurationManager.AppSettings["mySetting"];
+                var appSettingValFromInstance = ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location).AppSettings.Settings["mySetting"].Value;
+                ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+                var appSettingValFromStatic2 = ConfigurationManager.AppSettings["mySetting"];
+                var appSettingValFromInstance2 = ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location).AppSettings.Settings["mySetting"].Value;
+
+                var valFromStatic = ((NameValueCollection)ConfigurationManager.GetSection("customNameValueSectionHandlerSection"))["customKey"];
+                var valFromInstance = ((AppSettingsSection)ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location).GetSection("customAppSettingsSection")).Settings["customKey"].Value;
+
+                string path = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;
+
+
+                //var s = new EntryPage() + 10;
+                //Console.WriteLine(s);
+                //dynamic greet = "Hello World!";
+                TextCopy.ClipboardService.SetText("Text to place in clipboard");
+                Console.WriteLine("TextCopy.ClipboardService.SetText");
             }
-            //Outputs 7 as expected
-            Console.WriteLine(ConfigurationManager.AppSettings.AllKeys.Length);
-            #endregion
-
-            var appSettingValFromStatic = ConfigurationManager.AppSettings["mySetting"];
-            var appSettingValFromInstance = ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location).AppSettings.Settings["mySetting"].Value;
-
-            var valFromStatic = ((NameValueCollection)ConfigurationManager.GetSection("customNameValueSectionHandlerSection"))["customKey"];
-            var valFromInstance = ((AppSettingsSection)ConfigurationManager.OpenExeConfiguration(Assembly.GetExecutingAssembly().Location).GetSection("customAppSettingsSection")).Settings["customKey"].Value;
-
-            string path = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;
-
-
-            //var s = new EntryPage() + 10;
-            //Console.WriteLine(s);
-            //dynamic greet = "Hello World!";
-            TextCopy.ClipboardService.SetText("Text to place in clipboard");
-            Console.WriteLine("TextCopy.ClipboardService.SetText");
             Console.ReadLine();
         }
         public static int  operator +(EntryPage a, int b)
