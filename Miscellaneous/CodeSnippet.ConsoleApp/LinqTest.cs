@@ -5,7 +5,7 @@ using System.Linq;
 namespace CodeSnippet.ConsoleApp
 {
 
-    #region group result by contiguous keys
+    #region group result by multiple keys
 
     #endregion
     #region student class
@@ -379,7 +379,7 @@ ExamScores = new List<int>{ 96, 85, 91, 60}}
             }
         }
     }
-    public class Program
+    public class ProgramLinqTest
     {
         public static void MainProgram()
         {
