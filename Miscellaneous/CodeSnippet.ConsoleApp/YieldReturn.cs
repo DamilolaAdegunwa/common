@@ -97,7 +97,7 @@ namespace CodeSnippet.ConsoleApp
         #endregion
 
         #region 3
-        public static void Main()
+        public static void MainYieldReturn()
         {
             using(IEnumerator<int> iValues =  YieldReturn.Vs().GetEnumerator())
             {
@@ -189,7 +189,7 @@ namespace CodeSnippet.ConsoleApp
         {
             public string Id { get; set; }
         }
-        static void Main(string[] args)
+        static void MainYieldReturn2(string[] args)
         {
             foreach (var trip in CreatePossibleTrips())
             {
