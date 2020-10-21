@@ -15,7 +15,15 @@ namespace CodeSnippet.ConsoleApp
             // to the entry in the database with {userId} as its Id.
             return default;
         }
-        public static async Task<User[]> GetUsersAsync(IEnumerable<int> userIds)
+        /// <summary>
+        /// Get a set of user data asynchronously
+        /// </summary>
+        /// <remarks>
+        /// Task.WhenAll was leveraged to make this faster, asking for each user asynchronously, when collecting all into one...
+        /// </remarks>
+        /// <param name="userIds"></param>
+        /// <returns>Task<User[]></returns>
+        public static Task<User[]> GetUsersAsync(IEnumerable<int> userIds)
         {
             //like this 
             var getUserTasks_ = new List<Task<User>>();
@@ -23,11 +31,12 @@ namespace CodeSnippet.ConsoleApp
             {
                 getUserTasks_.Add(GetUserAsync(userId));
             }
-            var @return = await Task.WhenAll(getUserTasks_);
+            //var @return = await Task.WhenAll(getUserTasks_);
             //or this
             var getUserTasks = userIds.Select(id => GetUserAsync(id));
-            var resp = await Task.WhenAll(getUserTasks);
-            return resp;
+            //var resp = await Task.WhenAll(getUserTasks);
+            return Task.WhenAll(getUserTasks);
+            //return resp;
         }
 
         public class User

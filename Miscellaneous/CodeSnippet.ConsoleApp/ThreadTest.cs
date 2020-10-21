@@ -127,7 +127,7 @@ namespace CodeSnippet.ConsoleApp
     }
     class threadingTest
     {
-        public static void Main()
+        public static void MainthreadingTest()
         {
             test2();
             Console.WriteLine("4th");
@@ -166,7 +166,7 @@ namespace CodeSnippet.ConsoleApp
     }
     #region better way to handle ex
     /*
-     public static void Main()
+     public static void MainthreadingTest()
     {
         new Thread (Go).Start();
     }
@@ -192,7 +192,7 @@ namespace CodeSnippet.ConsoleApp
     //Thread.CurrentThread.IsThreadPoolThread.
     class TaskThread
     {
-        static void Main()
+        static void MainTaskThread()
         {
             // Start the task executing:
             Task<string> task = Task.Factory.StartNew<string>
@@ -219,7 +219,7 @@ namespace CodeSnippet.ConsoleApp
         }
         /*
 
-         static void Main()
+         static void MainTaskThread()
         {
         ThreadPool.QueueUserWorkItem (Go);
         ThreadPool.QueueUserWorkItem (Go, 123);
@@ -236,7 +236,7 @@ namespace CodeSnippet.ConsoleApp
     }
     class AsynchronousDelegates
     {
-        static void Main()
+        static void MainAsynchronousDelegates()
         {
             Func<string, int> method = Work;
             IAsyncResult cookie = method.BeginInvoke("test", null, null);
@@ -250,7 +250,7 @@ namespace CodeSnippet.ConsoleApp
     }
     public class AsynchronousDelegatesWithAsyncCallback
     {
-        public static void Main()
+        public static void MainAsynchronousDelegatesWithAsyncCallback()
         {
             Func<string, int> method = Work;
             method.BeginInvoke("test", Done, method);
@@ -296,7 +296,7 @@ namespace CodeSnippet.ConsoleApp
     public class TheClub // No door lists!
     {
         static SemaphoreSlim _sem = new SemaphoreSlim(3); // Capacity of 3
-        static void Main()
+        static void MainTheClub()
         {
             for (int i = 1; i <= 5; i++) new Thread(Enter).Start(i);
         }
@@ -330,7 +330,7 @@ namespace CodeSnippet.ConsoleApp
         static EventWaitHandle _go = new AutoResetEvent(false);
         static readonly object _locker = new object();
         static string _message;
-        static void Main()
+        static void MainTwoWaySignaling()
         {
             new Thread(Work).Start();
             _ready.WaitOne(); // First wait until worker is ready
@@ -398,6 +398,17 @@ namespace CodeSnippet.ConsoleApp
                 else
                     _wh.WaitOne(); // No more tasks - wait for a signal
             }
+        }
+        static void MainProducerConsumerQueue()
+        {
+            using (ProducerConsumerQueue q = new ProducerConsumerQueue())
+            {
+                q.EnqueueTask("Hello");
+                for (int i = 0; i < 10; i++) q.EnqueueTask("Say " + i);
+                q.EnqueueTask("Goodbye!");
+            }
+            // Exiting the using statement calls q's Dispose method, which
+            // enqueues a null task and waits until the consumer finishes.
         }
     }
 }

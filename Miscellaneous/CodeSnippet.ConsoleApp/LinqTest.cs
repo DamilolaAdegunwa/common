@@ -72,6 +72,13 @@ ExamScores = new List<int>{ 96, 85, 91, 60}}
 };
         #endregion
         //Helper method, used in GroupByRange.
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        /// <exception cref="System.Exception"></exception>
+        /// <see cref="https://www.stackoverflow.com"/>
         protected static int GetPercentile(Student s)
         {
             double avg = s.ExamScores.Average();

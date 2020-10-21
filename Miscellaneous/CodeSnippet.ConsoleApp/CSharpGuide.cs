@@ -20,7 +20,12 @@ namespace CodeSnippet.ConsoleApp
         public delegate void Simple<T>(T s);
         public class DelegateTest<T>
         {
+            /// <value>
+            /// Get a "Simple" object of type string for display
+            /// </value>
+            
             public static Simple<string> SimpleStringConsoleDisplay { get; set; }
+            
             public void DelegateTestMethod()
             {
                 SimpleStringConsoleDisplay = new Simple<string>(TakeString);
@@ -50,6 +55,13 @@ namespace CodeSnippet.ConsoleApp
                 //UseMathematics(10, 20, Mathematics);
                 UseMathematics(10, 20, AddInts);
             }
+            /// <example>
+            /// <code>
+            ///  UseMathematics(10, 20, AddInts);
+            ///  or
+            ///  var sum = AddInts(10,20);
+            /// </code>
+            /// </example>
             public string AddInts(int a, int b)
             {
                 Console.WriteLine(a + b);
@@ -79,6 +91,15 @@ namespace CodeSnippet.ConsoleApp
                 singleAnswer(a, b);
             }
         }
+        /// <summary>
+        /// SUMMARY:
+        /// <para>The main logger service for making writing information, debug, trace and warning messages</para>
+        /// <para>Also includes the fatal, danger, error and test messages</para>
+        /// </summary>
+        /// <remarks>
+        /// <para>It has the "WriteMessage" property,</para>
+        /// <para>The "LogMessage" method</para>
+        /// </remarks>
         public static class Logger// third party logger service
         {
             public static Action<Severity, string, string> WriteMessage;

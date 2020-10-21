@@ -7,6 +7,9 @@ using System.Web.Security;
 using System.Web;
 namespace CodeSnippet.ConsoleApp
 {
+    /// <summary>
+    /// <para>this class use the <c>System.Web.Script.Serialization</c> a whole lot!</para>
+    /// </summary>
     public class IIdentityOrIPrincipal
     {
         public object CreateCookie(ViewModel viewModel)
@@ -69,6 +72,11 @@ namespace CodeSnippet.ConsoleApp
     }
     public class CustomPrincipalSerializeModel
     {
+
+        /// <summary>
+        /// get the Id in question
+        /// </summary>
+        /// <value>this is the Id and is of type <c>int</c></value>
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
