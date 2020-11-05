@@ -121,7 +121,6 @@ C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\bin
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\bin\CustomAuthenticationMVC.dll.config
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\bin\CustomAuthenticationMVC.dll
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\bin\CustomAuthenticationMVC.pdb
-C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csprojAssemblyReference.cache
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.Migrations.initial_migration.resources
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csproj.GenerateResource.cache
 C:\Users\DAMILOLA\source\repos\common\Authentication\CustomAuthenticationMVC\obj\Debug\CustomAuthenticationMVC.csproj.CopyComplete

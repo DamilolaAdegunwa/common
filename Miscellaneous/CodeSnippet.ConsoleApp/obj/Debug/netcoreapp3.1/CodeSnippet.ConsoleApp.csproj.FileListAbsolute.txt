@@ -1,6 +1,5 @@
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfoInputs.cache
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.AssemblyInfo.cs
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csprojAssemblyReference.cache
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.exe
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.deps.json
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.runtimeconfig.json

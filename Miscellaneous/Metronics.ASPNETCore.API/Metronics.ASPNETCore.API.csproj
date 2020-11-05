@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ASPNETCoreWebApplication\**" />
+    <Content Remove="ASPNETCoreWebApplication\**" />
+    <EmbeddedResource Remove="ASPNETCoreWebApplication\**" />
+    <None Remove="ASPNETCoreWebApplication\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Business\DynamicProxies\" />
     <Folder Include="Controllers\" />
     <Folder Include="Data\efCore\Mapping\" />

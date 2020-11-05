@@ -5,7 +5,6 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASP
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\bin\Debug\netcoreapp3.1\ASPNETCoreWebApplication.runtimeconfig.json
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\bin\Debug\netcoreapp3.1\ASPNETCoreWebApplication.runtimeconfig.dev.json
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\bin\Debug\netcoreapp3.1\ASPNETCoreWebApplication.dll
-C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.csprojAssemblyReference.cache
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\staticwebassets\ASPNETCoreWebApplication.StaticWebAssets.Manifest.cache
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\staticwebassets\ASPNETCoreWebApplication.StaticWebAssets.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.RazorAssemblyInfo.cache
@@ -80,3 +79,4 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASP
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.csproj.CopyComplete
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.dll
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.pdb
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\Metronics.ASPNETCore.API\ASPNETCoreWebApplication\obj\Debug\netcoreapp3.1\ASPNETCoreWebApplication.csprojAssemblyReference.cache

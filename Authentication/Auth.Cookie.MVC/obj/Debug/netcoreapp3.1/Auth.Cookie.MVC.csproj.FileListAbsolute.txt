@@ -32,7 +32,6 @@ C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\n
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.dll
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CopyComplete
-C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csprojAssemblyReference.cache
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\DamilolaAdegunwa\source\repos\common\Authentication\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

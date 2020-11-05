@@ -110,7 +110,6 @@ C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\bin\roslyn\
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csprojAssemblyReference.cache
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CopyComplete
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.dll
 C:\Users\DAMILOLA\source\repos\common\Authentication\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.pdb
