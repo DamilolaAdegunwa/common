@@ -16,7 +16,7 @@ namespace Auth.API.Services
     {
         private readonly IMemoryCache _cache;
         private readonly IFileProvider _fileProvider;
-        private List<string> _tokens = new List<string>();
+        //private List<string> _tokens = new List<string>();
 
         public FileService(IMemoryCache cache, IWebHostEnvironment env)
         {

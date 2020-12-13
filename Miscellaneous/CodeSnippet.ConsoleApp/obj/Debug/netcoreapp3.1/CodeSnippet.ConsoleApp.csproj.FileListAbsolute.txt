@@ -165,3 +165,4 @@ C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\D
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\App.config
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\bin\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.xml
 C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.xml
+C:\Users\DAMILOLA\source\repos\common\Miscellaneous\CodeSnippet.ConsoleApp\obj\Debug\netcoreapp3.1\CodeSnippet.ConsoleApp.csprojAssemblyReference.cache

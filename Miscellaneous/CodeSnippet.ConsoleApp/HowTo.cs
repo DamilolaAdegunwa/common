@@ -207,7 +207,7 @@ namespace CodeSnippet.ConsoleApp
     }
     public partial class Program
     {
-        static void Main(string[] args)
+        static void MainPatternMatchingSwitch(string[] args)
         {
             PatternMatchingSwitch(null);
             //int i = 5;

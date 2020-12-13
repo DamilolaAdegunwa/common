@@ -25,6 +25,15 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5000"
+    },
+    "Dammy.Auth.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/basic/get",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }
