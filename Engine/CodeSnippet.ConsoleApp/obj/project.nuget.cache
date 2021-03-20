@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a2JB9xNvbsn3ccO5ip+Chy1jZslPDmMPiRSdKt3NZISZNPa+yqOd+N0TJgJSujXCidM5f1PI8Evglc05yBiRaQ==",
+  "dgSpecHash": "s+gjUqUyX66xB0D9IE9LSAGEMom+V61pUzVMRa1Vd3/5MOedvq8p+7P/iaY9uQGt9ZBQR+XZwwkj/m7A+MVusw==",
   "success": true,
   "projectFilePath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -116,7 +116,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\DAMILOLA\\.nuget\\packages\\textcopy\\4.2.0\\textcopy.4.2.0.nupkg.sha512",
-    "C:\\Users\\DAMILOLA\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.11\\microsoft.netcore.app.host.win-x86.3.1.11.nupkg.sha512"
   ],
   "logs": [
     {

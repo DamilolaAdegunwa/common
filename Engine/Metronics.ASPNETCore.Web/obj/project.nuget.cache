@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zv+Yij+0/snsydWEaJq5/lewQVaA3joroRfOdO2QMGC5Qp2pfh72t8O5FHMwYsYBWkKj8o6tA7PAb50HmhWH7g==",
+  "dgSpecHash": "h4RiQY8o45wJFP26P89+WJXVwAVM7emDNvdDQ7JVCJrNhqXTwaRXqQn9vBR+QcbUNAB59Wxgo5VFUCdlW8ahhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
   "expectedPackageFiles": [
@@ -193,7 +193,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.thread\\4.3.0\\system.threading.thread.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
   ],
   "logs": [
     {

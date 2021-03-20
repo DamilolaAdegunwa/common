@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BalncdWXn8sETH6gFT5TMD8+GI5jJt7YtFmKs2sIye5L9cfNwiCsM+m0v6wKGtJI0uTH8jIGi8jveICTwWGKKg==",
+  "dgSpecHash": "ZD10IqP9h8SbMQC2hvI5457jqg0C+fU95HAWAliJDyaq8ZbxnwDVch1cYwZi8BN8sPRavQptPWe4R8oZW9C3PQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
   "expectedPackageFiles": [
@@ -207,7 +207,8 @@
     "C:\\Users\\DAMILOLA\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\DAMILOLA\\.nuget\\packages\\system.threading.thread\\4.0.0\\system.threading.thread.4.0.0.nupkg.sha512",
     "C:\\Users\\DAMILOLA\\.nuget\\packages\\system.web.http\\4.0.0\\system.web.http.4.0.0.nupkg.sha512",
-    "C:\\Users\\DAMILOLA\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
   ],
   "logs": [
     {

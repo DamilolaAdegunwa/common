@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7jZRZFcMyEVbAoVde6lvDPvH2stWi79tnDTP76f67c/Emei7YGIQLWsQTSYZ6sV/sTemD46dZhopD8zYdjHDBQ==",
+  "dgSpecHash": "qXAXlRG3QgXyks8Iwh6pChDnleYgiGqGIk1RuOKVto+IBD+N28Rm9rKUV5aDUCxF8Q63NwnJR9Mzo2uXzNuzDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
   "expectedPackageFiles": [
@@ -101,7 +101,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\DAMILOLA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
   ],
   "logs": []
 }
