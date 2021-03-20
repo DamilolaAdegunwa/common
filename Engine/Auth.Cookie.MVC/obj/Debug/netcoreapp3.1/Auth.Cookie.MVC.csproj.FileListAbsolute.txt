@@ -104,3 +104,40 @@ C:\Users\DAMILOLA\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreap
 C:\Users\DAMILOLA\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
 C:\Users\DAMILOLA\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.genruntimeconfig.cache
 C:\Users\DAMILOLA\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CopyComplete
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.exe
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.deps.json
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.runtimeconfig.json
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.runtimeconfig.dev.json
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.pdb
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csprojAssemblyReference.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.AssemblyInfoInputs.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.AssemblyInfo.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CoreCompileInputs.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.RazorAssemblyInfo.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.RazorAssemblyInfo.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Cookie.MVC.StaticWebAssets.Manifest.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\staticwebassets\Auth.Cookie.MVC.StaticWebAssets.xml
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\Auth.Cookie.MVC.styles.css
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.TagHelpers.input.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.TagHelpers.output.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.RazorCoreGenerate.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.RazorTargetAssemblyInfo.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.RazorTargetAssemblyInfo.cs
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.pdb
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.genruntimeconfig.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CopyComplete

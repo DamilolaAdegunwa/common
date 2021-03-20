@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
+    "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
+    "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "projectName": "Auth.Identity.MVC",
-        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
-        "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\obj\\",
+        "projectPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "packagesPath": "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Damilola Adegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -74,12 +72,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.11, 3.1.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

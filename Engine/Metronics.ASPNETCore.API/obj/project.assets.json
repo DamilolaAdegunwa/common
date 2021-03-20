@@ -2928,11 +2928,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3189,11 +3190,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5902,23 +5904,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DAMILOLA\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+      "projectUniqueName": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
       "projectName": "Metronics.ASPNETCore.API",
-      "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
-      "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
+      "projectPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+      "packagesPath": "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Damilola Adegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5926,7 +5924,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -5993,12 +5992,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.11, 3.1.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6007,7 +6000,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

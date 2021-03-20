@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
+    "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
+    "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "projectUniqueName": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
         "projectName": "Metronics.ASPNETCore.API",
-        "projectPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
-        "packagesPath": "C:\\Users\\DAMILOLA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
+        "projectPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "packagesPath": "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DAMILOLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Damilola Adegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -92,12 +90,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.11, 3.1.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -106,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZNFNyMYq+Evdphpg3rTcjLRVXP+8Q8les8s8X5W/akeLeFh8X0yu8QoN6k8Ih5CU7heQ4KnqNz2xKkCGbNlWyw==",
+  "dgSpecHash": "HYD4faMoUTHFG8IBkYyj9pshbL6vYNwAtU9pecVGvKLrqcJ6Lex6q3SGIakjrl/SJji/kxitiYJ4Ern7cX8iSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DAMILOLA\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\DAMILOLA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
