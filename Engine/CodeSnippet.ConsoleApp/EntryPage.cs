@@ -68,7 +68,7 @@
             //return info;
             return isRequired;
         }
-        public static void Main(string[] args)
+        public static void MainEntryPage(string[] args)
         {
             PropertyInfo[] ps = typeof(GetBillersResponse).GetProperties();
             GetBillersResponse gbr = new GetBillersResponse();
