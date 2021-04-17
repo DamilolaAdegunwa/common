@@ -114,7 +114,6 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.pdb
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\bin\Debug\netcoreapp3.1\Auth.Cookie.MVC.Views.pdb
-C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csprojAssemblyReference.cache
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.AssemblyInfoInputs.cache
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.AssemblyInfo.cs
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.Cookie.MVC\obj\Debug\netcoreapp3.1\Auth.Cookie.MVC.csproj.CoreCompileInputs.cache

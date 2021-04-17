@@ -9,9 +9,9 @@ namespace CodeSnippet.ConsoleApp
     {
         public static void Main()
         {
-            //var x = countTriplets(new List<long> { 1, 5, 5, 25, 125 }, 5);
-            //Console.WriteLine(x);
-            dammy: if (true) { }
+            //long xCount = countTriplets(new List<long> { 1, 5, 5, 25, 125 }, 5);
+            //Console.WriteLine(xCount);
+            //dammy: if (true) { }
         }
         static long countTriplets(List<long> arr, long r)
         {
@@ -41,6 +41,13 @@ namespace CodeSnippet.ConsoleApp
                 }
             }
             return result;
+        }
+
+        public int testy()
+        {
+            Console.WriteLine("save me");
+            Console.ReadLine();
+            return 20;
         }
     }
 }
