@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Auth.Cookie.MVC.Models;
+using Microsoft.AspNetCore.Html;
 
 namespace Auth.Cookie.MVC.Controllers
 {
@@ -20,6 +21,8 @@ namespace Auth.Cookie.MVC.Controllers
 
         public IActionResult Index()
         {
+            HtmlString str = new HtmlString("<b>(3)Hello Boss</b>");
+            ViewBag.htm = str;
             return View();
         }
 

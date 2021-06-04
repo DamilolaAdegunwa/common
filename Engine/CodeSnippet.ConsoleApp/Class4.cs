@@ -22,7 +22,7 @@ namespace CodeSnippet.ConsoleApp
     }
     public class Class4
     {
-        public static void Main()
+        public static void MainCsharp9()
         {
             var e = new csharp9().GoodEnough(null);
             Console.WriteLine(e);
