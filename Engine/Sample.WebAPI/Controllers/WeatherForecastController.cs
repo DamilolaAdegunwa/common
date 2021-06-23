@@ -13,6 +13,9 @@ namespace Test.Controllers
         [Route("upload")]
         public async Task<ActionResult> UploadTest([FromForm] TestModel test)
         {
+            //var files = System.Web.HttpContext.Current.Request.Files[0];
+            var f2 = Request.HttpContext.Request.Form.Files[0];
+            var f3 = Request.Form.Files[0];
             return Ok();
         }
     }
@@ -22,5 +25,6 @@ namespace Test.Controllers
         public string Name { get; set; }
         public int Age { get; set; }
         public string Hobbies { get; set; }
+        public List<KeyValuePair<long,string>> Properties { get; set; }
     }
 }

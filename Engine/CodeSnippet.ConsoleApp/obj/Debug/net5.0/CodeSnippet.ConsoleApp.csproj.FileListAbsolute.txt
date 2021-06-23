@@ -143,3 +143,4 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\obj
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\obj\Debug\net5.0\CodeSnippet.ConsoleApp.xml
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\obj\Debug\net5.0\CodeSnippet.ConsoleApp.pdb
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\obj\Debug\net5.0\CodeSnippet.ConsoleApp.genruntimeconfig.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\Oracle.ManagedDataAccess.dll

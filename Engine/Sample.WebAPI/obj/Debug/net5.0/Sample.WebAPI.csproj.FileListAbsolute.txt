@@ -33,3 +33,6 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\obj\Debug\ne
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\ref\Sample.WebAPI.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.pdb
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.genruntimeconfig.cache
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MailKit.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll

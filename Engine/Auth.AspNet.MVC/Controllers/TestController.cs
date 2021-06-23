@@ -98,6 +98,8 @@ namespace Auth.AspNet.MVC.Controllers
         }
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+            string formKey = "file";
+            var files = System.Web.HttpContext.Current.Request.Files[0];
             //Hard Coded for the moment
             var userID = "";
             var username = "";

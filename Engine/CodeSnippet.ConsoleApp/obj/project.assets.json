@@ -727,6 +727,15 @@
           "build/NUnit.props": {}
         }
       },
+      "Oracle.ManagedDataAccess/19.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
       "Polly/7.1.0": {
         "type": "package",
         "compile": {
@@ -3286,6 +3295,30 @@
         "lib/netstandard2.0/nunit.framework.xml",
         "nunit.3.12.0.nupkg.sha512",
         "nunit.nuspec"
+      ]
+    },
+    "Oracle.ManagedDataAccess/19.11.0": {
+      "sha512": "E1d+kp34TAS5BVM1vmPGc+jc+psG5gc+JkP6GmHVB26HUfOdKxz/8axsLMl63h2uxe2IQzVXWWXt823pM+15oQ==",
+      "type": "package",
+      "path": "oracle.manageddataaccess/19.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpm_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpm_perfmon_counters.ps1",
+        "bin/x64/Oracle.ManagedDataAccessIOP.dll",
+        "bin/x86/Oracle.ManagedDataAccessIOP.dll",
+        "content/net40/App.config.install.xdt",
+        "content/net40/App.config.transform",
+        "content/net40/App.config.uninstall.xdt",
+        "content/net40/Web.config.install.xdt",
+        "content/net40/Web.config.transform",
+        "content/net40/Web.config.uninstall.xdt",
+        "info.txt",
+        "lib/net40/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.19.11.0.nupkg.sha512",
+        "oracle.manageddataaccess.nuspec",
+        "readme.txt"
       ]
     },
     "Polly/7.1.0": {
@@ -6113,6 +6146,7 @@
       "Nito.AsyncEx.Interop.WaitHandles >= 5.0.0",
       "Nito.AsyncEx.Oop >= 5.0.0",
       "Nito.AsyncEx.Tasks >= 5.0.0",
+      "Oracle.ManagedDataAccess >= 19.11.0",
       "RestSharp >= 106.11.5",
       "System",
       "System.Configuration.ConfigurationManager >= 4.7.0",
@@ -6151,8 +6185,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -6287,6 +6320,10 @@
           "Nito.AsyncEx.Tasks": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "Oracle.ManagedDataAccess": {
+            "target": "Package",
+            "version": "[19.11.0, )"
           },
           "RestSharp": {
             "target": "Package",
@@ -6485,6 +6522,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.Tpl.Dataflow 4.5.24' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Tpl.Dataflow",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Oracle.ManagedDataAccess 19.11.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Oracle.ManagedDataAccess",
       "targetGraphs": [
         "net5.0"
       ]

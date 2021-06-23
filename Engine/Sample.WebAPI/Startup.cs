@@ -39,8 +39,10 @@ namespace Sample.WebAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Sample.WebAPI", Version = "v1" });
             });
-           // Configuration.
-           // GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
+            // Configuration.
+            // GlobalConfiguration.Configuration.Formatters.Add(new BsonMediaTypeFormatter());
+            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+            services.AddTransient<IMailService, MailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

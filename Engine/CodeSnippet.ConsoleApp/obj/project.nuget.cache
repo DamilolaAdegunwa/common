@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gkyj60WTD4Jy9Ly3jsLxxj3oOVSvhVvJbSYHwmbmoGnAPLY9Jse455sfdY/Ddskl6llOrCH7fsfaNAGLeGZvRA==",
+  "dgSpecHash": "n0jv2l7VTQT7hpkrtOWVNIUrKnmCtmBoyQtMS4jdRFzdhGFGe79WEVPpbjbFTTWbKB6OMB91TJa7kksQPh9o1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,7 @@
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\nito.collections.deque\\1.0.4\\nito.collections.deque.1.0.4.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\nito.disposables\\2.0.0\\nito.disposables.2.0.0.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0\\oracle.manageddataaccess.19.11.0.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\restsharp\\106.11.5\\restsharp.106.11.5.nupkg.sha512",
@@ -235,6 +236,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.Tpl.Dataflow 4.5.24' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Tpl.Dataflow",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Oracle.ManagedDataAccess 19.11.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Oracle.ManagedDataAccess",
       "targetGraphs": [
         "net5.0"
       ]

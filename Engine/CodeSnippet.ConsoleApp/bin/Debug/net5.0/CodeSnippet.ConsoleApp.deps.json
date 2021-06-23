@@ -37,6 +37,7 @@
           "Nito.AsyncEx.Interop.WaitHandles": "5.0.0",
           "Nito.AsyncEx.Oop": "5.0.0",
           "Nito.AsyncEx.Tasks": "5.0.0",
+          "Oracle.ManagedDataAccess": "19.11.0",
           "RestSharp": "106.11.5",
           "System": "4.1.311.2",
           "System.Configuration.ConfigurationManager": "4.7.0",
@@ -722,6 +723,14 @@
           "lib/netstandard2.0/nunit.framework.dll": {
             "assemblyVersion": "3.12.0.0",
             "fileVersion": "3.12.0.0"
+          }
+        }
+      },
+      "Oracle.ManagedDataAccess/19.11.0": {
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "4.122.19.1",
+            "fileVersion": "4.122.19.1"
           }
         }
       },
@@ -1868,6 +1877,13 @@
       "sha512": "sha512-3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
       "path": "nunit/3.12.0",
       "hashPath": "nunit.3.12.0.nupkg.sha512"
+    },
+    "Oracle.ManagedDataAccess/19.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E1d+kp34TAS5BVM1vmPGc+jc+psG5gc+JkP6GmHVB26HUfOdKxz/8axsLMl63h2uxe2IQzVXWWXt823pM+15oQ==",
+      "path": "oracle.manageddataaccess/19.11.0",
+      "hashPath": "oracle.manageddataaccess.19.11.0.nupkg.sha512"
     },
     "Polly/7.1.0": {
       "type": "package",
