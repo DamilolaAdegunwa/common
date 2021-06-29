@@ -24,7 +24,7 @@ namespace Test.Controllers
         public IList<IFormFile> File { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
-        public string Hobbies { get; set; }
-        public List<KeyValuePair<long,string>> Properties { get; set; }
+        //public string Hobbies { get; set; }
+        //public List<KeyValuePair<long,string>> Properties { get; set; }
     }
 }

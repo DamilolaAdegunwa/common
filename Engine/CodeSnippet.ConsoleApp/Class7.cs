@@ -35,7 +35,7 @@ namespace CodeSnippet.ConsoleApp
 {
     public class Emailtest
     {
-        public static void Main()
+        public static void MainEmail2()
         {
             Email2("string htmlString");
         }

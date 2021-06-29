@@ -30,6 +30,11 @@
             <para>The "LogMessage" method</para>
             </remarks>
         </member>
+        <member name="T:CodeSnippet.ConsoleApp.FirebaseSample">
+            <summary>
+            Firebase Sample Class
+            </summary>
+        </member>
         <member name="T:CodeSnippet.ConsoleApp.IIdentityOrIPrincipal">
             <summary>
             <para>this class use the <c>System.Web.Script.Serialization</c> a whole lot!</para>
