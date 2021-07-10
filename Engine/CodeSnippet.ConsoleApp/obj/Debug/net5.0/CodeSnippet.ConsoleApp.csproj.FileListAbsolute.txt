@@ -150,3 +150,8 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\MailKit.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Damilola Adegunwa\source\repos\common\Engine\CodeSnippet.ConsoleApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
