@@ -27,6 +27,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
 using Microsoft.AspNetCore.SignalR;
+using Publico.Models;
+using Microsoft.AspNetCore.SignalR.Client;
+using Publico.Hubs;
+
 namespace Publico
 {
     public class Startup
@@ -46,7 +50,23 @@ namespace Publico
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<AppUser>(options => {
+                options.SignIn.RequireConfirmedAccount = false;
+
+                //password options
+                options.Password.RequireDigit = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequiredLength = 1;
+                options.Password.RequiredUniqueChars = 1;
+
+                //other options
+                options.Lockout.AllowedForNewUsers = false;
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedPhoneNumber = false;
+                options.User.RequireUniqueEmail = true;
+            })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddSignalR();
@@ -73,7 +93,9 @@ namespace Publico
 
             app.UseAuthentication();
             app.UseAuthorization();
-            //app.UseSignalR(route=> {
+            
+            //app.UseSignalR(route =>
+            //{
             //    route.MapHub<ChatHub>("/Home/Index");
             //});
             app.UseEndpoints(endpoints =>
@@ -82,6 +104,7 @@ namespace Publico
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+                endpoints.MapHub<ChatHub>("/Home/Index");
             });
         }
     }

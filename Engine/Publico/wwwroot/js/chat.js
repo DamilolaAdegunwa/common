@@ -1,5 +1,6 @@
 ﻿class Message {
     constructor(username, text, when) {
+        console.log("fuck what is username, text, when??::",username, text, when)
         this.userName = username;
         this.text = text;
         this.when = when;
@@ -14,6 +15,7 @@ const chat = document.getElementById('chat');
 const messagesQueue = [];
 
 document.getElementById('submitButton').addEventListener('click', () => {
+    debugger;
     var currentdate = new Date();
     when.innerHTML =
         (currentdate.getMonth() + 1) + "/"
@@ -23,20 +25,23 @@ document.getElementById('submitButton').addEventListener('click', () => {
 });
 
 function clearInputField() {
+    debugger;
     messagesQueue.push(textInput.value);
     textInput.value = "";
 }
 
 function sendMessage() {
+    debugger;
     let text = messagesQueue.shift() || "";
     if (text.trim() === "") return;
 
     let when = new Date();
-    let message = new Message(username, text);
+    let message = new Message(username, text, when);
     sendMessageToHub(message);
 }
 
 function addMessageToChat(message) {
+    debugger;
     let isCurrentUserMessage = message.userName === username;
 
     let container = document.createElement('div');
@@ -61,4 +66,5 @@ function addMessageToChat(message) {
     container.appendChild(text);
     container.appendChild(when);
     chat.appendChild(container);
+    console.log("here is the f**king container!", container)
 }

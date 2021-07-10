@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Publico.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser,IdentityRole<long>,long>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

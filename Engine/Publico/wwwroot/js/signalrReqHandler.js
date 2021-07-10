@@ -6,9 +6,12 @@ connection.on('receiveMessage', addMessageToChat);
 
 connection.start()
     .catch(error => {
-        console.error(error.message);
+        debugger;
+        console.error(error);
+        //console.error(error.message);
     });
 
 function sendMessageToHub(message) {
+    debugger;
     connection.invoke('sendMessage', message);
 }

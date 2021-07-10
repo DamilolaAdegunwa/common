@@ -13,12 +13,12 @@
 
     <div class="row">
         <div class="col-md-12" id="chat">
-            @if(Model != null)
+            @if (Model != null)
             {
-                @foreach(var message in Model.OrderBy(m => m.When))
+                @foreach (var message in Model.OrderBy(m => m.When))
                 {
                     string containerClass, timePosition, textAlign, contColor, offset;
-                    if(userName == message.UserName)
+                    if (userName == message.UserName)
                     {
                         containerClass = "container darker";
                         timePosition = "time-right text-light";
@@ -56,21 +56,29 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">
             <input name="Text" class="form-control" id="messageText" />
+            <span id="when"></span>
         </div>
         <div class="form-group">
             <input type="submit" value="Send" id="submitButton" class="btn" />
         </div>
         <input type="hidden" value="@userName" name="username" />
+        
     </form>
 </div>
 
+@if (User.Identity.IsAuthenticated)
+{
+    <script>
+        const userName = "@ViewBag.CurrentUser";
+    </script>
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/signalr/signalr.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.unobtrusive-ajax.min.js"></script>
+<script src="~/js/chat.js"></script>
+<script src="~/js/signalrReqHandler.js"></script>
 
-
-
-<script>
-    const userName = "@ViewBag.CurrentUser";
-</script>
 @*<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>*@
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@

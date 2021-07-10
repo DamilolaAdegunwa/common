@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace Publico.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -29,9 +31,13 @@ namespace Publico.Controllers
         public async Task<IActionResult> Index()
         {
             var currentUser = await _userManager.GetUserAsync(User);
-            ViewBag.CurrentUser = currentUser.UserName;
-            var Messages = await _applicationDbContext.Messages.ToListAsync();
-            return View();
+            if(User.Identity.IsAuthenticated)
+            {
+                ViewBag.CurrentUser = currentUser.UserName;
+            }
+            
+            var messages = await _applicationDbContext.Messages.ToListAsync();
+            return View(messages);
         }
 
         public async Task<IActionResult> Create(Message message)
@@ -41,6 +47,7 @@ namespace Publico.Controllers
                 var currentUser = await _userManager.GetUserAsync(User);
                 message.UserName = currentUser.UserName;
                 message.UserId = currentUser.Id;
+                message.When = DateTimeOffset.Now;
                 _ = await _applicationDbContext.Messages.AddAsync(message);
                 _ = await _applicationDbContext.SaveChangesAsync();
                 return Ok();
