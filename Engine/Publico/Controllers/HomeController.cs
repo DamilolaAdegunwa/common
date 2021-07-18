@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,13 +20,16 @@ namespace Publico.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _applicationDbContext;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IHttpContextAccessor _httpContext;
         public HomeController(ILogger<HomeController> logger, 
             ApplicationDbContext applicationDbContext, 
-            UserManager<AppUser> userManager)
+            UserManager<AppUser> userManager,
+            IHttpContextAccessor httpContext)
         {
             _logger = logger;
             _applicationDbContext = applicationDbContext;
             _userManager = userManager;
+            _httpContext = httpContext;
         }
 
         public async Task<IActionResult> Index()
@@ -34,6 +38,7 @@ namespace Publico.Controllers
             if(User.Identity.IsAuthenticated)
             {
                 ViewBag.CurrentUser = currentUser.UserName;
+                ViewBag.CurrentUserId = currentUser.Id;
             }
             
             var messages = await _applicationDbContext.Messages.ToListAsync();
@@ -45,7 +50,7 @@ namespace Publico.Controllers
             if(ModelState.IsValid)
             {
                 var currentUser = await _userManager.GetUserAsync(User);
-                message.UserName = currentUser.UserName;
+                //message.UserName = currentUser.UserName;
                 message.UserId = currentUser.Id;
                 message.When = DateTimeOffset.Now;
                 _ = await _applicationDbContext.Messages.AddAsync(message);
@@ -65,5 +70,11 @@ namespace Publico.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        [AllowAnonymous]
+        public async Task<IActionResult> Start()
+        {
+            return View();
+        }
+
     }
 }

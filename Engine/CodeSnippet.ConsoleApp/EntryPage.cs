@@ -6,5 +6,11 @@ using System.Text;
 using Oracle.ManagedDataAccess.Types;
 namespace CodeSnippet.ConsoleApp
 {
-    
+    public class EntryPage
+    {
+        public static void Main()
+        {
+            
+        }
+    }
 }

@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Publico.Models.Message>
 @{
     ViewData["Title"] = "Home Page";
-    var userName = User.Identity.Name;
+    long? userId = (long?)ViewBag.CurrentUserId;//User.Identity.Name;
 }
 
 
@@ -18,7 +18,7 @@
                 @foreach (var message in Model.OrderBy(m => m.When))
                 {
                     string containerClass, timePosition, textAlign, contColor, offset;
-                    if (userName == message.UserName)
+                    if (userId == message.UserId)
                     {
                         containerClass = "container darker";
                         timePosition = "time-right text-light";
@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="@offset">
                             <div class="@containerClass @contColor">
-                                <p class="sender @textAlign">@message.UserName</p>
+                                @*<p class="sender @textAlign">@message.UserName</p>*@
                                 <p class="sender @textAlign">@message.Text</p>
                                 <span class="@timePosition"> @message.When.DateTime.ToString()</span>
                             </div>
@@ -61,7 +61,8 @@
         <div class="form-group">
             <input type="submit" value="Send" id="submitButton" class="btn" />
         </div>
-        <input type="hidden" value="@userName" name="username" />
+        <input type="hidden" value="@ViewBag.CurrentUser" name="username" />
+        <input type="hidden" value="@userId" name="userId" />
         
     </form>
 </div>
@@ -77,8 +78,3 @@
 <script src="~/lib/jquery/dist/jquery.unobtrusive-ajax.min.js"></script>
 <script src="~/js/chat.js"></script>
 <script src="~/js/signalrReqHandler.js"></script>
-
-@*<div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    </div>*@

@@ -234,10 +234,6 @@ namespace Publico.Migrations
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTimeOffset>("When")
                         .HasColumnType("datetimeoffset");
 

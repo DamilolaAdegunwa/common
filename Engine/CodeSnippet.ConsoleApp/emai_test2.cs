@@ -13,10 +13,7 @@ namespace CodeSnippet.ConsoleApp
 {
     public class emai_test2
     {
-        public static void Main()
-        {
-            //Main2();
-        }
+        
         public static void Main1()
         {
             // create email message

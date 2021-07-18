@@ -51,8 +51,6 @@ namespace Publico
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<AppUser>(options => {
-                options.SignIn.RequireConfirmedAccount = false;
-
                 //password options
                 options.Password.RequireDigit = false;
                 options.Password.RequireNonAlphanumeric = false;
@@ -65,6 +63,7 @@ namespace Publico
                 options.Lockout.AllowedForNewUsers = false;
                 options.SignIn.RequireConfirmedEmail = false;
                 options.SignIn.RequireConfirmedPhoneNumber = false;
+                options.SignIn.RequireConfirmedAccount = false;
                 options.User.RequireUniqueEmail = true;
             })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -102,7 +101,7 @@ namespace Publico
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Start}/{id?}");
                 endpoints.MapRazorPages();
                 endpoints.MapHub<ChatHub>("/Home/Index");
             });

@@ -1,0 +1,127 @@
+﻿@using Thur.Models
+@model IEnumerable<Thur.Models.Message>
+@{
+    ViewData["Title"] = "Home Page";
+    //string username = ViewBag.CurrentUser as string;
+    //IEnumerable<Thur.Models.Message> msgs = Model;
+}
+@*<div class="jumbotron bg-light">
+    <h2 class="text-center text-primary">
+        <i class="fab fa-facebook-messenger">&nbsp; Public Talk </i>
+    </h2>
+
+    <div class="row">
+        <div class="col-md-12" id="chat">
+            @if (Model != null)
+            {
+                @foreach (var msg in Model.OrderBy(m => m.When))
+                {
+                    string containerClass, timePosition, textAlign, contColor, offset;
+                    if (username == msg.Sender.UserName)
+                    {
+                        containerClass = "container darker";
+                        timePosition = "time-right text-light";
+                        textAlign = "text-right text-white";
+                        contColor = "bg-primary";
+                        offset = "col-md-6 offset-md-6";
+                    }
+                    else
+                    {
+                        containerClass = "container";
+                        timePosition = "time-left";
+                        textAlign = "text-left";
+                        contColor = "bg-light";
+                        offset = "";
+                    }
+                    <div class="row">
+                        <div class="@offset">
+                            <div class="@containerClass @contColor">
+                                <p class="sender @textAlign">@msg.Sender.UserName</p>
+                                <p class="sender @textAlign">@msg.Text</p>
+                                <span class="@timePosition"> @msg.When.DateTime.ToString()</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <form asp-action="Create"
+          data-ajax-begin="clearInputField" data-ajax-complete=""
+          data-ajax-failure="alert('Fail')" data-ajax-success="sendMessage"
+          data-ajax="true" data-ajax-method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <input name="Text" class="form-control" id="messageText" />
+            <span id="when"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send" id="submitButton" class="btn" />
+        </div>
+        <input type="hidden" value="@username" name="username" />
+
+    </form>
+</div>
+@if (Model != null)
+{
+    foreach (var m in msgs)
+    {
+        <div class="text-center">
+            <h1 class="display-4">@m.When</h1>
+            <p>@m.Text</p>
+        </div>
+    }
+}*@
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/jquery/dist/jquery.unobtrusive-ajax.min.js"></script>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <script>
+        $(document).ready(function () {
+
+            var c = new signalR.HubConnectionBuilder().withUrl('/Home/Index').build();
+            console.log("signalr connection", c);
+            c.on('receiveMessage', show);
+            c.start().catch(error => { console.error("error stuff!", error); });
+            c.invoke('SendMessage', { Id: 1, text: "one love" });
+
+            /*
+            function show(message) {
+                alert(message.text);
+            }
+            var c = new signalR.HubConnectionBuilder().withUrl('/Home/Index').build();
+            console.log("signalr connection", c);
+            c.on('receiveMessage', show);
+            c.start().catch(error => { console.error("error stuff!", error); });
+            c.invoke('SendMessage', { Id: 1, text: "one love" });
+            */
+
+
+            /*
+            //while (!c.connectionState == "Disconnected") {//"Connecting"//connectionStarted
+                //debugger;
+            //function TryHub(msg) {
+            //    debugger;
+
+            //    c.invoke('SendMessage', msg);
+            //}
+            //while (true) {
+            //    debugger;
+            //    //for (var x = 0; x < 1000000000; x++) {}
+            //    c.invoke('SendMessage', { Id: 1, text: "one love" });
+            //}
+                //break;
+           //}
+            */
+            
+
+            
+        });
+        
+    </script>
+}

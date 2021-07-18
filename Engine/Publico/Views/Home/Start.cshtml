@@ -1,0 +1,85 @@
+﻿
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<small> this the start page </small>
+<a id="btn btn-primary btn-lg" onclick="getToken(); return false;"> get token </a>
+
+<form action="https://localhost:44300/api/ad/UploadFile/Bulk" method="post" enctype="multipart/form-data">
+    <input type="hidden" id="Authorization" name="Authorization" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDQ0IiwibmFtZSI6ImRhbW15LmFkZWd1bndhQGdtYWlsLmNvbSIsImVtYWlsIjoiZGFtbXkuYWRlZ3Vud2FAZ21haWwuY29tIiwibmJmIjoxNjI2NTMyNDExLCJleHAiOjE2MjY3MTI0MTEsImlzcyI6IkVraUhpcmUuQXBpIiwiYXVkIjoiRWtpSGlyZS5XZWIifQ.ADnuxYhQ_roGyJncRTvqbPlGrviNWIyN-Ylkr3D_JXc"/>
+
+    <span style="color:red">upload file in bulk</span>
+    <input type="file" name="1files" id="1files" multiple />
+    <input type="submit" onclick="uploadFileBulk(); return false;" value="Submit"/>
+</form>
+<hr /><hr /><hr />
+<input type="file" name="files" id="files" multiple />
+<input type="button" onclick="uploadFileBulk(); return false;" value="Submit" />
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    function uploadFile() {
+
+    }
+
+    function uploadFileBulk() {
+        debugger;
+        var formData = new FormData();
+        var data = document.getElementById('files').files;
+        console.log(data);
+        for (i = 0; i < data.length; i++) {
+            var row = data[i];
+            console.log(row);
+            formData.append('file[]', row,'a');
+        }
+        console.log('formData:::>>> ', formData);
+        $.ajax({
+            url: 'https://localhost:44300/api/ad/UploadFile/Bulk',
+            type: "POST",
+            async: false,
+            contentType: false,
+            processData: false,
+            data: formData,
+            headers: {
+                'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDQ0IiwibmFtZSI6ImRhbW15LmFkZWd1bndhQGdtYWlsLmNvbSIsImVtYWlsIjoiZGFtbXkuYWRlZ3Vud2FAZ21haWwuY29tIiwibmJmIjoxNjI2NTMyNDExLCJleHAiOjE2MjY3MTI0MTEsImlzcyI6IkVraUhpcmUuQXBpIiwiYXVkIjoiRWtpSGlyZS5XZWIifQ.ADnuxYhQ_roGyJncRTvqbPlGrviNWIyN-Ylkr3D_JXc',
+            },
+            success: function (result) {
+                console.log(result);
+                alert(result)
+            },
+            error: function (err) {
+                console.log(err);
+                alert('error')
+            },
+            complete: function () {
+            }
+        });
+    }
+</script>
+<script>
+    function getToken() {
+        debugger;
+        var data = {
+            Username: "dammy.adegunwa@gmail.com",
+            Password: "password"
+        }
+        $.ajax({
+            //'url': "https://localhost:44300/api/token",
+            'url': "https://api.ekihire.com/api/token",
+            'data': JSON.stringify(data),
+            'method': 'POST',
+            contentType: 'application/json',
+            type:'POST',
+            success: function (resp) {
+                debugger;
+                alert('success');
+                console.log(resp);
+                alert(resp?.object?.token)
+            },
+            error: function (err, x) {
+                debugger;
+                alert('failure');
+                console.log(err, x);
+                alert(err, x);
+            }
+        });
+    }
+</script>
