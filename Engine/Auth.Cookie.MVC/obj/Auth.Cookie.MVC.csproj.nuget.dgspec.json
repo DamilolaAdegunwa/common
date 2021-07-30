@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\damil\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\damil\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\damil\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\obj\\",
+=======
+    "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+        "projectName": "Auth.Cookie.MVC",
+        "projectPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+        "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\obj\\",
+>>>>>>> 627e79fa65a8b7b12fffa84faf4133d94fcfbdf7
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",

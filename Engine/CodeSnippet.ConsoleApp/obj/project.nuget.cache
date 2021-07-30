@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PndLmcs6qtSg8i8iYWNhq+GhnLy56zHzK7KyAsq63l9zkZsjXelgD0T0PjlrsW289swJe82LtC/cb+p7owtByg==",
+  "dgSpecHash": "l5g1tAVVwNXr6xUmgP4AhkDxECixXwfQYlZZFffbkxz1eMFVcFQDkW8Zh/Dxv3hl21Oc6Sn7E1VuCh9ZmWQjsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
+    "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\cxuesong.shims.visualbasic.devices\\0.3.0\\cxuesong.shims.visualbasic.devices.0.3.0.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\eo.webbrowser\\20.2.63\\eo.webbrowser.20.2.63.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\fakeiteasy\\6.2.1\\fakeiteasy.6.2.1.nupkg.sha512",
     "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\firebase.notification\\1.0.0\\firebase.notification.1.0.0.nupkg.sha512",
