@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Client 3";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Client 3.</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.7/signalr.min.js"></script>
+<script>
+    /*
+    {
+      "username": "doajani@outlook.com",
+      "password": "password"
+    }
+     */
+    const connection = new signalR.HubConnectionBuilder()
+        //.withUrl("/chathub")
+        .withUrl("https://localhost:44300/ChatHub",
+            { accessTokenFactory: () => `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDUzIiwibmFtZSI6ImRvYWphbmlAb3V0bG9vay5jb20iLCJlbWFpbCI6ImRvYWphbmlAb3V0bG9vay5jb20iLCJuYmYiOjE2Mjc2NTM0ODYsImV4cCI6MTYyNzgzMzQ4NiwiaXNzIjoiRWtpSGlyZS5BcGkiLCJhdWQiOiJFa2lIaXJlLldlYiJ9.AzUkIMwyNk8YICVyr25lfNxNJB6T2ZOfgSWzY-BczVU` })
+        .configureLogging(signalR.LogLevel.Information)
+        .withAutomaticReconnect()
+        .build();
+
+    connection.on("ReceiveMessage", (message) => {
+        console.log("from receive message::", message)
+    });
+
+
+    async function start() {
+        try {
+            await connection.start();
+            console.log("SignalR Connected.");
+        } catch (err) {
+            console.log(err);
+            setTimeout(start, 5000);
+        }
+    };
+
+    connection.onreconnecting(error => {
+        console.log("onreconnecting:: ", error);
+    });
+
+    connection.onreconnected(connectionId => {
+        console.log("onreconnected:: ", connectionId);
+    });
+
+    connection.onclose(async () => {
+        console.log("onclose called");
+        await start();
+    });
+
+    // Start the connection.
+    start();
+    try {
+        await connection.invoke("SendMessage", message);
+    } catch (err) {
+        console.error(err);
+    }
+</script>
