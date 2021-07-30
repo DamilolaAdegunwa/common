@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.15.2" />
+    <PackageReference Include="CXuesong.Shims.VisualBasic.Devices" Version="0.3.0" />
     <PackageReference Include="EO.WebBrowser" Version="20.2.63" />
     <PackageReference Include="FakeItEasy" Version="6.2.1" />
     <PackageReference Include="Firebase.Notification" Version="1.0.0" />

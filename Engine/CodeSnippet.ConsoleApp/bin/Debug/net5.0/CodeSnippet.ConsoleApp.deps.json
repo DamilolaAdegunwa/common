@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CodeSnippet.ConsoleApp/1.0.0": {
         "dependencies": {
+          "CXuesong.Shims.VisualBasic.Devices": "0.3.0",
           "CloudinaryDotNet": "1.15.2",
           "EO.WebBrowser": "20.2.63",
           "FakeItEasy": "6.2.1",
@@ -94,6 +95,14 @@
           "lib/netstandard2.0/CloudinaryDotNet.dll": {
             "assemblyVersion": "1.15.2.0",
             "fileVersion": "1.15.2.0"
+          }
+        }
+      },
+      "CXuesong.Shims.VisualBasic.Devices/0.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/CXuesong.Shims.VisualBasic.Devices.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
           }
         }
       },
@@ -1622,6 +1631,13 @@
       "sha512": "sha512-PzJ6VtQACFELCXP4q3GQvbepwK9QwyANck4Dx+cbcKnN/FVp37sUcjXOR1LUQ0Nps9nPYuJu0dLBZvK0HkdMbQ==",
       "path": "cloudinarydotnet/1.15.2",
       "hashPath": "cloudinarydotnet.1.15.2.nupkg.sha512"
+    },
+    "CXuesong.Shims.VisualBasic.Devices/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EhdCMIo8Dm1dQHjuo+/Wgksc1DwkVgLmWHB0O09VYCmdZVx1VJaALHG/uNbNgfTrQ6ktLf3FKnfEthMMN8mDWg==",
+      "path": "cxuesong.shims.visualbasic.devices/0.3.0",
+      "hashPath": "cxuesong.shims.visualbasic.devices.0.3.0.nupkg.sha512"
     },
     "EO.WebBrowser/20.2.63": {
       "type": "package",
