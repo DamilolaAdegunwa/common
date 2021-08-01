@@ -74,5 +74,27 @@ namespace Shoprite.WebApplication.Controllers
             public string FILLER84 { get; set; }//72
             public string FILLER68 { get; set; }//81
         }
+        public IHttpActionResult GetPayrollDetails()
+        {
+            return Ok();
+        }
+        public class PayrollDetails
+        {
+            public string FILLER3 { get; set; }//2
+            public string FILLER4 { get; set; }//3
+            public string PaymentOrValueDate { get; set; }//4
+            public string PaymentCurrency { get; set; }//9
+            public string PaymentAmount { get; set; }//10
+            public string DebitAccountNumber { get; set; }//12
+            public string CustomerReference { get; set; }//25
+            public string BeneficiaryAccountNumber { get; set; }//44
+            public string BeneficiaryName { get; set; }//45
+            public string BeneficiaryAddress1 { get; set; }//47 - Address
+            public string BeneficiaryAddress2 { get; set; }//48 - Country
+            public string BeneficiaryAddress1LocalLanguage { get; set; }//49 - ZipCode
+            public string BeneficiaryBankCode { get; set; }//51
+            public string BeneficiaryNameLine1LocalLanguage { get; set; }//72
+            public string PaymentDetailLine1 { get; set; }//73
+        }
     }
 }
