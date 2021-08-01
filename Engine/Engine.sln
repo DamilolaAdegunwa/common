@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publico", "Publico\Publico.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thur", "Thur\Thur.csproj", "{D1565FE9-F1EC-40B6-A035-1BE194975FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoprite.ConsoleApp", "Shoprite.ConsoleApp\Shoprite.ConsoleApp.csproj", "{A6BA6243-B034-4D95-B986-AAD6C8000DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoprite.ConsoleApp", "Shoprite.ConsoleApp\Shoprite.ConsoleApp.csproj", "{A6BA6243-B034-4D95-B986-AAD6C8000DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrClient.WebApplication", "SignalrClient.WebApplication\SignalrClient.WebApplication.csproj", "{A21C60CB-57C1-4A95-90E2-8E38CD810A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrClient.WebApplication", "SignalrClient.WebApplication\SignalrClient.WebApplication.csproj", "{A21C60CB-57C1-4A95-90E2-8E38CD810A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoprite.WebApplication", "Shoprite.WebApplication\Shoprite.WebApplication.csproj", "{C10D91FC-EA80-4819-8EA2-763CEC093593}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{A21C60CB-57C1-4A95-90E2-8E38CD810A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A21C60CB-57C1-4A95-90E2-8E38CD810A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A21C60CB-57C1-4A95-90E2-8E38CD810A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
