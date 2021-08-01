@@ -7268,19 +7268,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\": {}
+    "C:\\Users\\damil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Thur\\Thur.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Thur\\Thur.csproj",
       "projectName": "Thur",
-      "projectPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Thur\\Thur.csproj",
-      "packagesPath": "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Thur\\obj\\",
+      "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Thur\\Thur.csproj",
+      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Thur\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Damilola Adegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7288,7 +7288,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
       },
       "frameworks": {
         "net5.0": {
@@ -7363,7 +7364,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },

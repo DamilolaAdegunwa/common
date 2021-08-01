@@ -5,12 +5,12 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\damil\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.10.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\Damilola Adegunwa\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\damil\.nuget\packages\" />
   </ItemGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -25,11 +25,11 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\3.3.0\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\3.3.0\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.netframework.analyzers\3.3.0</PkgMicrosoft_NetFramework_Analyzers>
-    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.netcore.analyzers\3.3.0</PkgMicrosoft_NetCore_Analyzers>
-    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.codequality.analyzers\3.3.0</PkgMicrosoft_CodeQuality_Analyzers>
-    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.codeanalysis.versioncheckanalyzer\3.3.0</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
-    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\3.3.0</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
-    <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\Damilola Adegunwa\.nuget\packages\microsoft.bcl.build\1.0.14</PkgMicrosoft_Bcl_Build>
+    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\damil\.nuget\packages\microsoft.netframework.analyzers\3.3.0</PkgMicrosoft_NetFramework_Analyzers>
+    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\damil\.nuget\packages\microsoft.netcore.analyzers\3.3.0</PkgMicrosoft_NetCore_Analyzers>
+    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\damil\.nuget\packages\microsoft.codequality.analyzers\3.3.0</PkgMicrosoft_CodeQuality_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">C:\Users\damil\.nuget\packages\microsoft.codeanalysis.versioncheckanalyzer\3.3.0</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
+    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">C:\Users\damil\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\3.3.0</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
+    <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\damil\.nuget\packages\microsoft.bcl.build\1.0.14</PkgMicrosoft_Bcl_Build>
   </PropertyGroup>
 </Project>

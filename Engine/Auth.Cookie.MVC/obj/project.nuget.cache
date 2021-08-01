@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PRUJ7TnQD6niqZjQtmfNStBIhGcCzpHtMWRN7lHVVYl/eCGfUX21915lY8UvMgfyh5ZQ+VXfv9RfikVj8bmB6g==",
+  "dgSpecHash": "prm4VbgsJoVF6q9wVpXxuC0xopeOx396OB3bHJQ2BgP3j/NNlr6M1ZmQddGBhmJbWnM/OkCzCjH6ipRpLkUPvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+  "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

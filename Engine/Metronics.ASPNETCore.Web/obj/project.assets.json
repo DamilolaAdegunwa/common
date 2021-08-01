@@ -9388,19 +9388,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\": {}
+    "C:\\Users\\damil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
       "projectName": "Metronics.ASPNETCore.Web",
-      "projectPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
-      "packagesPath": "C:\\Users\\Damilola Adegunwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Damilola Adegunwa\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\obj\\",
+      "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
+      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Damilola Adegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9408,7 +9408,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -9471,7 +9472,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },
