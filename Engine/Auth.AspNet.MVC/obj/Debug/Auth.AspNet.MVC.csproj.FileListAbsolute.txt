@@ -214,3 +214,13 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CopyComplete
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.pdb
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\bin\Auth.AspNet.MVC.dll.config
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\bin\Auth.AspNet.MVC.dll
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\bin\Auth.AspNet.MVC.pdb
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.AssemblyReference.cache
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CoreCompileInputs.cache
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CopyComplete
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.dll
+C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.pdb

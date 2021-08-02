@@ -11,7 +11,7 @@ namespace CodeSnippet.ConsoleApp.firs
 {
     public class MainFIRS
     {
-        public static void Main()
+        public static void MainFirs()
         {
             //var date = DateTimeOffset.Now;
             //var epoch2 = date.ToUnixTimeSeconds();//client ref

@@ -36,3 +36,41 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\obj\Debug\ne
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MailKit.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MimeKit.dll
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.exe
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.deps.json
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.runtimeconfig.json
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.runtimeconfig.dev.json
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\ref\Sample.WebAPI.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Sample.WebAPI.pdb
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Json.Net.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MailKit.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\MimeKit.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\bin\Debug\net5.0\System.Web.Http.WebHost.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.csproj.AssemblyReference.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.AssemblyInfoInputs.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.AssemblyInfo.cs
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\staticwebassets\Sample.WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\staticwebassets\Sample.WebAPI.StaticWebAssets.xml
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\scopedcss\bundle\Sample.WebAPI.styles.css
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.csproj.CopyComplete
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\ref\Sample.WebAPI.dll
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.pdb
+C:\Users\damil\source\repos\common\Engine\Sample.WebAPI\obj\Debug\net5.0\Sample.WebAPI.genruntimeconfig.cache
