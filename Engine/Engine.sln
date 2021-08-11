@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.API", "Auth.API\Auth.API.csproj", "{08469CC9-C2E4-4695-8331-84EC2A07C632}"
 EndProject
@@ -26,6 +26,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publico", "Publico\Publico.csproj", "{1AE7D763-8B45-4388-880C-54ABCD8998E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thur", "Thur\Thur.csproj", "{D1565FE9-F1EC-40B6-A035-1BE194975FE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoprite.ConsoleApp", "..\..\..\..\..\source\repos\common\Engine\Shoprite.ConsoleApp\Shoprite.ConsoleApp.csproj", "{9AB3A97F-BBFA-4CAB-A5BC-8C9261A6FF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoprite.WebApplication", "..\..\..\..\..\source\repos\common\Engine\Shoprite.WebApplication\Shoprite.WebApplication.csproj", "{C10D91FC-EA80-4819-8EA2-763CEC093593}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrClient.WebApplication", "..\..\..\..\..\source\repos\common\Engine\SignalrClient.WebApplication\SignalrClient.WebApplication.csproj", "{96CF14E8-4119-44E9-BAAB-2A613225B85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{D1565FE9-F1EC-40B6-A035-1BE194975FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1565FE9-F1EC-40B6-A035-1BE194975FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1565FE9-F1EC-40B6-A035-1BE194975FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB3A97F-BBFA-4CAB-A5BC-8C9261A6FF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB3A97F-BBFA-4CAB-A5BC-8C9261A6FF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB3A97F-BBFA-4CAB-A5BC-8C9261A6FF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB3A97F-BBFA-4CAB-A5BC-8C9261A6FF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10D91FC-EA80-4819-8EA2-763CEC093593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CF14E8-4119-44E9-BAAB-2A613225B85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CF14E8-4119-44E9-BAAB-2A613225B85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CF14E8-4119-44E9-BAAB-2A613225B85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CF14E8-4119-44E9-BAAB-2A613225B85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
