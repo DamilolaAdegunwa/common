@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Client 3";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Client 3.</p>
+    <button class="btn btn-default" onclick="send();">Send Message</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.7/signalr.min.js"></script>
+<script>
+    /*
+    {
+      "username": "doajani@outlook.com",
+      "password": "password"
+    }
+    userid = 10053
+     */
+    const connection = new signalR.HubConnectionBuilder()
+        //.withUrl("/chathub")
+        //.withUrl("https://localhost:44300/ChatHub",
+        .withUrl("https://api.ekihire.com/ChatHub",
+            { accessTokenFactory: () => `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMDUzIiwibmFtZSI6ImRvYWphbmlAb3V0bG9vay5jb20iLCJlbWFpbCI6ImRvYWphbmlAb3V0bG9vay5jb20iLCJuYmYiOjE2Mjc3NTc5NjYsImV4cCI6MTYyNzkzNzk2NiwiaXNzIjoiRWtpSGlyZS5BcGkiLCJhdWQiOiJFa2lIaXJlLldlYiJ9.qaV0Mqe9FmbHXmolNc4SVdKh_ujyeBtqa-tBqZmS0UY` })
+        .configureLogging(signalR.LogLevel.Information)
+        .withAutomaticReconnect()
+        .build();
+
+    connection.on("receiveMessage", (message) => {
+        console.log("from receive message::", message)
+    });
+
+
+    async function start() {
+        try {
+            await connection.start();
+            console.log("SignalR Connected.");
+        } catch (err) {
+            console.log("HubConnectionBuilder failed to start! ", err);
+            setTimeout(start, 5000);
+        }
+    };
+
+    connection.onreconnecting(error => {
+        console.log("onreconnecting:: ", error);
+    });
+
+    connection.onreconnected(connectionId => {
+        console.log("onreconnected:: ", connectionId);
+    });
+
+    connection.onclose(async () => {
+        console.log("onclose called");
+        await start();
+    });
+
+    // Start the connection.
+    start();
+    async function send() {
+        try {
+            var message = {
+                "senderId": 10053,
+                "recipientId": 10044,
+                "text": "client_2 to client_3",
+            };
+            await connection.invoke("SendMessage", message);
+        } catch (err) {
+            console.error("SendMessage failed! ",err);
+        }
+    }
+    
+</script>

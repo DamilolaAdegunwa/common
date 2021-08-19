@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+zfq2QcLmJqfF4nK1mGCmaFnOlIDrodhRShmsqp/5PuU5kMulGJXA5EN5W2mmEpP6OCtAMFbnneP8nfDPYeXdA==",
+  "dgSpecHash": "3dVa4oxjx3tEX2rIjgoANEw3V/VXtXufdf/3DWMLqFQeRulqlwECiGEiZWqifQn7v0dZACpmaakqbF5PwexwKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
   "expectedPackageFiles": [
@@ -207,8 +207,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.thread\\4.0.0\\system.threading.thread.4.0.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.web.http\\4.0.0\\system.web.http.4.0.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {

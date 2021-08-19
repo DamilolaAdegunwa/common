@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CndXaNDoKO2UfLNOVi2iP+PDxOMXDdRdhSROB2xig5g/flqD7J/dWgsZz/99A04VnQIGNb2f/zdnSwFMRAAwwQ==",
+  "dgSpecHash": "mpwvGM/hsfcmz5W8IZRG4ASujo8noQ3U9TYKpfW7lP228jf1eCsAZ9Y5crJ5m5v7SPT8ZGJK0XwtehTvA8YfTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Thur\\Thur.csproj",
   "expectedPackageFiles": [
@@ -148,8 +148,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.7\\microsoft.netcore.app.host.win-x64.5.0.7.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {

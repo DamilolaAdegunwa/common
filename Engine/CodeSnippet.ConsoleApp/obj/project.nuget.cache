@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BDT9DtAhcZa6+e2q6zc+UdcYA5PdcItd9fSy8Mj1UmwsYfm++Z5LjOipQ43VyCW66M5dz9kcbnSHD6y711u06A==",
+  "dgSpecHash": "HxKgai+NACU719pniW7oWlFGYEGF4fl6OPDRRrHG2BtqaNgDsCIm6RiukURwctiIrPRwEEh+J1Xr0Kuhzj8rVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -132,8 +132,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\textcopy\\4.2.0\\textcopy.4.2.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\5.0.7\\microsoft.netcore.app.host.win-x86.5.0.7.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": [
     {

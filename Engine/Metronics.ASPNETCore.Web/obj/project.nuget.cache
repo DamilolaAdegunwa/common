@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dFGkSfY0xovSy4PjasS0vAjvWtlG92Rh7pRkKt+YWCJCD4ttKQdOaWEKIVp3sKHnIV0ZoRyansjgbPVrOfct6A==",
+  "dgSpecHash": "mjwsv9mZsFTsIXBGu1dG6yGd3Ai1BMCGkxX9tVNc+mO3rY12enw2EfwitjQF7i5hskWSdqehp1Lr0/SPs0ufLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Metronics.ASPNETCore.Web\\Metronics.ASPNETCore.Web.csproj",
   "expectedPackageFiles": [
@@ -193,8 +193,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.thread\\4.3.0\\system.threading.thread.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {

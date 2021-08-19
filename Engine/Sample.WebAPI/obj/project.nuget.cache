@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "axL4Oa0+FlPu/s04yEPy8+1a14RrfRonpvCll2V3OrEgWYC259WBmh4vOJt1+jH+aM58pnlle+jOAzTcUKNjkA==",
+  "dgSpecHash": "x1h9yjbDoJ/YTzujZIGqSHRT72ex1V6A45+JIT0CPIkvQDE+daruJZkAlvgy55ku6zHLh2pJgsnDORJzVsrdlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -92,8 +92,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.7\\microsoft.netcore.app.host.win-x64.5.0.7.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
