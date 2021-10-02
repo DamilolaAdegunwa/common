@@ -56,9 +56,9 @@
           "System.Reactive.PlatformServices": "4.4.1",
           "System.Windows.Forms": "4.0.0",
           "TextCopy": "4.2.0",
+          "Vse.Web.Serialization.ControlledSerializationJsonConverter": "1.0.4",
           "Xamarin.Forms": "4.8.0.1451",
-          "System.Reactive.Reference": "4.4.0.0",
-          "System.Web.Extensions": "4.0.0.0"
+          "System.Reactive.Reference": "4.4.0.0"
         },
         "runtime": {
           "CodeSnippet.ConsoleApp.dll": {}
@@ -1370,6 +1370,14 @@
           }
         }
       },
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+        "runtime": {
+          "lib/net45/Vse.Web.Serialization.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
       "Xamarin.Forms/4.8.0.1451": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -1391,222 +1399,6 @@
           "System.Reactive.dll": {
             "assemblyVersion": "4.4.0.0",
             "fileVersion": "4.4.1.57983"
-          }
-        }
-      },
-      "System.Web.Extensions/4.0.0.0": {
-        "runtime": {
-          "System.Web.Extensions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.ServiceModel.Activation/4.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.Activation.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Web.ApplicationServices/4.0.0.0": {
-        "runtime": {
-          "System.Web.ApplicationServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.ServiceModel/4.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Web.Services/4.0.0.0": {
-        "runtime": {
-          "System.Web.Services.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Data.Linq/4.0.0.0": {
-        "runtime": {
-          "System.Data.Linq.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Data.Services.Client/4.0.0.0": {
-        "runtime": {
-          "System.Data.Services.Client.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Data.Services.Design/4.0.0.0": {
-        "runtime": {
-          "System.Data.Services.Design.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Data.Entity/4.0.0.0": {
-        "runtime": {
-          "System.Data.Entity.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Design/4.0.0.0": {
-        "runtime": {
-          "System.Design.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Web.RegularExpressions/4.0.0.0": {
-        "runtime": {
-          "System.Web.RegularExpressions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.ServiceModel.Activities/4.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.Activities.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Activities/4.0.0.0": {
-        "runtime": {
-          "System.Activities.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Runtime.DurableInstancing/4.0.0.0": {
-        "runtime": {
-          "System.Runtime.DurableInstancing.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Xaml/4.0.0.0": {
-        "runtime": {
-          "System.Xaml.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.IdentityModel/4.0.0.0": {
-        "runtime": {
-          "System.IdentityModel.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.EnterpriseServices/4.0.0.0": {
-        "runtime": {
-          "System.EnterpriseServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Messaging/4.0.0.0": {
-        "runtime": {
-          "System.Messaging.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.IdentityModel.Selectors/4.0.0.0": {
-        "runtime": {
-          "System.IdentityModel.Selectors.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.DirectoryServices/4.0.0.0": {
-        "runtime": {
-          "System.DirectoryServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Drawing.Design/4.0.0.0": {
-        "runtime": {
-          "System.Drawing.Design.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Data.OracleClient/4.0.0.0": {
-        "runtime": {
-          "System.Data.OracleClient.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
-        "runtime": {
-          "System.Runtime.Serialization.Formatters.Soap.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "Accessibility/4.0.0.0": {
-        "runtime": {
-          "Accessibility.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Activities.DurableInstancing/4.0.0.0": {
-        "runtime": {
-          "System.Activities.DurableInstancing.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Runtime.Remoting/4.0.0.0": {
-        "runtime": {
-          "System.Runtime.Remoting.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
-          }
-        }
-      },
-      "System.Configuration.Install/4.0.0.0": {
-        "runtime": {
-          "System.Configuration.Install.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.30319.34211"
           }
         }
       }
@@ -2514,6 +2306,13 @@
       "path": "textcopy/4.2.0",
       "hashPath": "textcopy.4.2.0.nupkg.sha512"
     },
+    "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d1ZGds/VSN028I9xA8illzAH60ra08Rfxk9e4vuJZX+etAvQjyCY9z2iEdN4J9UD6nSdmaI9FNN+nJ1UNKI8Uw==",
+      "path": "vse.web.serialization.controlledserializationjsonconverter/1.0.4",
+      "hashPath": "vse.web.serialization.controlledserializationjsonconverter.1.0.4.nupkg.sha512"
+    },
     "Xamarin.Forms/4.8.0.1451": {
       "type": "package",
       "serviceable": true,
@@ -2522,141 +2321,6 @@
       "hashPath": "xamarin.forms.4.8.0.1451.nupkg.sha512"
     },
     "System.Reactive.Reference/4.4.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.Extensions/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel.Activation/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.ApplicationServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.Services/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Data.Linq/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Data.Services.Client/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Data.Services.Design/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Data.Entity/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Design/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.RegularExpressions/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel.Activities/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Activities/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Runtime.DurableInstancing/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Xaml/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IdentityModel/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.EnterpriseServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Messaging/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IdentityModel.Selectors/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.DirectoryServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Drawing.Design/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Data.OracleClient/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Accessibility/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Activities.DurableInstancing/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Runtime.Remoting/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Configuration.Install/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

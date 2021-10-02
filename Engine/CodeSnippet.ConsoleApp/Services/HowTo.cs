@@ -205,7 +205,7 @@ namespace CodeSnippet.ConsoleApp
             }
         }
     }
-    public partial class Program
+    public partial class Program_OldOne
     {
         static void MainPatternMatchingSwitch(string[] args)
         {

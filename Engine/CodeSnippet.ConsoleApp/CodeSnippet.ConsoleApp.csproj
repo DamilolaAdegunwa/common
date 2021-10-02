@@ -75,6 +75,7 @@
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />
     <PackageReference Include="Microsoft.Tpl.Dataflow" Version="4.5.24" />
     <PackageReference Include="TextCopy" Version="4.2.0" />
+    <PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
     <PackageReference Include="System.Windows.Forms" />
     <!--<PackageReference Include="System.Windows.Media" />-->

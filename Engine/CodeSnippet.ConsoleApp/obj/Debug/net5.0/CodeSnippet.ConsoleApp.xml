@@ -365,5 +365,13 @@
             <param name="a">A double precision dividend.</param>
             <param name="b">A double precision divisor.</param>
         </member>
+        <member name="M:CodeSnippet.ConsoleApp.DFB.TimeDataflowComputations(System.Int32,System.Int32)">
+            <summary>
+            I can use like a parallel for(each)
+            </summary>
+            <param name="maxDegreeOfParallelism"></param>
+            <param name="messageCount"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

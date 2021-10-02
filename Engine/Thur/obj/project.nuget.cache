@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mpwvGM/hsfcmz5W8IZRG4ASujo8noQ3U9TYKpfW7lP228jf1eCsAZ9Y5crJ5m5v7SPT8ZGJK0XwtehTvA8YfTw==",
+  "dgSpecHash": "U+OH3c0ADTKCIMhGofsvMzkMH4WVUUf08ENAu68Oz2AnaFT3cZQmxXpHTHA2ejm8c/XstJROgn4NIzeNdA+tLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\Thur\\Thur.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.2\\microsoft.aspnet.signalr.core.2.4.2.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\5.0.9\\microsoft.aspnetcore.authentication.facebook.5.0.9.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.9\\microsoft.aspnetcore.authentication.google.5.0.9.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.7\\microsoft.aspnetcore.connections.abstractions.5.0.7.nupkg.sha512",
