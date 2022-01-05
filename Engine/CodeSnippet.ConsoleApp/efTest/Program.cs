@@ -8,7 +8,7 @@ namespace CodeSnippet.ConsoleApp.efTest
 {
     public class Program
     {
-        public static void Main()
+        public static void MainProgram()
         {
 
         }

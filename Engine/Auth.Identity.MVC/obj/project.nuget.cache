@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bxbMAoXJS1vmvWMZ2bEvZdPvNj4pOmisfjiWSB9fGUaPfYVTwigJE+29r7cxNnPYnun1j2AQduNsZa6hgFcFHQ==",
+  "dgSpecHash": "S+9wuaLfVQCGEytlQ7mX0FQz4o8YYoxboUqFJq+vRTHIvbh3NRp5xzHoQvcmP85EPOP8mSxzJTgO3DZinNfPFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
   "expectedPackageFiles": [
@@ -101,7 +101,8 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }

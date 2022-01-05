@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -22,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -51,11 +53,11 @@
             },
             "EO.WebBrowser": {
               "target": "Package",
-              "version": "[20.2.63, )"
+              "version": "[21.1.93, )"
             },
             "FakeItEasy": {
               "target": "Package",
-              "version": "[6.2.1, )"
+              "version": "[7.1.0, )"
             },
             "Firebase.Notification": {
               "target": "Package",
@@ -67,11 +69,11 @@
             },
             "Google.Apis.Drive.v3": {
               "target": "Package",
-              "version": "[1.52.0.2354, )"
+              "version": "[1.53.0.2397, )"
             },
             "Google.Cloud.Storage.V1": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.5.0, )"
             },
             "GoogleMapsApi": {
               "target": "Package",
@@ -83,11 +85,11 @@
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.2.5, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[2.13.0, )"
+              "version": "[2.14.0, )"
             },
             "Microsoft.Bcl": {
               "target": "Package",
@@ -105,39 +107,51 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Caching.Abstractions": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.Extensions.FileProviders.Abstractions": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.NETCore.Runtime.CoreCLR": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[2.0.8, )"
             },
             "Microsoft.Reactive.Testing": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.ServiceFabric": {
               "target": "Package",
-              "version": "[7.1.458, )"
+              "version": "[8.1.316, )"
             },
             "Microsoft.Tpl.Dataflow": {
               "target": "Package",
@@ -145,35 +159,35 @@
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[3.13.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "Nito.AsyncEx": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Nito.AsyncEx.Context": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Nito.AsyncEx.Coordination": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Nito.AsyncEx.Interop.WaitHandles": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Nito.AsyncEx.Oop": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Nito.AsyncEx.Tasks": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Oracle.ManagedDataAccess": {
               "target": "Package",
@@ -181,7 +195,7 @@
             },
             "RestSharp": {
               "target": "Package",
-              "version": "[106.11.7, )"
+              "version": "[106.12.0, )"
             },
             "System": {
               "target": "Package",
@@ -189,15 +203,15 @@
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[5.0.0, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
-              "version": "[5.0.0-preview.6.20305.6, )"
+              "version": "[5.0.2, )"
             },
             "System.Dynamic.Runtime": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[4.3.0, )"
             },
             "System.Linq": {
               "target": "Package",
@@ -205,27 +219,27 @@
             },
             "System.Linq.Async": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Reactive": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Reactive.Core": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Reactive.Interfaces": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Reactive.Linq": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Reactive.PlatformServices": {
               "target": "Package",
-              "version": "[4.4.1, )"
+              "version": "[5.0.0, )"
             },
             "System.Windows.Forms": {
               "target": "Package",
@@ -233,11 +247,11 @@
             },
             "TextCopy": {
               "target": "Package",
-              "version": "[4.2.0, )"
+              "version": "[4.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1451, )"
+              "version": "[5.0.0.2083, )"
             }
           },
           "imports": [
@@ -250,12 +264,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

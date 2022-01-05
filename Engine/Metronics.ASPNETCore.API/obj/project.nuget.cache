@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UeNU2npQLasK4G0kKbhBEVOm/i8bprg1vI5EoDszQayBIaM4iDSazPoKvfkD2PqsSdKv2exy1Qe7ruWuy97uPQ==",
+  "dgSpecHash": "9qog3gbowGD0npUTeMTLEKO1bxLwsT4wbHnQdmCwbxeYnltUgX4cVY0UdElAOxy/XA5MtVv5euD17+c/dwNUtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
   "expectedPackageFiles": [
@@ -119,7 +119,8 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\webactivatorex\\2.0.0\\webactivatorex.2.0.0.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\webactivatorex\\2.0.0\\webactivatorex.2.0.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": [
     {

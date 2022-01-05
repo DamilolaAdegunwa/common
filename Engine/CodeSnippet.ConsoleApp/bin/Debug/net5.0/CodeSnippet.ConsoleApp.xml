@@ -365,5 +365,35 @@
             <param name="a">A double precision dividend.</param>
             <param name="b">A double precision divisor.</param>
         </member>
+        <member name="T:EFGetStarted.BloggingContext">
+            <summary>
+            Here is the Blogging context for the blogging app
+            </summary>
+        </member>
+        <member name="P:EFGetStarted.BloggingContext.Blogs">
+            <summary>
+            Class mirroring the Blogs table
+            </summary>
+        </member>
+        <member name="P:EFGetStarted.BloggingContext.Posts">
+            <summary>
+            Class mirroring the Posts table
+            </summary>
+        </member>
+        <member name="P:EFGetStarted.BloggingContext.DbPath">
+            <summary>
+            string representing the connection string
+            </summary>
+        </member>
+        <member name="M:EFGetStarted.BloggingContext.#ctor">
+            <summary>
+            ctor for the blogging context
+            </summary>
+        </member>
+        <member name="T:EFGetStarted.Post">
+            <summary>
+            Post attached to blog
+            </summary>
+        </member>
     </members>
 </doc>

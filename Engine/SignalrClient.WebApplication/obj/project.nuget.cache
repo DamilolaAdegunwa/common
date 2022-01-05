@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0ZTnHc8nrKZ3GFNZrNYpg73ZqwOuw30CP48Eyjho6sBhQDHfSuohGFcJeCl2pM/AK7E/1W2DO1tU8SRLut4KA==",
+  "dgSpecHash": "ayoaQ4hL+d68McQa2mbV1H+abKhKf3xnpE/59jRJkMDmQkZmQ6UOilNQtGYhc33iwgOZgoGtsk+6HbMXGuGFvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\SignalrClient.WebApplication\\SignalrClient.WebApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }

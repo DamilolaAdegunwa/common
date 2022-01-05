@@ -1778,16 +1778,16 @@
           "lib/netstandard2.0/Polly.Extensions.Http.dll": {}
         }
       },
-      "RestSharp/100.3.0": {
+      "RestSharp/1.0.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "3.5.8"
+          "System.Text.Json": "5.0.0"
         },
         "compile": {
-          "lib/3.5/RestSharp.dll": {}
+          "lib/netstandard2.0/RestSharp.dll": {}
         },
         "runtime": {
-          "lib/3.5/RestSharp.dll": {}
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -2983,7 +2983,7 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/4.7.1": {
+      "System.Text.Json/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
@@ -5539,18 +5539,22 @@
         "polly.extensions.http.nuspec"
       ]
     },
-    "RestSharp/100.3.0": {
-      "sha512": "qcKFjgVb7OMj5GLrPWbEQp2N/UnhlKKyZUD4AwXuHLesMAbB515ZqrMnatrKGgcXnDxBA3pXaztQg3OBQ9Dd1Q==",
+    "RestSharp/1.0.0": {
+      "sha512": "2xO0bPtZ82mKh96ZGZ+TZvfpwsJNW+A0/bs8vmwS71V1R7Vqn8C1uIg3jQS1RmxdJelrzewnA/Y5gB8O3GfTaA==",
       "type": "package",
-      "path": "restsharp/100.3.0",
+      "path": "restsharp/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/3.5/RestSharp.dll",
-        "lib/SL4/RestSharp.Silverlight.dll",
-        "lib/WP7/RestSharp.WindowsPhone.dll",
-        "restsharp.100.3.0.nupkg.sha512",
-        "restsharp.nuspec"
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.1.0.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -8691,10 +8695,10 @@
         "version.txt"
       ]
     },
-    "System.Text.Json/4.7.1": {
-      "sha512": "XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
+    "System.Text.Json/5.0.0": {
+      "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "type": "package",
-      "path": "system.text.json/4.7.1",
+      "path": "system.text.json/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8707,7 +8711,7 @@
         "lib/netcoreapp3.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.4.7.1.nupkg.sha512",
+        "system.text.json.5.0.0.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8990,7 +8994,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\damil\\.nuget\\packages\\": {}
+    "C:\\Users\\damil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9001,6 +9006,9 @@
       "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -9010,8 +9018,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -9146,6 +9153,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9154,7 +9167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -9345,16 +9358,6 @@
       "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'RestSharp 100.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "RestSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

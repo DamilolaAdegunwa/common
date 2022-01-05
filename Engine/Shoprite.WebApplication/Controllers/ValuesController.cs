@@ -21,7 +21,7 @@ namespace Shoprite.WebApplication.Controllers
             string line = null;
             if(paymentFileType == "vendor")
             {
-                List<VendorPayment> result = new List<VendorPayment>();
+                List<ShopriteVendorPayment> result = new List<ShopriteVendorPayment>();
                 using (var ms = new MemoryStream())
                 {
                     file.InputStream.CopyTo(ms);
@@ -32,10 +32,10 @@ namespace Shoprite.WebApplication.Controllers
                     while ((line = reader.ReadLine()) != null)
                     {
                         string[] vendorArr = line.Split('#');
-                        result.Add(new VendorPayment
+                        result.Add(new ShopriteVendorPayment
                         {
-                            FILLER82 = vendorArr[1],
-                            FILLER2 = vendorArr[2],
+                            CountryCode = vendorArr[1],
+                            PaymentType = vendorArr[2],
                             PaymentOrValueDate = vendorArr[3],
                             PaymentCurrency = vendorArr[8],
                             PaymentAmount = vendorArr[9],
@@ -58,7 +58,7 @@ namespace Shoprite.WebApplication.Controllers
             }
             else if(paymentFileType == "payroll")
             {
-                List<PayrollDetails> result = new List<PayrollDetails>();
+                List<ShopriteSalaryPayment> result = new List<ShopriteSalaryPayment>();
                 using (var ms = new MemoryStream())
                 {
                     file.InputStream.CopyTo(ms);
@@ -69,10 +69,10 @@ namespace Shoprite.WebApplication.Controllers
                     while ((line = reader.ReadLine()) != null)
                     {
                         string[] vendorArr = line.Split('#');
-                        result.Add(new PayrollDetails
+                        result.Add(new ShopriteSalaryPayment
                         {
-                            FILLER3 = vendorArr[1],
-                            FILLER4 = vendorArr[2],
+                            CountryCode = vendorArr[1],
+                            PaymentType = vendorArr[2],
                             PaymentOrValueDate = vendorArr[3],
                             PaymentCurrency = vendorArr[8],
                             PaymentAmount = vendorArr[9],
@@ -93,10 +93,10 @@ namespace Shoprite.WebApplication.Controllers
             }
             return BadRequest();
         }
-        public class VendorPayment
+        public class ShopriteVendorPayment
         {
-            public string FILLER82 { get; set; }//2 - COUNTRY
-            public string FILLER2 { get; set; }//3 - 
+            public string CountryCode { get; set; }//2 - COUNTRY
+            public string PaymentType { get; set; }//3 - 
             public string PaymentOrValueDate { get; set; }//4
             public string PaymentCurrency { get; set; }//9
             public string PaymentAmount { get; set; }//10
@@ -120,10 +120,10 @@ namespace Shoprite.WebApplication.Controllers
         //{
         //    return Ok();
         //}
-        public class PayrollDetails
+        public class ShopriteSalaryPayment
         {
-            public string FILLER3 { get; set; }//2
-            public string FILLER4 { get; set; }//3
+            public string CountryCode { get; set; }//2
+            public string PaymentType { get; set; }//3
             public string PaymentOrValueDate { get; set; }//4
             public string PaymentCurrency { get; set; }//9
             public string PaymentAmount { get; set; }//10
