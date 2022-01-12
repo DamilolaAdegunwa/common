@@ -6872,23 +6872,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\damil\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dadegunwa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
       "projectName": "CodeSnippet.ConsoleApp",
-      "projectPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6896,8 +6892,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.hangfire.io/nuget/hangfire-pro": {}
+        "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -7133,7 +7129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   },
