@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Publico-5B476F3A-8201-459C-8B57-3F0A59B23B74")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Publico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
