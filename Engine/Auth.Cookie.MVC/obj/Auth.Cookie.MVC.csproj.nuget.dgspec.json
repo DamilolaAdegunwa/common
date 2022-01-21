@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {}
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
         "projectName": "Auth.Cookie.MVC",
-        "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+        "projectPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
         "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\obj\\",
+        "outputPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

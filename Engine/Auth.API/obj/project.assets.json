@@ -9027,11 +9027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
+      "projectUniqueName": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
       "projectName": "Auth.API",
-      "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
+      "projectPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.API\\Auth.API.csproj",
       "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.API\\obj\\",
+      "outputPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

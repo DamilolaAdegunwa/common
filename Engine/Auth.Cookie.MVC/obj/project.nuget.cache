@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTNv0IhNGsbBw242v2JP4GPjO6ehZISwGbtCrDVfVwa1vxZiK7BAMpscvU/t0e+2ULiXjqlAzgAuHhp/DOAipQ==",
+  "dgSpecHash": "0RwPLO4wMbUvbxhlcxfM8fk5d4DtREjpWlolwnHEvifuUdtYce8++bdnkg26a6ZAw3TzSJYJVZjVTvVzY4wSRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
+  "projectFilePath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Cookie.MVC\\Auth.Cookie.MVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

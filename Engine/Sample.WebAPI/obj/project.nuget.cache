@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqIW95YpDQSzfUVbu9KytytmgElyz/LdGaIWh/7M0NWMrS/umT0gO8RLNoJSB0QZm05FUFraKc1T5MMCRDYU5w==",
+  "dgSpecHash": "gWr6K91loO0vN2o4L9RsWVt+qAF79wlYrSCgC9cbf2Lfsi0TS3B0kC50CB06ZyZAO9QhBQ8ZSWl/6CKgoyygCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dadegunwa\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\dadegunwa\\.nuget\\packages\\mailkit\\2.12.0\\mailkit.2.12.0.nupkg.sha512",

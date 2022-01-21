@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj": {}
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj": {
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
         "projectName": "Sample.WebAPI",
-        "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
+        "projectPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
         "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Sample.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Sample.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

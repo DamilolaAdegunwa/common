@@ -6877,11 +6877,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
       "projectName": "CodeSnippet.ConsoleApp",
-      "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

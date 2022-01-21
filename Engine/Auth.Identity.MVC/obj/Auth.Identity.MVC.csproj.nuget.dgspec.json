@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
+    "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "projectName": "Auth.Identity.MVC",
-        "projectPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "packagesPath": "C:\\Users\\dadegunwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dadegunwa\\Source\\Repos\\common\\Engine\\Auth.Identity.MVC\\obj\\",
+        "outputPath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dadegunwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

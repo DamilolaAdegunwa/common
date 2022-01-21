@@ -11,14 +11,20 @@ namespace CodeSnippet.ConsoleApp.DesignPatterns.FactoryPatterns
         {
 
         }
+
+        //public static void Main()
+        //{
+        //    var shapeFactory = new ShapeFactory();
+
+        //    shapeFactory.GetShape(ShapeType.Cirle).Draw();
+        //    shapeFactory.GetShape(ShapeType.Square).Draw();
+        //    shapeFactory.GetShape(ShapeType.Rectangle).Draw();
+        //}
         public static void Main()
         {
-            var shapeFactory = new ShapeFactory<IShape>();
+            var laptopFactory = new LaptopFactory();
 
-            shapeFactory.GetShape(ShapeType.Cirle);
-            shapeFactory.GetShape(ShapeType.Square);
-            shapeFactory.GetShape(ShapeType.Rectangle);
+            laptopFactory.GetLaptop(LaptopType.Acer).StartUp();
         }
-
     }
 }
