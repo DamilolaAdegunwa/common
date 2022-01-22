@@ -11,7 +11,7 @@ namespace CodeSnippet.ConsoleApp.DesignPatterns.FactoryPatterns
         {
 
         }
-
+        //1
         //public static void Main()
         //{
         //    var shapeFactory = new ShapeFactory();
@@ -20,11 +20,12 @@ namespace CodeSnippet.ConsoleApp.DesignPatterns.FactoryPatterns
         //    shapeFactory.GetShape(ShapeType.Square).Draw();
         //    shapeFactory.GetShape(ShapeType.Rectangle).Draw();
         //}
-        public static void Main()
-        {
-            var laptopFactory = new LaptopFactory();
+        //2
+        //public static void Main()
+        //{
+        //    var laptopFactory = new LaptopFactory();
 
-            laptopFactory.GetLaptop(LaptopType.Acer).StartUp();
-        }
+        //    laptopFactory.GetLaptop(LaptopType.Acer).StartUp();
+        //}
     }
 }
