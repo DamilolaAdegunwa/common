@@ -53,6 +53,14 @@
               "target": "Package",
               "version": "[20.2.63, )"
             },
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[21.2.2, )"
+            },
+            "EventStore.Client.Grpc.Streams": {
+              "target": "Package",
+              "version": "[21.2.0, )"
+            },
             "FakeItEasy": {
               "target": "Package",
               "version": "[6.2.1, )"
