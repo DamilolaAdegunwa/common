@@ -90,7 +90,7 @@ HEAD OFFICE"; // I assume this to be the regions
             var insertTemp = "INSERT INTO [ZoneAdminPortal].[dbo].[Region] ([Code],[Name],[Description],[Status],[MFB_Code]) VALUES ( '{{code}}','{{name}}','{{description}}' ,2 ,NULL);\n\n";
             foreach (var region in zoneArr)
             {
-                var reg = region?.Trim('\r')?.Trim();
+                var reg = region?.Trim('\r')?.Trim()?.Replace("'", "''");
                 var temp = insertTemp;
                 temp = temp.Replace("{{code}}", null);
                 temp = temp.Replace("{{name}}", reg);
@@ -132,7 +132,7 @@ HEAD OF OPERATIONS/CLUSTER COMPLIANCE OFFICER";
             {
                 var temp = userRoleTemp;
                 
-                var rr = r?.Trim('\r')?.Trim();
+                var rr = r?.Trim('\r')?.Trim()?.Replace("'", "''");
 
                 temp = temp.Replace("{{Name}}",rr);
                 temp = temp.Replace("{{Code}}", null);
@@ -921,7 +921,7 @@ VICTORIA ISLAND";
             var correspondingZonesArr = correspondingZones.Split('\n');
 
             //template for creating the branch sql
-            var branchsqlTemplate = "INSERT INTO [dbo].[Branch] ([Address],[Code],[Name],[BranchCode],[RegionID],[Status],[MFB_Code],[IsHeadOffice],[CPCHubID],[PilotStatus]) VALUES ( '{{address}}','{{code}}','{{branchname}}','{{branchcode}}', (select top(1) ID FROM [ZoneAdminPortal].[dbo].[Region] where Name = '{{regionname}}') ,2 ,NULL ,0, NULL ,0);\n\n";
+            var branchsqlTemplate = "INSERT INTO [ZoneAdminPortal].[dbo].[Branch] ([Address],[Code],[Name],[BranchCode],[RegionID],[Status],[MFB_Code],[IsHeadOffice],[CPCHubID],[PilotStatus]) VALUES ( '{{address}}','{{code}}','{{branchname}}','{{branchcode}}', (select top(1) ID FROM [ZoneAdminPortal].[dbo].[Region] where Name = '{{regionname}}') ,2 ,NULL ,0, NULL ,0);\n\n";
 
             if (branchesArr.Length != correspondingZonesArr.Length)
             {
@@ -936,7 +936,7 @@ VICTORIA ISLAND";
                 try
                 {
                     var temp = branchsqlTemplate;
-                    var branchRow = branchesArr[i]?.Trim('\r')?.Trim();
+                    var branchRow = branchesArr[i]?.Trim('\r')?.Trim()?.Replace("'","''");
                     var correspondingZonesRow = correspondingZonesArr[i]?.Trim('\r')?.Trim();
 
                     temp = temp.Replace("{{address}}", null);
@@ -7200,12 +7200,12 @@ ABIOLA.FAGEBO@ZENITHBANK.COM";
                 try
                 {
                     var temp = userInsertSqlTemplate;
-                    string emailr = emailArr[i]?.Trim('\r').Trim();
-                    string namerow = nameArr[i]?.Trim('\r').Trim();
-                    string designation = RolesArr[i]?.Trim('\r').Trim();
-                    string rolename = RolesArr[i]?.Trim('\r').Trim();
+                    string emailr = emailArr[i]?.Trim('\r').Trim()?.Replace("'","''");
+                    string namerow = nameArr[i]?.Trim('\r').Trim()?.Replace("'", "''");
+                    string designation = RolesArr[i]?.Trim('\r').Trim()?.Replace("'", "''");
+                    string rolename = RolesArr[i]?.Trim('\r').Trim()?.Replace("'", "''");
                     string date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff");
-                    string branchname = BranchesArr[i]?.Trim('\r').Trim();
+                    string branchname = BranchesArr[i]?.Trim('\r').Trim()?.Replace("'", "''");
 
                     temp = temp.Replace("{{username}}", emailr);
                     temp = temp.Replace("{{lastname}}", namerow);
