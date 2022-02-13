@@ -33,7 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoprite.WebApplication", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalrClient.WebApplication", "..\..\..\..\..\source\repos\common\Engine\SignalrClient.WebApplication\SignalrClient.WebApplication.csproj", "{96CF14E8-4119-44E9-BAAB-2A613225B85B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStoreGRPC.SampleApp", "EventStoreGRPC.SampleApp\EventStoreGRPC.SampleApp.csproj", "{4A6BE3C7-62EB-45FA-9F5C-B8104C9414A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStoreGRPC.SampleApp", "EventStoreGRPC.SampleApp\EventStoreGRPC.SampleApp.csproj", "{4A6BE3C7-62EB-45FA-9F5C-B8104C9414A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncodeToken", "EncodeToken\EncodeToken.csproj", "{7D8F0928-0AD0-4441-A91A-F0616AAE04BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAdminSetup.ConsoleApp", "BankAdminSetup.ConsoleApp\BankAdminSetup.ConsoleApp.csproj", "{3F65FC08-1C29-44A6-8DE8-8A06402200A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{4A6BE3C7-62EB-45FA-9F5C-B8104C9414A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6BE3C7-62EB-45FA-9F5C-B8104C9414A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6BE3C7-62EB-45FA-9F5C-B8104C9414A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8F0928-0AD0-4441-A91A-F0616AAE04BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8F0928-0AD0-4441-A91A-F0616AAE04BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8F0928-0AD0-4441-A91A-F0616AAE04BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8F0928-0AD0-4441-A91A-F0616AAE04BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

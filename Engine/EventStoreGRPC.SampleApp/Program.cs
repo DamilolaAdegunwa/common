@@ -11,9 +11,9 @@ namespace EventStoreGRPC.SampleApp
     {
         private static CancellationToken cancellationToken;
 
-        public static async Task Main(string[] args)
+        public static async Task Mainx(string[] args)
         {
-            var settings = EventStoreClientSettings.Create("esdb://admin:changeit@10.3.4.12:1113");
+            var settings = EventStoreClientSettings.Create("esdb+discover://admin:changeit@127.0.0.1:1113");
             var client = new EventStoreClient(settings);
 
             var evt = new TestEvent

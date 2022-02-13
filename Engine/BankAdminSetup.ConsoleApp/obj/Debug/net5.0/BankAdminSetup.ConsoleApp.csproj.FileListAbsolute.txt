@@ -1,0 +1,16 @@
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.exe
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.deps.json
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.runtimeconfig.json
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.runtimeconfig.dev.json
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.dll
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\ref\BankAdminSetup.ConsoleApp.dll
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\BankAdminSetup.ConsoleApp.pdb
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.AssemblyInfo.cs
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.dll
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\ref\BankAdminSetup.ConsoleApp.dll
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.pdb
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.genruntimeconfig.cache
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.csproj.AssemblyReference.cache
