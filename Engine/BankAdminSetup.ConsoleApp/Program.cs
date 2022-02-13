@@ -1,4 +1,5 @@
 ﻿using System;
+using BankAdminSetup.ConsoleApp.GTBank.Helper;
 using BankAdminSetup.ConsoleApp.ZenithBank.Helper;
 namespace BankAdminSetup.ConsoleApp
 {
@@ -9,7 +10,11 @@ namespace BankAdminSetup.ConsoleApp
             //ZenithHelper.CreateRegionInsert();
             //ZenithHelper.CreateUserRoleInsert();
             //ZenithHelper.CreateBranchInsert();
-            ZenithHelper.CreateUserInsert();
+            //ZenithHelper.CreateUserInsert();
+
+            //gtbank
+            //GTBankHelper.CreateUserRoleInsert();
+            GTBankHelper.CreateRegionInsert();
             Console.ReadLine();
         }
     }
