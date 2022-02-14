@@ -7,6 +7,7 @@ namespace BankAdminSetup.ConsoleApp
     {
         public static void Main(string[] args)
         {
+            //zenith
             //ZenithHelper.CreateRegionInsert();
             //ZenithHelper.CreateUserRoleInsert();
             //ZenithHelper.CreateBranchInsert();

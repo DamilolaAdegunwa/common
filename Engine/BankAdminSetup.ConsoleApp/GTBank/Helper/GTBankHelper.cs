@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Office.Interop.Excel;
+//using Microsoft.Office.Interop.Excel;
+using ClosedXML;
+using ClosedXML.Excel;
+
 namespace BankAdminSetup.ConsoleApp.GTBank.Helper
 {
     public class GTBankHelper
@@ -337,52 +342,111 @@ ZAMFARA"; // i assume the state to be the region
 
             return branchSqlString;
         }
-        public static void ReadExcelFile(string filePath = @"C:\temp\GTBank Branches.xlsx")
+        //public static void ReadGTBankBranchesExcelFile(string filePath = @"C:\temp\GTBank Branches.xlsx")
+        //{
+        //    Console.BackgroundColor = ConsoleColor.DarkBlue;
+        //    Console.WriteLine("\nReading the Excel File...");
+        //    Console.BackgroundColor = ConsoleColor.Black;
+
+        //    Application xlApp = new Application();
+        //    Workbook xlWorkBook = xlApp.Workbooks.Open(filePath);
+        //    Worksheet xlWorkSheet = (Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+        //    Microsoft.Office.Interop.Excel.Range xlRange = xlWorkSheet.UsedRange;
+        //    int totalRows = xlRange.Rows.Count;
+        //    int totalColumns = xlRange.Columns.Count;
+
+        //    string firstValue, secondValue;
+
+        //    for (int rowCount = 1; rowCount <= totalRows; rowCount++)
+        //    {
+        //        GTBankBranches gTBankBranches = new GTBankBranches
+        //        {
+        //            SN = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text),
+        //            BranchCode = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text),
+        //            BranchName = Convert.ToString((xlRange.Cells[rowCount, 3] as Microsoft.Office.Interop.Excel.Range).Text),
+        //            Address = Convert.ToString((xlRange.Cells[rowCount, 4] as Microsoft.Office.Interop.Excel.Range).Text),
+        //            CityNameBankCode = Convert.ToString((xlRange.Cells[rowCount, 5] as Microsoft.Office.Interop.Excel.Range).Text),
+        //            State = Convert.ToString((xlRange.Cells[rowCount, 6] as Microsoft.Office.Interop.Excel.Range).Text),
+
+        //        };
+
+        //        //firstValue = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text);
+        //        //secondValue = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text);
+
+        //        //Console.WriteLine(firstValue + "\t" + secondValue);
+
+        //    }
+
+        //    xlWorkBook.Close();
+        //    xlApp.Quit();
+
+        //    Marshal.ReleaseComObject(xlWorkSheet);
+        //    Marshal.ReleaseComObject(xlWorkBook);
+        //    Marshal.ReleaseComObject(xlApp);
+
+        //    Console.WriteLine("End of the file...");
+        //}
+
+        public static void UploadExcel(string filePath = @"C:\temp\GTBank Branches.xlsx")
         {
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine("\nReading the Excel File...");
-            Console.BackgroundColor = ConsoleColor.Black;
-
-            Application xlApp = new Application();
-            Workbook xlWorkBook = xlApp.Workbooks.Open(filePath);
-            Worksheet xlWorkSheet = (Worksheet)xlWorkBook.Worksheets.get_Item(1);
-
-            Microsoft.Office.Interop.Excel.Range xlRange = xlWorkSheet.UsedRange;
-            int totalRows = xlRange.Rows.Count;
-            int totalColumns = xlRange.Columns.Count;
-
-            string firstValue, secondValue;
-
-            for (int rowCount = 1; rowCount <= totalRows; rowCount++)
+            DataTable dt = new DataTable();
+            //Checking file content length and Extension must be .xlsx  
+           // if (file != null && file.ContentLength > 0 && System.IO.Path.GetExtension(file.FileName).ToLower() == ".xlsx")
+            if (true)
             {
-                GTBankBranches gTBankBranches = new GTBankBranches
+                //string path = Path.Combine(Server.MapPath("~/UploadFile"), Path.GetFileName(file.FileName));
+                //Saving the file  
+                //file.SaveAs(path);
+                //Started reading the Excel file.  
+                using (XLWorkbook workbook = new XLWorkbook(filePath))
                 {
-                    SN = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text),
-                    BranchCode = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text),
-                    BranchName = Convert.ToString((xlRange.Cells[rowCount, 3] as Microsoft.Office.Interop.Excel.Range).Text),
-                    Address = Convert.ToString((xlRange.Cells[rowCount, 4] as Microsoft.Office.Interop.Excel.Range).Text),
-                    CityNameBankCode = Convert.ToString((xlRange.Cells[rowCount, 5] as Microsoft.Office.Interop.Excel.Range).Text),
-                    State = Convert.ToString((xlRange.Cells[rowCount, 6] as Microsoft.Office.Interop.Excel.Range).Text),
-
-                };
-
-                //firstValue = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text);
-                //secondValue = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text);
-
-                //Console.WriteLine(firstValue + "\t" + secondValue);
-
+                    IXLWorksheet worksheet = workbook.Worksheet(1);
+                    bool FirstRow = true;
+                    //Range for reading the cells based on the last cell used.  
+                    string readRange = "1:1";
+                    foreach (IXLRow row in worksheet.RowsUsed())
+                    {
+                        //If Reading the First Row (used) then add them as column name  
+                        if (FirstRow)
+                        {
+                            //Checking the Last cellused for column generation in datatable  
+                            readRange = string.Format("{0}:{1}", 1, row.LastCellUsed().Address.ColumnNumber);
+                            foreach (IXLCell cell in row.Cells(readRange))
+                            {
+                                dt.Columns.Add(cell.Value.ToString());
+                            }
+                            FirstRow = false;
+                        }
+                        else
+                        {
+                            //Adding a Row in datatable  
+                            dt.Rows.Add();
+                            int cellIndex = 0;
+                            //Updating the values of datatable  
+                            foreach (IXLCell cell in row.Cells(readRange))
+                            {
+                                dt.Rows[dt.Rows.Count - 1][cellIndex] = cell.Value.ToString();
+                                cellIndex++;
+                            }
+                        }
+                    }
+                    //If no data in Excel file  
+                    if (FirstRow)
+                    {
+                        Console.WriteLine("Empty Excel File!");
+                        //ViewBag.Message = "Empty Excel File!";
+                    }
+                }
             }
-
-            xlWorkBook.Close();
-            xlApp.Quit();
-
-            Marshal.ReleaseComObject(xlWorkSheet);
-            Marshal.ReleaseComObject(xlWorkBook);
-            Marshal.ReleaseComObject(xlApp);
-
-            Console.WriteLine("End of the file...");
+            else
+            {
+                //If file extension of the uploaded file is different then .xlsx
+                Console.WriteLine("Please select file with .xlsx extension!");
+                //ViewBag.Message = "Please select file with .xlsx extension!";
+            }
+            //return View(dt);
         }
-
         public class GTBankBranches
         {
             public string SN { get; set; }//number

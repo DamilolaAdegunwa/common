@@ -16,3 +16,4 @@ C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debu
 C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.csproj.AssemblyReference.cache
 C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\obj\Debug\net5.0\BankAdminSetup.ConsoleApp.csproj.CopyComplete
+C:\Users\dadegunwa\source\repos\common\Engine\BankAdminSetup.ConsoleApp\bin\Debug\net5.0\Microsoft.Office.Interop.Excel.dll
