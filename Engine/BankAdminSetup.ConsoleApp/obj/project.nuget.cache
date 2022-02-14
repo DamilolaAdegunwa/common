@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "R91xgdUKhCozvMBz7jTxk8Kz9LFiB5IBuXFHskySmwh24Nr46A7e0N2PBlv1DBtdqwjs7U3hAtM9ihz4XY50nA==",
+  "dgSpecHash": "gGprWotoeqBZ+yf0gjlEGXlm+yABWtCGep/hi4ke/NeyfoDu5GZMjflRcvteKQZ0m9/y4Nhh3F0dPg7hj8f74A==",
   "success": true,
   "projectFilePath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\BankAdminSetup.ConsoleApp\\BankAdminSetup.ConsoleApp.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\dadegunwa\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
+    "C:\\Users\\dadegunwa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Excel 15.0.4795.1000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Excel",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

@@ -11,10 +11,12 @@ namespace BankAdminSetup.ConsoleApp
             //ZenithHelper.CreateUserRoleInsert();
             //ZenithHelper.CreateBranchInsert();
             //ZenithHelper.CreateUserInsert();
+            //ZenithHelper.CreateBranchRegionJson();
 
             //gtbank
             //GTBankHelper.CreateUserRoleInsert();
-            GTBankHelper.CreateRegionInsert();
+            //GTBankHelper.CreateRegionInsert();
+            GTBankHelper.ReadGTBankBranchesExcelFile();
             Console.ReadLine();
         }
     }

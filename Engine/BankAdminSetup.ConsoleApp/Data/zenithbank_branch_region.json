@@ -1,0 +1,1538 @@
+[
+    {
+        "Branch": "UMUAHIA",
+        "Region": "ABIA 2"
+    },
+    {
+        "Branch": "ALGERIA STREET (WUSE ANNEX)",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "MARARABA",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "MARARABA 2",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "NEW WUSE",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "TRANSCORP HILTON",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "DEI - DEI",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "FEDERAL SECRETARIAT",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "LAW SCHOOL (BWARI)",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "SILVERBIRD GALLARIA (CBD V)",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "GATEWAY MALL",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "HERBERT MACAULAY (WUSE IV)",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "SULTAN ABUBAKAR WAY",
+        "Region": "ABUJA 8"
+    },
+    {
+        "Branch": "KEBBI HOUSE",
+        "Region": "ABUJA 9"
+    },
+    {
+        "Branch": "AWKA",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "AWKA 2",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "ELECTRONICS MARKET",
+        "Region": "ANAMBRA 2"
+    },
+    {
+        "Branch": "UMUNZE",
+        "Region": "ANAMBRA 2"
+    },
+    {
+        "Branch": "BRIDGE HEAD",
+        "Region": "ANAMBRA 3"
+    },
+    {
+        "Branch": "OZORO",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "AFIKPO",
+        "Region": "EBONYI"
+    },
+    {
+        "Branch": "ORLU",
+        "Region": "IMO"
+    },
+    {
+        "Branch": "OWERRI",
+        "Region": "IMO"
+    },
+    {
+        "Branch": "IKOTUN",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "MOLONEY",
+        "Region": "LAGOS CENTRAL"
+    },
+    {
+        "Branch": "BIDA",
+        "Region": "NORTH CENTRAL ZONE 1"
+    },
+    {
+        "Branch": "MINNA 2",
+        "Region": "NORTH CENTRAL ZONE 1"
+    },
+    {
+        "Branch": "BUKURU",
+        "Region": "NORTH CENTRAL ZONE 2"
+    },
+    {
+        "Branch": "KEFFI",
+        "Region": "NORTH CENTRAL ZONE 2"
+    },
+    {
+        "Branch": "LOKOJA",
+        "Region": "NORTH CENTRAL ZONE 3"
+    },
+    {
+        "Branch": "OBAJANA",
+        "Region": "NORTH CENTRAL ZONE 3"
+    },
+    {
+        "Branch": "OKENE",
+        "Region": "NORTH CENTRAL ZONE 3"
+    },
+    {
+        "Branch": "MAKURDI 2   BENUE STATE",
+        "Region": "NORTH CENTRAL ZONE 4"
+    },
+    {
+        "Branch": "DAMATURU",
+        "Region": "NORTH EASTERN ZONE 1"
+    },
+    {
+        "Branch": "KASHIM IBRAHIM  (MADUGURI II)",
+        "Region": "NORTH EASTERN ZONE 1"
+    },
+    {
+        "Branch": "MAIDUGURI 3",
+        "Region": "NORTH EASTERN ZONE 1"
+    },
+    {
+        "Branch": "AZARE",
+        "Region": "NORTH EASTERN ZONE 2"
+    },
+    {
+        "Branch": "MUBI",
+        "Region": "NORTH EASTERN ZONE 3"
+    },
+    {
+        "Branch": "WUKARI",
+        "Region": "NORTH EASTERN ZONE 4"
+    },
+    {
+        "Branch": "KATSINA",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "KAZAURE",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "SOKOTO 2",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "SOKOTO 3",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "TALATA MAFARA",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "FUNTUA",
+        "Region": "NORTH WESTERN ZONE 5"
+    },
+    {
+        "Branch": "KADUNA 5",
+        "Region": "NORTH WESTERN ZONE 5"
+    },
+    {
+        "Branch": "KADUNA 3",
+        "Region": "NORTH WESTERN ZONE 6"
+    },
+    {
+        "Branch": "KADUNA REFINERY",
+        "Region": "NORTH WESTERN ZONE 6"
+    },
+    {
+        "Branch": "COLLEGE  ROAD",
+        "Region": "SANGO OTA"
+    },
+    {
+        "Branch": "MOKOLA",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "TEJUOSHO",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "AKA ROAD (UYO)",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "ONITSHA",
+        "Region": "ANAMBRA 2"
+    },
+    {
+        "Branch": "COKER",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "ISOLO",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "MATORI",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "JOS",
+        "Region": "NORTH CENTRAL ZONE 2"
+    },
+    {
+        "Branch": "JALINGO",
+        "Region": "NORTH EASTERN ZONE 4"
+    },
+    {
+        "Branch": "KANO",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "IWO ROAD",
+        "Region": "SOUTH WEST 1"
+    },
+    {
+        "Branch": "APAPA",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "ADETOKUNBO ADEMOLA",
+        "Region": "ADETOKUNBO ADEMOLA"
+    },
+    {
+        "Branch": "LEKKI",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "MAIDUGURI",
+        "Region": "NORTH EASTERN ZONE 1"
+    },
+    {
+        "Branch": "YOLA",
+        "Region": "NORTH EASTERN ZONE 3"
+    },
+    {
+        "Branch": "HOTORO",
+        "Region": "NORTH WESTERN ZONE 3"
+    },
+    {
+        "Branch": "IBADAN",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "AKURE",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "SURULERE",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "ADENIRAN OGUNSANYA",
+        "Region": "SURULERE 2"
+    },
+    {
+        "Branch": "ABA 2",
+        "Region": "ABIA 1"
+    },
+    {
+        "Branch": "ABA 3",
+        "Region": "ABIA 1"
+    },
+    {
+        "Branch": "OHAFIA",
+        "Region": "ABIA 2"
+    },
+    {
+        "Branch": "AMINU KANO II (CADASTRAL ZONE)",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "GWARIMPA",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "JABBI",
+        "Region": "ABUJA 1"
+    },
+    {
+        "Branch": "BWARI (MAIN)",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "DURUMI",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "DUTSE ALHAJI",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "GARKI",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "IMMIGRATION",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "UNIVERSITY OF ABUJA",
+        "Region": "ABUJA 2"
+    },
+    {
+        "Branch": "ADETOKUNBO ADEMOLA 2",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "AKINTOLA BOULEVARD",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "GWAGWALADA",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "UTAKO",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "ZUBA",
+        "Region": "ABUJA 3"
+    },
+    {
+        "Branch": "AMINU KANO I (WUSE 2)",
+        "Region": "ABUJA 4"
+    },
+    {
+        "Branch": "CBD II (HERBERT MACAULEY WAY)",
+        "Region": "ABUJA 4"
+    },
+    {
+        "Branch": "GARKI ULTRA MODERN MARKET",
+        "Region": "ABUJA 4"
+    },
+    {
+        "Branch": "MPAPE",
+        "Region": "ABUJA 4"
+    },
+    {
+        "Branch": "ADETOKUNBO ADEMOLA , ABUJA",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "AHMADU BELLO  WAY",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "ASOKORO",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "GUDU",
+        "Region": "ABUJA 5"
+    },
+    {
+        "Branch": "CENTRAL BUSINESS DISTRICT",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "EFAB",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "FUTURE VIEW PLAZA (CBD VI)",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "MAITAMA 2",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "ORO - AGO CRESCENT",
+        "Region": "ABUJA 6"
+    },
+    {
+        "Branch": "BAZE UNIVERSITY",
+        "Region": "ABUJA 7"
+    },
+    {
+        "Branch": "COURT OF APPEAL ,  ABUJA",
+        "Region": "ABUJA 7"
+    },
+    {
+        "Branch": "EAGLE",
+        "Region": "ABUJA 7"
+    },
+    {
+        "Branch": "GANA STREET",
+        "Region": "ABUJA 7"
+    },
+    {
+        "Branch": "KUBWA",
+        "Region": "ABUJA 7"
+    },
+    {
+        "Branch": "GWARIMPA 2",
+        "Region": "ABUJA 8"
+    },
+    {
+        "Branch": "K-CITY PLAZA",
+        "Region": "ABUJA 8"
+    },
+    {
+        "Branch": "NATIONAL ASSEMBLY",
+        "Region": "ABUJA 8"
+    },
+    {
+        "Branch": "WUSE",
+        "Region": "ABUJA 8"
+    },
+    {
+        "Branch": "ENUGU HOUSE",
+        "Region": "ABUJA 9"
+    },
+    {
+        "Branch": "HEAD OFFICE ANNEX 2",
+        "Region": "ADETOKUNBO ADEMOLA"
+    },
+    {
+        "Branch": "HEAD OFFICE ANNEX III",
+        "Region": "ADETOKUNBO ADEMOLA"
+    },
+    {
+        "Branch": "MURI OKUNOLA",
+        "Region": "ADETOKUNBO ADEMOLA"
+    },
+    {
+        "Branch": "AGEGE MOTOR ROAD",
+        "Region": "AGIDINGBI"
+    },
+    {
+        "Branch": "AKUTE",
+        "Region": "AGIDINGBI"
+    },
+    {
+        "Branch": "IJU",
+        "Region": "AGIDINGBI"
+    },
+    {
+        "Branch": "OJODU",
+        "Region": "AGIDINGBI"
+    },
+    {
+        "Branch": "AHMADU BELLO WAY ,  VICT ISLAN",
+        "Region": "AKIN ADESOLA"
+    },
+    {
+        "Branch": "HEAD OFFICE ANNEX 4",
+        "Region": "AKIN ADESOLA"
+    },
+    {
+        "Branch": "SAKA TINUBU",
+        "Region": "AKIN ADESOLA"
+    },
+    {
+        "Branch": "EKET",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "IKOT EKPENE",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "UYO",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "UYO 3",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "UYO 4",
+        "Region": "AKWA-IBOM"
+    },
+    {
+        "Branch": "AWOLOWO WAY",
+        "Region": "ALAUSA"
+    },
+    {
+        "Branch": "OREGUN",
+        "Region": "ALAUSA"
+    },
+    {
+        "Branch": "OREGUN 2",
+        "Region": "ALAUSA"
+    },
+    {
+        "Branch": "ALLEN 2",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "LADIPO OLUWOLE",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "OGBA",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "OGBA 2",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "OLOWU",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "ISAAC  JOHN STREET",
+        "Region": "ALLEN 2"
+    },
+    {
+        "Branch": "MARYLAND",
+        "Region": "ALLEN 2"
+    },
+    {
+        "Branch": "MOBOLAJI BANK -  ANTHONY WAY",
+        "Region": "ALLEN 2"
+    },
+    {
+        "Branch": "OPEBI",
+        "Region": "ALLEN 2"
+    },
+    {
+        "Branch": "IHIALA",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "NEW MARKET ROAD",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "NNAMDI AZIKIWE UNIVERSITY",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "NNEWI",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "OGIDI",
+        "Region": "ANAMBRA 1"
+    },
+    {
+        "Branch": "EKWULOBIA",
+        "Region": "ANAMBRA 2"
+    },
+    {
+        "Branch": "NKPOR",
+        "Region": "ANAMBRA 3"
+    },
+    {
+        "Branch": "APAPA ROAD  (OYINGBO)",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "CREEK ROAD",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "LIVERPOOL",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "MARINE ROAD",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "MOBIL ROAD",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "TRINITY",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "TRINITY 2",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "WAREHOUSE ROAD 2",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "WHARF  ROAD",
+        "Region": "APAPA"
+    },
+    {
+        "Branch": "AGBARA",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "ALABA 2",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "ALABA INTERNATIONAL",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "AMUWO ODOFIN",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "ASPAMDA TRADE FAIR",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "BADAGRY",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "FESTAC",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "OLD OJO ROAD",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "SATELLITE TOWN",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "SEME BORDER",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "TRADE FAIR",
+        "Region": "COKER/ FESTAC"
+    },
+    {
+        "Branch": "CHAMLEY (CALABAR 3)",
+        "Region": "CROSS RIVER"
+    },
+    {
+        "Branch": "IKOM",
+        "Region": "CROSS RIVER"
+    },
+    {
+        "Branch": "MARY SLESSOR ROAD",
+        "Region": "CROSS RIVER"
+    },
+    {
+        "Branch": "OGOJA",
+        "Region": "CROSS RIVER"
+    },
+    {
+        "Branch": "ABRAKA",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "AGBOR",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "AGBOR 2",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "ASABA",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "ASABA GRA",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "EFFURUN",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "EKPAN ,  DELTA STATE",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "EZENEI AVENUE",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "ICT (ASABA)",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "IGBUDU",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "KWALE",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "PTI ROAD",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "SAPELE",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "UGHELLI",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "WARRI",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "WARRI 2",
+        "Region": "DELTA"
+    },
+    {
+        "Branch": "ABAKALIKI 2",
+        "Region": "EBONYI"
+    },
+    {
+        "Branch": "BENIN AGBOR PARK",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "IKPOBA HILL",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "MISSION ROAD",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "SAKPONBA",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "UNIBEN",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "EKENWAN ROAD",
+        "Region": "EDO 2"
+    },
+    {
+        "Branch": "IKPOBA SLOPE",
+        "Region": "EDO 2"
+    },
+    {
+        "Branch": "OREGBENI",
+        "Region": "EDO 2"
+    },
+    {
+        "Branch": "USELU",
+        "Region": "EDO 2"
+    },
+    {
+        "Branch": "AUCHI",
+        "Region": "EDO 3"
+    },
+    {
+        "Branch": "EKPOMA",
+        "Region": "EDO 3"
+    },
+    {
+        "Branch": "OKADA",
+        "Region": "EDO 3"
+    },
+    {
+        "Branch": "UROMI",
+        "Region": "EDO 3"
+    },
+    {
+        "Branch": "NINTH MILE CORNER",
+        "Region": "ENUGU 1"
+    },
+    {
+        "Branch": "ZIK AVENUE",
+        "Region": "ENUGU 1"
+    },
+    {
+        "Branch": "ESTATE LAYOUT",
+        "Region": "ENUGU 2"
+    },
+    {
+        "Branch": "NSUKKA",
+        "Region": "ENUGU 2"
+    },
+    {
+        "Branch": "PRESIDENTIAL ROAD (ENUGU)",
+        "Region": "ENUGU 2"
+    },
+    {
+        "Branch": "ACME  ROAD",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "ADENIYI JONES",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "AROMIRE",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "COMPUTER VILLAGE",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "MEDICAL ROAD",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "OBA AKRAN 2",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "IKORODU",
+        "Region": "IKORODU 1"
+    },
+    {
+        "Branch": "IKORODU 2",
+        "Region": "IKORODU 1"
+    },
+    {
+        "Branch": "KETU",
+        "Region": "IKORODU 1"
+    },
+    {
+        "Branch": "MOUNTAIN TOP UNIVERSITY",
+        "Region": "IKORODU 1"
+    },
+    {
+        "Branch": "REDEMPTION CAMP",
+        "Region": "IKORODU 1"
+    },
+    {
+        "Branch": "IDI-ORO",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "IKORODU ROAD",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "MAGODO",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "ST FINBARRS",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "YABATECH",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "BOURDILLON",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "FALOMO ROUNDABOUT",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "IKOYI",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "KINGSWAY ROAD",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "KOFO ABAYOMI",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "OZUMBA MBADIWE",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "OZUMBA MBADIWE 2",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "SOUTH WEST IKOYI",
+        "Region": "IKOYI"
+    },
+    {
+        "Branch": "ANTHONY",
+        "Region": "ILUPEJU"
+    },
+    {
+        "Branch": "GBAGADA",
+        "Region": "ILUPEJU"
+    },
+    {
+        "Branch": "GBAGADA II",
+        "Region": "ILUPEJU"
+    },
+    {
+        "Branch": "AKOWONJO",
+        "Region": "ILUPEJU 2"
+    },
+    {
+        "Branch": "GOWON ESTATE",
+        "Region": "ILUPEJU 2"
+    },
+    {
+        "Branch": "IPAJA",
+        "Region": "ILUPEJU 2"
+    },
+    {
+        "Branch": "OJOKORO",
+        "Region": "ILUPEJU 2"
+    },
+    {
+        "Branch": "OKIGWE",
+        "Region": "IMO"
+    },
+    {
+        "Branch": "OWERRI 2",
+        "Region": "IMO"
+    },
+    {
+        "Branch": "OWERRI 3",
+        "Region": "IMO"
+    },
+    {
+        "Branch": "ALAGBADO",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "EJIGBO",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "IDIMU",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "INTERNATIONAL AIRPORT ROAD (LAGOS)",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "INT''L AIRPORT TERMINAL",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "ISOLO ROAD",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "OKOTA",
+        "Region": "ISOLO"
+    },
+    {
+        "Branch": "CATHOLIC MISSION",
+        "Region": "LAGOS CENTRAL"
+    },
+    {
+        "Branch": "LAGOS CENTRAL",
+        "Region": "LAGOS CENTRAL"
+    },
+    {
+        "Branch": "ADMIRALTY WAY , LEKKI",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "AJAH",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "EPE",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "IKOTA",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "IKOTA COMPLEX",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "LEKKI EXPRESSWAY",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "LEKKI EXPRESSWAY 2",
+        "Region": "LEKKI"
+    },
+    {
+        "Branch": "BROAD STREET",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "EBUTE-ERO",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "IDUMAGBO",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "IDUMOTA",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "MARINA 2",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "OKE - ARIN 2",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "OKE ARIN",
+        "Region": "MARINA"
+    },
+    {
+        "Branch": "ABULE-EGBA",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "BOLADE OSHODI",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "CHARITY OSHODI",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "DOPEMU",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "PALM AVENUE",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "PEN CINEMA",
+        "Region": "MATORI"
+    },
+    {
+        "Branch": "KONTANGORA",
+        "Region": "NORTH CENTRAL ZONE 1"
+    },
+    {
+        "Branch": "MINNA",
+        "Region": "NORTH CENTRAL ZONE 1"
+    },
+    {
+        "Branch": "SULEJA",
+        "Region": "NORTH CENTRAL ZONE 1"
+    },
+    {
+        "Branch": "JOS 2",
+        "Region": "NORTH CENTRAL ZONE 2"
+    },
+    {
+        "Branch": "LAFIA",
+        "Region": "NORTH CENTRAL ZONE 2"
+    },
+    {
+        "Branch": "ANKPA",
+        "Region": "NORTH CENTRAL ZONE 3"
+    },
+    {
+        "Branch": "ANYIGBA",
+        "Region": "NORTH CENTRAL ZONE 3"
+    },
+    {
+        "Branch": "GBOKO",
+        "Region": "NORTH CENTRAL ZONE 4"
+    },
+    {
+        "Branch": "MAKURDI",
+        "Region": "NORTH CENTRAL ZONE 4"
+    },
+    {
+        "Branch": "OTUKPO",
+        "Region": "NORTH CENTRAL ZONE 4"
+    },
+    {
+        "Branch": "BAUCHI",
+        "Region": "NORTH EASTERN ZONE 2"
+    },
+    {
+        "Branch": "POTISKUM",
+        "Region": "NORTH EASTERN ZONE 2"
+    },
+    {
+        "Branch": "YOLA 2",
+        "Region": "NORTH EASTERN ZONE 3"
+    },
+    {
+        "Branch": "YOLA 3",
+        "Region": "NORTH EASTERN ZONE 3"
+    },
+    {
+        "Branch": "JALINGO 2",
+        "Region": "NORTH EASTERN ZONE 4"
+    },
+    {
+        "Branch": "DUTSE",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "GWARZO",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "ZOO ROAD",
+        "Region": "NORTH WESTERN ZONE 1"
+    },
+    {
+        "Branch": "KANO 2",
+        "Region": "NORTH WESTERN ZONE 2"
+    },
+    {
+        "Branch": "KOFAR RUWA",
+        "Region": "NORTH WESTERN ZONE 2"
+    },
+    {
+        "Branch": "NAIBAWA",
+        "Region": "NORTH WESTERN ZONE 2"
+    },
+    {
+        "Branch": "UNITY ROAD",
+        "Region": "NORTH WESTERN ZONE 2"
+    },
+    {
+        "Branch": "GWALE (KABUGA)",
+        "Region": "NORTH WESTERN ZONE 3"
+    },
+    {
+        "Branch": "SABON GARI",
+        "Region": "NORTH WESTERN ZONE 3"
+    },
+    {
+        "Branch": "WUDIL",
+        "Region": "NORTH WESTERN ZONE 3"
+    },
+    {
+        "Branch": "BIRNIN KEBBI",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "GUSAU",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "SOKOTO",
+        "Region": "NORTH WESTERN ZONE 4"
+    },
+    {
+        "Branch": "KADUNA 2",
+        "Region": "NORTH WESTERN ZONE 5"
+    },
+    {
+        "Branch": "KADUNA 4",
+        "Region": "NORTH WESTERN ZONE 5"
+    },
+    {
+        "Branch": "ZARIA",
+        "Region": "NORTH WESTERN ZONE 5"
+    },
+    {
+        "Branch": "KAFANCHAN",
+        "Region": "NORTH WESTERN ZONE 6"
+    },
+    {
+        "Branch": "LIGALI AYORINDE  VICT ISLA",
+        "Region": "OLOSA"
+    },
+    {
+        "Branch": "AZIKIWE ROAD",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "BONNY ISLAND",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "IKWERRE ROAD  PH",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "OLU OBASANJO ROAD",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "ONNE",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "ORIJE (ABA ROAD 2)",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "OYIGBO",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "RUMUKWURUSHI",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "RUMUOKORO",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "RUMUOLA",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "TRANS AMADI 2",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "UNIPORT",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "WOJI",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "YENAGOA 2",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "ALUMINIUM VILLAGE",
+        "Region": "SANGO OTA"
+    },
+    {
+        "Branch": "SANGO OTA 3",
+        "Region": "SANGO OTA"
+    },
+    {
+        "Branch": "SANGO-OTA",
+        "Region": "SANGO OTA"
+    },
+    {
+        "Branch": "AGBENI MARKET",
+        "Region": "SOUTH WEST 1"
+    },
+    {
+        "Branch": "IBADAN 3",
+        "Region": "SOUTH WEST 1"
+    },
+    {
+        "Branch": "OLUYOLE",
+        "Region": "SOUTH WEST 1"
+    },
+    {
+        "Branch": "SAKI",
+        "Region": "SOUTH WEST 1"
+    },
+    {
+        "Branch": "BODIJA",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "OGBOMOSHO",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "OJOO",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "OYO TOWN",
+        "Region": "SOUTH WEST 2"
+    },
+    {
+        "Branch": "IJEBU-ODE",
+        "Region": "SOUTH WEST 3"
+    },
+    {
+        "Branch": "OKE - ILEWO",
+        "Region": "SOUTH WEST 3"
+    },
+    {
+        "Branch": "OWODE",
+        "Region": "SOUTH WEST 3"
+    },
+    {
+        "Branch": "SHAGAMU",
+        "Region": "SOUTH WEST 3"
+    },
+    {
+        "Branch": "ILE-IFE",
+        "Region": "SOUTH WEST 4"
+    },
+    {
+        "Branch": "ILESHA",
+        "Region": "SOUTH WEST 4"
+    },
+    {
+        "Branch": "OSHOGBO 2",
+        "Region": "SOUTH WEST 4"
+    },
+    {
+        "Branch": "ADO-EKITI",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "AKURE 2",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "EKITI STATE UNIVERSITY",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "ILORIN",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "ILORIN 2",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "OFFA",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "ONDO TOWN",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "ORE",
+        "Region": "SOUTH WEST 5"
+    },
+    {
+        "Branch": "ABALTI BARRACKS",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "AGUDA",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "ALAKA",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "COLLEGE OF MEDICINE",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "HERBERT MACAULAY",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "HERBERT MACAULEY 2",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "ITIRE",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "LAWANSON",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "TEJUOSHO MARKET",
+        "Region": "SURULERE 1"
+    },
+    {
+        "Branch": "ERIC MOORE",
+        "Region": "SURULERE 2"
+    },
+    {
+        "Branch": "OGUNLANA DRIVE",
+        "Region": "SURULERE 2"
+    },
+    {
+        "Branch": "ADEOLA ODEKU 2",
+        "Region": "VICTORIA ISLAND"
+    },
+    {
+        "Branch": "ADEYEMO ALAKIJA",
+        "Region": "VICTORIA ISLAND"
+    },
+    {
+        "Branch": "BAR BEACH",
+        "Region": "VICTORIA ISLAND"
+    },
+    {
+        "Branch": "SANUSI FAFUNWA",
+        "Region": "VICTORIA ISLAND"
+    },
+    {
+        "Branch": "ABA ROAD, PH",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "YENAGOA",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "OGINIGBA",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "RUMUIBEKWE",
+        "Region": "RIVERS & BAYELSA"
+    },
+    {
+        "Branch": "ABA",
+        "Region": "ABIA 1"
+    },
+    {
+        "Branch": "UMUAHIA 2",
+        "Region": "ABIA 2"
+    },
+    {
+        "Branch": "AGIDINGBI",
+        "Region": "AGIDINGBI"
+    },
+    {
+        "Branch": "AKIN ADESOLA",
+        "Region": "AKIN ADESOLA"
+    },
+    {
+        "Branch": "ALAUSA",
+        "Region": "ALAUSA"
+    },
+    {
+        "Branch": "ALLEN AVENUE",
+        "Region": "ALLEN 1"
+    },
+    {
+        "Branch": "RELIEF MARKET",
+        "Region": "ANAMBRA 3"
+    },
+    {
+        "Branch": "ABAKALIKI",
+        "Region": "EBONYI"
+    },
+    {
+        "Branch": "SAPELE ROAD",
+        "Region": "EDO 1"
+    },
+    {
+        "Branch": "BENIN",
+        "Region": "EDO 2"
+    },
+    {
+        "Branch": "BENIN AIRPORT RD",
+        "Region": "EDO 3"
+    },
+    {
+        "Branch": "ENUGU 2",
+        "Region": "ENUGU 1"
+    },
+    {
+        "Branch": "ENUGU",
+        "Region": "ENUGU 2"
+    },
+    {
+        "Branch": "OGUDU",
+        "Region": "IKORODU 2"
+    },
+    {
+        "Branch": "ILUPEJU 2",
+        "Region": "ILUPEJU 2"
+    },
+    {
+        "Branch": "FALOMO",
+        "Region": "LAGOS CENTRAL"
+    },
+    {
+        "Branch": "GOMBE",
+        "Region": "NORTH EASTERN ZONE 2"
+    },
+    {
+        "Branch": "KADUNA",
+        "Region": "NORTH WESTERN ZONE 6"
+    },
+    {
+        "Branch": "OLOSA",
+        "Region": "OLOSA"
+    },
+    {
+        "Branch": "SANGO - OTA 2",
+        "Region": "SANGO OTA"
+    },
+    {
+        "Branch": "ABEOKUTA",
+        "Region": "SOUTH WEST 3"
+    },
+    {
+        "Branch": "OSHOGBO",
+        "Region": "SOUTH WEST 4"
+    },
+    {
+        "Branch": "CALABAR",
+        "Region": "CROSS RIVER"
+    },
+    {
+        "Branch": "IKEJA",
+        "Region": "IKEJA 1"
+    },
+    {
+        "Branch": "ILUPEJU",
+        "Region": "ILUPEJU"
+    },
+    {
+        "Branch": "VICTORIA ISLAND",
+        "Region": "VICTORIA ISLAND"
+    }
+]

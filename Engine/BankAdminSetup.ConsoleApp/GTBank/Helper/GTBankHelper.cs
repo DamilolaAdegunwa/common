@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.Office.Interop.Excel;
 namespace BankAdminSetup.ConsoleApp.GTBank.Helper
 {
     public class GTBankHelper
@@ -335,6 +336,61 @@ ZAMFARA"; // i assume the state to be the region
             Console.WriteLine(branchSqlString);
 
             return branchSqlString;
+        }
+        public static void ReadExcelFile(string filePath = @"C:\temp\GTBank Branches.xlsx")
+        {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("\nReading the Excel File...");
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            Application xlApp = new Application();
+            Workbook xlWorkBook = xlApp.Workbooks.Open(filePath);
+            Worksheet xlWorkSheet = (Worksheet)xlWorkBook.Worksheets.get_Item(1);
+
+            Microsoft.Office.Interop.Excel.Range xlRange = xlWorkSheet.UsedRange;
+            int totalRows = xlRange.Rows.Count;
+            int totalColumns = xlRange.Columns.Count;
+
+            string firstValue, secondValue;
+
+            for (int rowCount = 1; rowCount <= totalRows; rowCount++)
+            {
+                GTBankBranches gTBankBranches = new GTBankBranches
+                {
+                    SN = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text),
+                    BranchCode = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text),
+                    BranchName = Convert.ToString((xlRange.Cells[rowCount, 3] as Microsoft.Office.Interop.Excel.Range).Text),
+                    Address = Convert.ToString((xlRange.Cells[rowCount, 4] as Microsoft.Office.Interop.Excel.Range).Text),
+                    CityNameBankCode = Convert.ToString((xlRange.Cells[rowCount, 5] as Microsoft.Office.Interop.Excel.Range).Text),
+                    State = Convert.ToString((xlRange.Cells[rowCount, 6] as Microsoft.Office.Interop.Excel.Range).Text),
+
+                };
+
+                //firstValue = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text);
+                //secondValue = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text);
+
+                //Console.WriteLine(firstValue + "\t" + secondValue);
+
+            }
+
+            xlWorkBook.Close();
+            xlApp.Quit();
+
+            Marshal.ReleaseComObject(xlWorkSheet);
+            Marshal.ReleaseComObject(xlWorkBook);
+            Marshal.ReleaseComObject(xlApp);
+
+            Console.WriteLine("End of the file...");
+        }
+
+        public class GTBankBranches
+        {
+            public string SN { get; set; }//number
+            public string BranchCode { get; set; }
+            public string BranchName { get; set; }
+            public string Address { get; set; }
+            public string CityNameBankCode { get; set; }
+            public string State { get; set; }//region
         }
 
     }
