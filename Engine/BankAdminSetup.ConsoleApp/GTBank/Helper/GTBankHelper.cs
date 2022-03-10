@@ -298,37 +298,29 @@ ZAMFARA"; // i assume the state to be the region
 
         public static string CreateBranchInsert()
         {
-            var branchesString = @"";
-            var correspondingZones = @"";
-
-            //convert both to array
-            var branchesArr = branchesString.Split('\n');
-            var correspondingZonesArr = correspondingZones.Split('\n');
+            var branches = UploadBTBankBranchesExcel();
 
             //template for creating the branch sql
             var branchsqlTemplate = "INSERT INTO [ZoneAdminPortal].[dbo].[Branch] ([Address],[Code],[Name],[BranchCode],[RegionID],[Status],[MFB_Code],[IsHeadOffice],[CPCHubID],[PilotStatus]) VALUES ( '{{address}}','{{code}}','{{branchname}}','{{branchcode}}', (select top(1) ID FROM [ZoneAdminPortal].[dbo].[Region] where Name = '{{regionname}}') ,2 ,NULL ,0, NULL ,0);\n\n";
 
-            if (branchesArr.Length != correspondingZonesArr.Length)
-            {
-                throw new Exception();
-            }
-
             var branchSqlString = "";
 
             //for each branch, find the corresponding region using the index number.
-            for (int i = 0; i < branchesArr.Length; i++)
+            foreach (var b in branches)
             {
                 try
                 {
                     var temp = branchsqlTemplate;
-                    var branchRow = branchesArr[i]?.Trim('\r')?.Trim()?.Replace("'", "''");
-                    var correspondingZonesRow = correspondingZonesArr[i]?.Trim('\r')?.Trim();
+                    var address = b.Address?.Trim('\r')?.Trim()?.Replace("'", "''");
+                    var code = b.BranchCode?.Trim('\r')?.Trim()?.Replace("'", "''");
+                    var branchname = b.BranchName?.Trim('\r')?.Trim()?.Replace("'", "''");
+                    var regionname = b.State?.Trim('\r')?.Trim()?.Replace("'", "''");
 
-                    temp = temp.Replace("{{address}}", null);
-                    temp = temp.Replace("{{code}}", null);
-                    temp = temp.Replace("{{branchname}}", branchRow);
-                    temp = temp.Replace("{{branchcode}}", null);
-                    temp = temp.Replace("{{regionname}}", correspondingZonesRow);
+                    temp = temp.Replace("{{address}}", address);
+                    temp = temp.Replace("{{code}}", code);
+                    temp = temp.Replace("{{branchname}}", branchname);
+                    temp = temp.Replace("{{branchcode}}", code);
+                    temp = temp.Replace("{{regionname}}", regionname);
 
                     branchSqlString += temp;
                 }
@@ -339,114 +331,64 @@ ZAMFARA"; // i assume the state to be the region
             }
 
             Console.WriteLine(branchSqlString);
-
             return branchSqlString;
         }
-        //public static void ReadGTBankBranchesExcelFile(string filePath = @"C:\temp\GTBank Branches.xlsx")
+
+        //public static string CreateUserInsert()
         //{
-        //    Console.BackgroundColor = ConsoleColor.DarkBlue;
-        //    Console.WriteLine("\nReading the Excel File...");
-        //    Console.BackgroundColor = ConsoleColor.Black;
-
-        //    Application xlApp = new Application();
-        //    Workbook xlWorkBook = xlApp.Workbooks.Open(filePath);
-        //    Worksheet xlWorkSheet = (Worksheet)xlWorkBook.Worksheets.get_Item(1);
-
-        //    Microsoft.Office.Interop.Excel.Range xlRange = xlWorkSheet.UsedRange;
-        //    int totalRows = xlRange.Rows.Count;
-        //    int totalColumns = xlRange.Columns.Count;
-
-        //    string firstValue, secondValue;
-
-        //    for (int rowCount = 1; rowCount <= totalRows; rowCount++)
-        //    {
-        //        GTBankBranches gTBankBranches = new GTBankBranches
-        //        {
-        //            SN = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text),
-        //            BranchCode = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text),
-        //            BranchName = Convert.ToString((xlRange.Cells[rowCount, 3] as Microsoft.Office.Interop.Excel.Range).Text),
-        //            Address = Convert.ToString((xlRange.Cells[rowCount, 4] as Microsoft.Office.Interop.Excel.Range).Text),
-        //            CityNameBankCode = Convert.ToString((xlRange.Cells[rowCount, 5] as Microsoft.Office.Interop.Excel.Range).Text),
-        //            State = Convert.ToString((xlRange.Cells[rowCount, 6] as Microsoft.Office.Interop.Excel.Range).Text),
-
-        //        };
-
-        //        //firstValue = Convert.ToString((xlRange.Cells[rowCount, 1] as Microsoft.Office.Interop.Excel.Range).Text);
-        //        //secondValue = Convert.ToString((xlRange.Cells[rowCount, 2] as Microsoft.Office.Interop.Excel.Range).Text);
-
-        //        //Console.WriteLine(firstValue + "\t" + secondValue);
-
-        //    }
-
-        //    xlWorkBook.Close();
-        //    xlApp.Quit();
-
-        //    Marshal.ReleaseComObject(xlWorkSheet);
-        //    Marshal.ReleaseComObject(xlWorkBook);
-        //    Marshal.ReleaseComObject(xlApp);
-
-        //    Console.WriteLine("End of the file...");
+        //    // 
+        //    var userInsertSqlTemplate = "INSERT INTO [ZoneAdminPortal].[dbo].[Users] ([Username],[LastName], [OtherNames] ,[PhoneNo] ,[EmployeeNo], [Email] ,[Designation] ,[Role],[CreationDate] ,[BranchID],[HasApprovalRight], [Status], [Discriminator]) VALUES ('{{username}}', '{{lastname}}', '{{othername}}', '{{phone}}', '{{employee}}', '{{email}}', '{{designation}}',(select top(1) ID from [ZoneAdminPortal].[dbo].[UserRoles] where Name = '{{rolename}}'),'{{date}}',(select top(1) ID from [ZoneAdminPortal].[dbo].[Branch] where Name = '{{branchname}}'), '1','2', 'BranchUser');\n\n";
         //}
 
-        public static void UploadExcel(string filePath = @"C:\temp\GTBank Branches.xlsx")
+        public static List<GTBankBranches> UploadBTBankBranchesExcel(string filePath = @"C:\temp\GTBank Branches.xlsx")
         {
-            DataTable dt = new DataTable();
-            //Checking file content length and Extension must be .xlsx  
-           // if (file != null && file.ContentLength > 0 && System.IO.Path.GetExtension(file.FileName).ToLower() == ".xlsx")
-            if (true)
+            List<GTBankBranches> list = new List<GTBankBranches>();
+            using (XLWorkbook workbook = new XLWorkbook(filePath))
             {
-                //string path = Path.Combine(Server.MapPath("~/UploadFile"), Path.GetFileName(file.FileName));
-                //Saving the file  
-                //file.SaveAs(path);
-                //Started reading the Excel file.  
-                using (XLWorkbook workbook = new XLWorkbook(filePath))
+                IXLWorksheet worksheet = workbook.Worksheet(1);
+                bool FirstRow = true;
+                //Range for reading the cells based on the last cell used.  
+                string readRange = "1:6";
+                foreach (IXLRow row in worksheet.RowsUsed())
                 {
-                    IXLWorksheet worksheet = workbook.Worksheet(1);
-                    bool FirstRow = true;
-                    //Range for reading the cells based on the last cell used.  
-                    string readRange = "1:1";
-                    foreach (IXLRow row in worksheet.RowsUsed())
-                    {
-                        //If Reading the First Row (used) then add them as column name  
-                        if (FirstRow)
-                        {
-                            //Checking the Last cellused for column generation in datatable  
-                            readRange = string.Format("{0}:{1}", 1, row.LastCellUsed().Address.ColumnNumber);
-                            foreach (IXLCell cell in row.Cells(readRange))
-                            {
-                                dt.Columns.Add(cell.Value.ToString());
-                            }
-                            FirstRow = false;
-                        }
-                        else
-                        {
-                            //Adding a Row in datatable  
-                            dt.Rows.Add();
-                            int cellIndex = 0;
-                            //Updating the values of datatable  
-                            foreach (IXLCell cell in row.Cells(readRange))
-                            {
-                                dt.Rows[dt.Rows.Count - 1][cellIndex] = cell.Value.ToString();
-                                cellIndex++;
-                            }
-                        }
-                    }
-                    //If no data in Excel file  
                     if (FirstRow)
                     {
-                        Console.WriteLine("Empty Excel File!");
-                        //ViewBag.Message = "Empty Excel File!";
+                        FirstRow = false;
+                        continue;
                     }
+                    int cellIndex = 1;
+                    var gtbBranchRow = new GTBankBranches();
+                    foreach (IXLCell cell in row.Cells(readRange))
+                    {
+                        switch (cellIndex)
+                        {
+                            case 1:
+                                gtbBranchRow.SN = cell.Value.ToString();
+                                break;
+                            case 2:
+                                gtbBranchRow.BranchCode = cell.Value.ToString();
+                                break;
+                            case 3:
+                                gtbBranchRow.BranchName = cell.Value.ToString();
+                                break;
+                            case 4:
+                                gtbBranchRow.Address = cell.Value.ToString();
+                                break;
+                            case 5:
+                                gtbBranchRow.CityNameBankCode = cell.Value.ToString();
+                                break;
+                            case 6:
+                                gtbBranchRow.State = cell.Value.ToString();
+                                break;
+                        };
+                        cellIndex++;
+                    }
+                    list.Add(gtbBranchRow);
                 }
             }
-            else
-            {
-                //If file extension of the uploaded file is different then .xlsx
-                Console.WriteLine("Please select file with .xlsx extension!");
-                //ViewBag.Message = "Please select file with .xlsx extension!";
-            }
-            //return View(dt);
+            return list;
         }
+
         public class GTBankBranches
         {
             public string SN { get; set; }//number

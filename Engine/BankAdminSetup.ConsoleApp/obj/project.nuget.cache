@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1fz7F5ONGHSxEdMdTlWYyz/qI4x/u6jtxVOuu1Hmk6UET+87bqbZeIL6DZDThzxjLj/jKgajQhB3nN4GqfAc4A==",
+  "dgSpecHash": "V7m3g17s4kAuQG34RFnVnBShAv1f5oNujPX/1vFEuWoaitJcTN5tmlnEZ1A9aBbp8mmHGA2L6B+fc8VmT6hBjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dadegunwa\\source\\repos\\common\\Engine\\BankAdminSetup.ConsoleApp\\BankAdminSetup.ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -84,7 +84,8 @@
     "C:\\Users\\dadegunwa\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\dadegunwa\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\dadegunwa\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\dadegunwa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\dadegunwa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\dadegunwa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
   "logs": []
 }

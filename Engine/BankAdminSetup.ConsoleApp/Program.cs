@@ -17,7 +17,14 @@ namespace BankAdminSetup.ConsoleApp
             //gtbank
             //GTBankHelper.CreateUserRoleInsert();
             //GTBankHelper.CreateRegionInsert();
-            GTBankHelper.ReadGTBankBranchesExcelFile();
+            //GTBankHelper.ReadGTBankBranchesExcelFile();
+            //GTBankHelper.UploadBTBankBranchesExcel();
+            //GTBankHelper.CreateBranchInsert();
+
+            //union bank
+            //UnionBank.Helper.UnionBankHelper.CreateRegionInsert();
+            //UnionBank.Helper.UnionBankHelper.CreateUserRoleInsert();
+            UnionBank.Helper.UnionBankHelper.CreateBranchInsert();
             Console.ReadLine();
         }
     }
