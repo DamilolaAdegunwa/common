@@ -3,7 +3,6 @@ C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\Encod
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\EncodeToken.runtimeconfig.json
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\EncodeToken.runtimeconfig.dev.json
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\EncodeToken.dll
-C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\ref\EncodeToken.dll
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\bin\Debug\net5.0\EncodeToken.pdb
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\EncodeToken.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\EncodeToken.AssemblyInfoInputs.cache
@@ -13,3 +12,5 @@ C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\Encod
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\ref\EncodeToken.dll
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\EncodeToken.pdb
 C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\EncodeToken.genruntimeconfig.cache
+C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\EncodeToken.csproj.AssemblyReference.cache
+C:\Users\dadegunwa\source\repos\common\Engine\EncodeToken\obj\Debug\net5.0\refint\EncodeToken.dll
