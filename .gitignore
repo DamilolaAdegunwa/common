@@ -70,3 +70,5 @@
 /Engine/WebFormApp/obj/WebFormApp.pdb
 /Engine/WebFormApp/obj/WebFormApp.dll
 /Engine/WebFormApp/obj/Debug
+
+*.user
