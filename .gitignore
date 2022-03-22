@@ -62,9 +62,11 @@
 /Engine/Thur/obj
 
 /Engine/WebFormApp/bin
+/Engine/WebFormApp/bin/
 /Engine/WebFormApp/bin/WebFormApp.pdb
 /Engine/WebFormApp/bin/WebFormApp.dll
 /Engine/WebFormApp/obj
+/Engine/WebFormApp/obj/
 /Engine/WebFormApp/obj/WebFormApp.pdb
 /Engine/WebFormApp/obj/WebFormApp.dll
 /Engine/WebFormApp/obj/Debug
