@@ -2,12 +2,17 @@
 /Engine/.vs
 /Engine/Auth.API/bin
 /Engine/Auth.API/obj
+/Engine/Auth.API/obj/Debug
+/Engine/Auth.API/obj/Debug/netcoreapp3.1
 
 /Engine/Auth.AspNet.MVC/bin
 /Engine/Auth.AspNet.MVC/obj
+/Engine/Auth.AspNet.MVC/obj/Debug
 
 /Engine/Auth.Cookie.MVC/bin
 /Engine/Auth.Cookie.MVC/obj
+/Engine/Auth.Cookie.MVC/obj/Debug
+/Engine/Auth.Cookie.MVC/obj/Debug/netcoreapp3.1
 
 /Engine/Auth.Identity.MVC/bin
 /Engine/Auth.Identity.MVC/obj
@@ -20,6 +25,7 @@
 
 /Engine/CustomAuthenticationMVC/bin
 /Engine/CustomAuthenticationMVC/obj
+/Engine/CustomAuthenticationMVC/obj/Debug
 
 /Engine/EncodeToken/bin
 /Engine/EncodeToken/obj
@@ -37,7 +43,9 @@
 /Engine/Publico/obj
 
 /Engine/Sample.WebAPI/bin
+/Engine/Sample.WebAPI/bin/Debug/net5.0
 /Engine/Sample.WebAPI/obj
+/Engine/Sample.WebAPI/obj/Debug/net5.0
 
 /Engine/Shoprite.ConsoleApp/bin
 /Engine/Shoprite.ConsoleApp/obj
@@ -53,3 +61,4 @@
 
 /Engine/WebFormApp/bin
 /Engine/WebFormApp/obj
+/Engine/WebFormApp/obj/Debug

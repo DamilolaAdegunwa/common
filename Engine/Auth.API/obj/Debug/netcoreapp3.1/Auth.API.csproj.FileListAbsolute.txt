@@ -1854,7 +1854,6 @@ C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.API\obj\Debug\netcore
 C:\Users\Damilola Adegunwa\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.genruntimeconfig.cache
 C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.StaticWebAssets.xml
 C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.exe
 C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.deps.json
 C:\Users\dadegunwa\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.runtimeconfig.json
