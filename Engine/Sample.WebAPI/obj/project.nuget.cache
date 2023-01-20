@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vXT0whHgMHDMAqBb/AMKClqP1xs3TE7TVsbw+xS04YjVkOrm2vyDXZW6hR0F3a+t6H2JL1bQay0PnxZVJS4uXA==",
+  "dgSpecHash": "aITqHsc8+7dLs8i82oiFCVB7DggpFmF5DaZkaU66vHvSq4wX5vNC/Rns6Yra9ih9e15nmrRDfilYKCthbHbNIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Sample.WebAPI\\Sample.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\mailkit\\2.12.0\\mailkit.2.12.0.nupkg.sha512",
@@ -92,15 +92,14 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net5.0"

@@ -77,8 +77,14 @@
     <PackageReference Include="Microsoft.Reactive.Testing" Version="5.0.0" />
     <PackageReference Include="Microsoft.Bcl.Immutable" Version="1.1.32-beta" />
     <PackageReference Include="Microsoft.Tpl.Dataflow" Version="4.5.24" />
+<<<<<<< HEAD
     <PackageReference Include="TextCopy" Version="4.3.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
+=======
+    <PackageReference Include="TextCopy" Version="4.2.0" />
+    <PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
     <PackageReference Include="System.Windows.Forms" />
     <!--<PackageReference Include="System.Windows.Media" />-->
     <PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />

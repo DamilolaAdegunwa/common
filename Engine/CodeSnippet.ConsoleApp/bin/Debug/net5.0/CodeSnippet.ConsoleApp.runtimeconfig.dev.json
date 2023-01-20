@@ -2,7 +2,12 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\damil\\.dotnet\\store\\|arch|\\|tfm|",
+<<<<<<< HEAD
       "C:\\Users\\damil\\.nuget\\packages"
+=======
+      "C:\\Users\\damil\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
     ]
   }
 }

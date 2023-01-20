@@ -2533,7 +2533,20 @@
           "lib/net5.0/TextCopy.dll": {}
         }
       },
+<<<<<<< HEAD
       "Xamarin.Forms/5.0.0.2083": {
+=======
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Vse.Web.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Vse.Web.Serialization.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.8.0.1451": {
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -5184,6 +5197,7 @@
       "path": "runtime.native.system/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -5314,6 +5328,7 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5514,6 +5529,7 @@
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5552,6 +5568,7 @@
       "path": "system.componentmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5700,6 +5717,7 @@
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6250,6 +6268,7 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6317,6 +6336,7 @@
       "path": "system.globalization.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6378,6 +6398,7 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6458,6 +6479,7 @@
       "path": "system.io.filesystem/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6495,6 +6517,7 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6533,6 +6556,7 @@
       "path": "system.linq/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7058,6 +7082,7 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7138,6 +7163,7 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7173,6 +7199,7 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7262,6 +7289,7 @@
       "path": "system.reflection.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7318,6 +7346,7 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7438,6 +7467,7 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7494,6 +7524,7 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7621,6 +7652,7 @@
       "path": "system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7701,6 +7733,7 @@
       "path": "system.runtime.handles/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7738,6 +7771,7 @@
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8370,6 +8404,7 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8477,6 +8512,7 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8563,6 +8599,7 @@
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8646,6 +8683,7 @@
       "path": "system.threading/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8716,6 +8754,7 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8854,6 +8893,7 @@
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8995,6 +9035,7 @@
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9125,8 +9166,28 @@
         "textcopy.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Xamarin.Forms/5.0.0.2083": {
       "sha512": "KDKdEIq8SA3zP8/qyJZ9isIsP1KRLvhxUohTM4GS4HOQkkK3FARvi/FJv91O4IJ/30ByJg88mBdKuiLMyL9Q+w==",
+=======
+    "Vse.Web.Serialization.ControlledSerializationJsonConverter/1.0.4": {
+      "sha512": "d1ZGds/VSN028I9xA8illzAH60ra08Rfxk9e4vuJZX+etAvQjyCY9z2iEdN4J9UD6nSdmaI9FNN+nJ1UNKI8Uw==",
+      "type": "package",
+      "path": "vse.web.serialization.controlledserializationjsonconverter/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Vse.Web.Serialization.dll",
+        "lib/net40/Vse.Web.Serialization.pdb",
+        "lib/net45/Vse.Web.Serialization.dll",
+        "lib/net45/Vse.Web.Serialization.pdb",
+        "vse.web.serialization.controlledserializationjsonconverter.1.0.4.nupkg.sha512",
+        "vse.web.serialization.controlledserializationjsonconverter.nuspec"
+      ]
+    },
+    "Xamarin.Forms/4.8.0.1451": {
+      "sha512": "3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
       "type": "package",
       "path": "xamarin.forms/5.0.0.2083",
       "files": [
@@ -9394,8 +9455,14 @@
       "System.Reactive.Linq >= 5.0.0",
       "System.Reactive.PlatformServices >= 5.0.0",
       "System.Windows.Forms",
+<<<<<<< HEAD
       "TextCopy >= 4.3.1",
       "Xamarin.Forms >= 5.0.0.2083"
+=======
+      "TextCopy >= 4.2.0",
+      "Vse.Web.Serialization.ControlledSerializationJsonConverter >= 1.0.4",
+      "Xamarin.Forms >= 4.8.0.1451"
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
     ]
   },
   "packageFolders": {
@@ -9405,11 +9472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
       "projectName": "CodeSnippet.ConsoleApp",
-      "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9647,6 +9714,10 @@
             "target": "Package",
             "version": "[4.3.1, )"
           },
+          "Vse.Web.Serialization.ControlledSerializationJsonConverter": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2083, )"
@@ -9673,7 +9744,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
       }
     }
   },
@@ -9804,6 +9879,16 @@
       "warningLevel": 1,
       "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Windows.Forms",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Vse.Web.Serialization.ControlledSerializationJsonConverter 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Vse.Web.Serialization.ControlledSerializationJsonConverter",
       "targetGraphs": [
         "net5.0"
       ]

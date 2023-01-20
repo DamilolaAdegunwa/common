@@ -1,4 +1,5 @@
 is_global = true
+<<<<<<< HEAD
 build_property.TargetFramework = net5.0
 build_property.TargetFramework = net5.0
 build_property.TargetFramework = net5.0
@@ -36,3 +37,7 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CodeSnippet.ConsoleApp
 build_property.ProjectDir = C:\Users\damil\source\repos\common\Engine\CodeSnippet.ConsoleApp\
+=======
+build_property.RootNamespace = CodeSnippet.ConsoleApp
+build_property.ProjectDir = C:\Users\damil\Downloads\New folder\repos\common\Engine\CodeSnippet.ConsoleApp\
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072

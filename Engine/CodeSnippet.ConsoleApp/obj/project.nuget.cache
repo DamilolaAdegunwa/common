@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "N+cUHH5u9NhR5b36/1HM20M7cHHACms2wpbSDJckfiFu1l41ZZmAjZHAWW2mPCPYvmuinPaNCtFlqpwTqU48jQ==",
+=======
+  "dgSpecHash": "pfC+O5ug6/OjVvELvZU2HNO2wLu4cFUDflV27h9GFjuPGYq1nx0fzYsVaU0RMU9V1R9y6Pqr4TDIJwSO3lRcmg==",
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
   "success": true,
-  "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
@@ -177,10 +181,16 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\textcopy\\4.3.1\\textcopy.4.3.1.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\5.0.12\\microsoft.netcore.app.host.win-x86.5.0.12.nupkg.sha512"
+=======
+    "C:\\Users\\damil\\.nuget\\packages\\textcopy\\4.2.0\\textcopy.4.2.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\vse.web.serialization.controlledserializationjsonconverter\\1.0.4\\vse.web.serialization.controlledserializationjsonconverter.1.0.4.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
   ],
   "logs": [
     {
@@ -309,6 +319,16 @@
       "warningLevel": 1,
       "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Windows.Forms",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Vse.Web.Serialization.ControlledSerializationJsonConverter 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Vse.Web.Serialization.ControlledSerializationJsonConverter",
       "targetGraphs": [
         "net5.0"
       ]

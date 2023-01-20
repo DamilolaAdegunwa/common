@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
         "projectName": "Metronics.ASPNETCore.API",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,16 +88,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -106,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

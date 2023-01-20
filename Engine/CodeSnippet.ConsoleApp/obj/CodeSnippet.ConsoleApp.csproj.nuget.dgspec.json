@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {}
+    "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {
+    "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
         "projectName": "CodeSnippet.ConsoleApp",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\CodeSnippet.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\damil\\Downloads\\New folder\\repos\\common\\Engine\\CodeSnippet.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -249,6 +249,10 @@
               "target": "Package",
               "version": "[4.3.1, )"
             },
+            "Vse.Web.Serialization.ControlledSerializationJsonConverter": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2083, )"
@@ -275,7 +279,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
         }
       }
     }

@@ -52,6 +52,18 @@ namespace Thur
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddSignalR();
+
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    options.ClientId = "394527000652-jftca46ubhpmr1jkdhf8rium2i67917n.apps.googleusercontent.com";
+                    options.ClientSecret = "l7S9jc7THNVgMmh-pr7wgm0M";
+                })
+                .AddFacebook(options =>
+                {
+                    options.AppId = "";
+                    options.AppSecret = "";
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

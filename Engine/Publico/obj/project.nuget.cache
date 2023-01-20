@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w6UwCEuo5uo36isMkjYHZlAYCqibyoJNua6DKA93lLUl2G6Hy3Obn6IfwuHsUOtS9KhIRooVguVw1VExYrxuHw==",
+  "dgSpecHash": "Xg7BT2fzcrLKVl9jAkSqfhaFwPfd1ldXYRnmDSeihfDUm7OCpHO6wnMUCbrWUgbtrGeNwTydqk/cQMm1bx5cCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\Publico.csproj",
+  "projectFilePath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\Publico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -147,8 +147,7 @@
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\damil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "projectName": "Auth.Identity.MVC",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Auth.Identity.MVC\\Auth.Identity.MVC.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Auth.Identity.MVC\\obj\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Auth.Identity.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -70,16 +70,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\Publico.csproj": {}
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\Publico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\Publico.csproj": {
+    "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\Publico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\Publico.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\Publico.csproj",
         "projectName": "Publico",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\Publico.csproj",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\Publico.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\common\\Engine\\Publico\\obj\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Publico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,16 +82,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

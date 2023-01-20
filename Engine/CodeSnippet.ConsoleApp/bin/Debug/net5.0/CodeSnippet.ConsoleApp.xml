@@ -365,6 +365,7 @@
             <param name="a">A double precision dividend.</param>
             <param name="b">A double precision divisor.</param>
         </member>
+<<<<<<< HEAD
         <member name="T:EFGetStarted.BloggingContext">
             <summary>
             Here is the Blogging context for the blogging app
@@ -394,6 +395,15 @@
             <summary>
             Post attached to blog
             </summary>
+=======
+        <member name="M:CodeSnippet.ConsoleApp.DFB.TimeDataflowComputations(System.Int32,System.Int32)">
+            <summary>
+            I can use like a parallel for(each)
+            </summary>
+            <param name="maxDegreeOfParallelism"></param>
+            <param name="messageCount"></param>
+            <returns></returns>
+>>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
         </member>
     </members>
 </doc>

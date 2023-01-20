@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Security.Principal;
 using System.Text;
-using System.Web.Script.Serialization;
-using System.Web.Security;
+//using System.Web.Script.Serialization;
+//using System.Web.Security;
 using System.Web;
 namespace CodeSnippet.ConsoleApp
 {
@@ -23,9 +23,10 @@ namespace CodeSnippet.ConsoleApp
                 serializeModel.FirstName = user.FirstName;
                 serializeModel.LastName = user.LastName;
 
-                JavaScriptSerializer serializer = new JavaScriptSerializer();
+                //JavaScriptSerializer serializer = new JavaScriptSerializer();
 
-                string userData = serializer.Serialize(serializeModel);
+                //string userData = serializer.Serialize(serializeModel);
+                string userData = Newtonsoft.Json.JsonConvert.SerializeObject(serializeModel);
 
                 //FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(
                 //         1,

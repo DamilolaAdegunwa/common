@@ -2305,10 +2305,10 @@ C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\staticwebassets\Auth.API.StaticWebAssets.Manifest.cache
-C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\staticwebassets\Auth.API.StaticWebAssets.xml
-C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Auth.API.styles.css
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.RazorTargetAssemblyInfo.cache
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.csproj.CopyComplete
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.dll
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.pdb
 C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.genruntimeconfig.cache
+C:\Users\damil\source\repos\common\Engine\Auth.API\bin\Debug\netcoreapp3.1\Auth.API.StaticWebAssets.xml
+C:\Users\damil\source\repos\common\Engine\Auth.API\obj\Debug\netcoreapp3.1\Auth.API.GeneratedMSBuildEditorConfig.editorconfig
