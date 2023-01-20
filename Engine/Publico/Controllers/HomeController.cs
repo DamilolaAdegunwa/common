@@ -21,15 +21,18 @@ namespace Publico.Controllers
         private readonly ApplicationDbContext _applicationDbContext;
         private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContext;
+        private readonly PhoneFactoryContract _phoneFactoryContract;
         public HomeController(ILogger<HomeController> logger, 
             ApplicationDbContext applicationDbContext, 
             UserManager<AppUser> userManager,
-            IHttpContextAccessor httpContext)
+            IHttpContextAccessor httpContext,
+            PhoneFactoryContract phoneFactoryContract)
         {
             _logger = logger;
             _applicationDbContext = applicationDbContext;
             _userManager = userManager;
             _httpContext = httpContext;
+            _phoneFactoryContract = phoneFactoryContract;
         }
 
         public async Task<IActionResult> Index()
@@ -75,6 +78,11 @@ namespace Publico.Controllers
         {
             return View();
         }
-
+        [AllowAnonymous]
+        [Route("CallSomeone")]
+        public async Task<bool> CallSomeone()
+        {
+            return _phoneFactoryContract.GetPhone(PhoneType.IPhone).Call("08131363116");
+        }
     }
 }

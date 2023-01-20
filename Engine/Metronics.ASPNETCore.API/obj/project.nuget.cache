@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lvUuMAxBSSQ6pEbAookilrZ9EfdfhrxqC6mzKQHvx9SobKBkpeLt763eLMNPr1fXvRGkYyRNZel8jyjIkWPQrw==",
+  "dgSpecHash": "l3xPxKzuhnFmbUqfkMwFNQZlnVVg1ouBf+BpP8PH80FZBv1XgriItgQWhbfqGX+yGUwLreGSEZRpZn8IWN4trA==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Metronics.ASPNETCore.API\\Metronics.ASPNETCore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnet.webapi.webhost\\4.0.20710\\microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
-    "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.18\\microsoft.aspnetcore.authentication.jwtbearer.3.1.18.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.3\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.3.nupkg.sha512",

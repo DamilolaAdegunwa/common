@@ -45,6 +45,17 @@ namespace Publico
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //add services from factory design pattern demo
+            services.AddTransient<PhoneContract, IPhone>();
+            services.AddTransient<PhoneContract, Samsung>();
+            services.AddTransient<PhoneContract, Motorola>();
+
+            //...not done yet
+            services.AddTransient<IPhoneInterface, IPhone>();
+
+            //...and
+            services.AddTransient<PhoneFactoryContract, PhoneFactory>();
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
