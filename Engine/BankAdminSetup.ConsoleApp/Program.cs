@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using BankAdminSetup.ConsoleApp.GTBank.Helper;
 using BankAdminSetup.ConsoleApp.ZenithBank.Helper;
 namespace BankAdminSetup.ConsoleApp
 {
-    public class Program
+    public  class Program
     {
         public static void Main(string[] args)
         {
@@ -27,5 +28,28 @@ namespace BankAdminSetup.ConsoleApp
             UnionBank.Helper.UnionBankHelper.CreateBranchInsert();
             Console.ReadLine();
         }
+        public string Sample()
+        {
+            try
+            {
+                return "";
+            }
+			catch (IndexOutOfRangeException ex)
+			{
+
+				throw;
+			}
+			catch (ArgumentNullException ex)
+			{
+
+				throw;
+			}
+			catch (Exception ex)
+            {
+
+                throw;
+            }
+
+		}
     }
 }

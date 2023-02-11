@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Cookie.MVC", "Auth.Coo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Identity.MVC", "Auth.Identity.MVC\Auth.Identity.MVC.csproj", "{4D8703D1-2C2F-4BBF-912C-997AFAF1EA2E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSnippet.ConsoleApp", "CodeSnippet.ConsoleApp\CodeSnippet.ConsoleApp.csproj", "{05664D22-D4FE-46B9-B953-0C07E14FCCEC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAuthenticationMVC", "CustomAuthenticationMVC\CustomAuthenticationMVC.csproj", "{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronics.ASPNETCore.API", "Metronics.ASPNETCore.API\Metronics.ASPNETCore.API.csproj", "{E5FD8DC0-E04A-4A8B-896C-3303CB4260AD}"
@@ -27,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publico", "Publico\Publico.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thur", "Thur\Thur.csproj", "{D1565FE9-F1EC-40B6-A035-1BE194975FE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAdminSetup.ConsoleApp", "BankAdminSetup.ConsoleApp\BankAdminSetup.ConsoleApp.csproj", "{3F65FC08-1C29-44A6-8DE8-8A06402200A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "BankAdminSetup.ConsoleApp\ConsoleApp.csproj", "{3F65FC08-1C29-44A6-8DE8-8A06402200A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E73DA768-B172-4266-A492-B450B374D328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +51,6 @@ Global
 		{4D8703D1-2C2F-4BBF-912C-997AFAF1EA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D8703D1-2C2F-4BBF-912C-997AFAF1EA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D8703D1-2C2F-4BBF-912C-997AFAF1EA2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05664D22-D4FE-46B9-B953-0C07E14FCCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05664D22-D4FE-46B9-B953-0C07E14FCCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05664D22-D4FE-46B9-B953-0C07E14FCCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05664D22-D4FE-46B9-B953-0C07E14FCCEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE67C6B-D8C9-49C6-B24F-057FB3DAEEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F65FC08-1C29-44A6-8DE8-8A06402200A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73DA768-B172-4266-A492-B450B374D328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73DA768-B172-4266-A492-B450B374D328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73DA768-B172-4266-A492-B450B374D328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73DA768-B172-4266-A492-B450B374D328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

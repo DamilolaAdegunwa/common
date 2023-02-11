@@ -224,3 +224,7 @@ C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.
 C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CopyComplete
 C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.dll
 C:\Users\damil\source\repos\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.pdb
+C:\Users\damil\source\repos\C#\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.AssemblyReference.cache
+C:\Users\damil\source\repos\C#\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.csproj.CoreCompileInputs.cache
+C:\Users\damil\source\repos\C#\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.dll
+C:\Users\damil\source\repos\C#\common\Engine\Auth.AspNet.MVC\obj\Debug\Auth.AspNet.MVC.pdb
