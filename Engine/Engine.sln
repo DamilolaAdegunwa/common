@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "BankAdminSetu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E73DA768-B172-4266-A492-B450B374D328}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickTeller.Web", "QuickTeller.Web", "{B1B4D79C-8E84-4180-9485-9A9C81348C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryApp", "RetryApp\RetryApp.csproj", "{40BC054A-27AA-4258-94DC-4A6446159786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,9 +91,16 @@ Global
 		{E73DA768-B172-4266-A492-B450B374D328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E73DA768-B172-4266-A492-B450B374D328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E73DA768-B172-4266-A492-B450B374D328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BC054A-27AA-4258-94DC-4A6446159786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BC054A-27AA-4258-94DC-4A6446159786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BC054A-27AA-4258-94DC-4A6446159786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BC054A-27AA-4258-94DC-4A6446159786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40BC054A-27AA-4258-94DC-4A6446159786} = {B1B4D79C-8E84-4180-9485-9A9C81348C00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}
