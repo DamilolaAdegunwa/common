@@ -281,3 +281,10 @@
 /Engine/WebFormApp/obj/Debug/WebFormApp.csproj.FileListAbsolute.txt
 /Engine/WebFormApp/obj/Debug/WebFormApp.csproj.CoreCompileInputs.cache
 /.vs/VSWorkspaceState.json
+/Engine/LeetCode/obj/LeetCode.csproj.nuget.g.targets
+/Engine/LeetCode/obj/Debug/net7.0/LeetCode.GlobalUsings.g.cs
+/Engine/LeetCode/obj/Debug/net7.0/LeetCode.AssemblyInfoInputs.cache
+/Engine/LeetCode/obj/Debug/net7.0/LeetCode.AssemblyInfo.cs
+/Engine/LeetCode/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/Engine/LeetCode/bin/Debug/net7.0/LeetCode.runtimeconfig.json
+/Engine/LeetCode/bin/Debug/net7.0/LeetCode.deps.json
