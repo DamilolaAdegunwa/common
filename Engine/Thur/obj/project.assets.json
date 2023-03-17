@@ -7830,23 +7830,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\damil\\.nuget\\packages\\": {},
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Thur\\Thur.csproj",
+      "projectUniqueName": "C:\\Users\\Oluwadamilola.Ade\\Source\\Repos\\common\\Engine\\Thur\\Thur.csproj",
       "projectName": "Thur",
-      "projectPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Thur\\Thur.csproj",
-      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Thur\\obj\\",
+      "projectPath": "C:\\Users\\Oluwadamilola.Ade\\Source\\Repos\\common\\Engine\\Thur\\Thur.csproj",
+      "packagesPath": "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oluwadamilola.Ade\\Source\\Repos\\common\\Engine\\Thur\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oluwadamilola.Ade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7938,7 +7941,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
