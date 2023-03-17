@@ -147,3 +147,16 @@
 /Engine/Auth.API/obj/Debug/netcoreapp3.1/Auth.API.assets.cache
 /Engine/Auth.API/obj/Auth.API.csproj.nuget.g.props
 /Engine/Auth.API/obj/Auth.API.csproj.nuget.dgspec.json
+/Engine/Auth.Cookie.MVC/obj/project.nuget.cache
+/Engine/Auth.Cookie.MVC/obj/Debug/netcoreapp3.1/Auth.Cookie.MVC.assets.cache
+/Engine/Auth.Identity.MVC/obj/project.nuget.cache
+/Engine/Auth.Identity.MVC/obj/Debug/netcoreapp3.1/Auth.Identity.MVC.assets.cache
+/Engine/LeetCode/obj/project.nuget.cache
+/Engine/LeetCode/obj/Debug/net7.0/LeetCode.assets.cache
+/Engine/Metronics.ASPNETCore.API/obj/project.nuget.cache
+/Engine/Metronics.ASPNETCore.API/obj/Debug/netcoreapp3.1/Metronics.ASPNETCore.API.assets.cache
+/Engine/Metronics.ASPNETCore.Web/obj/project.nuget.cache
+/Engine/Publico/obj/project.nuget.cache
+/Engine/Sample.WebAPI/obj/project.nuget.cache
+/Engine/Thur/obj/project.nuget.cache
+/Engine/Thur/obj/Debug/net5.0/Thur.assets.cache
