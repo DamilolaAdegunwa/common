@@ -116,3 +116,8 @@
 /Engine/WebFormApp/bin/WebFormApp.dll
 /Engine/WebFormApp/obj/Debug/WebFormApp.pdb
 /Engine/WebFormApp/obj/Debug/WebFormApp.dll
+/Engine/Auth.Identity.MVC/obj/Debug/netcoreapp3.1/Auth.Identity.MVC.csproj.FileListAbsolute.txt
+/Engine/Metronics.ASPNETCore.API/obj/Debug/netcoreapp3.1/Metronics.ASPNETCore.API.csproj.FileListAbsolute.txt
+/Engine/Metronics.ASPNETCore.Web/obj/project.nuget.cache
+/Engine/Publico/obj/project.nuget.cache
+/Engine/Sample.WebAPI/obj/project.nuget.cache
