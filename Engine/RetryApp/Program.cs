@@ -15,7 +15,7 @@ namespace RetryApp
 			Console.WriteLine("Hello, World!");
 
 			//new Program().RetrySample1().Wait();
-			foreach (var (item,i) in "Damilola") { Console.WriteLine($"s/n{i}: {item}"); }
+			//foreach (var (item,i) in "Damilola") { Console.WriteLine($"s/n{i}: {item}"); }
 			Console.WriteLine("done!");
         }
 
