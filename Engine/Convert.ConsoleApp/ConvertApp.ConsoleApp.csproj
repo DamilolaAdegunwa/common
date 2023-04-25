@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
     <PackageReference Include="RSG.Promise" Version="3.0.1" />
     <PackageReference Include="System-Web-Helpers.dll" Version="1.0.0" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
