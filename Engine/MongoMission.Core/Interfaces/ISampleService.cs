@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoMission.Core.Models.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace MongoMission.Core.Interfaces
 {
     public interface ISampleService
     {
-        void Method1();
+        List<Product> GetProducts();
+        bool SaveProduct(Product product);
     }
 }

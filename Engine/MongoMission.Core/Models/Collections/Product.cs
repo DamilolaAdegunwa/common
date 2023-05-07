@@ -17,6 +17,6 @@ namespace MongoMission.Core.Models.Collections
         [BsonElement("product_name"), BsonRepresentation(BsonType.String)]
         public string ProductName { get; set; }
         [BsonElement("price"), BsonRepresentation(BsonType.Decimal128)]
-        public string Price { get; set; }
+        public decimal Price { get; set; }
     }
 }

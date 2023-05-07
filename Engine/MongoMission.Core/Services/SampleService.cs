@@ -22,9 +22,8 @@ namespace MongoMission.Core.Services
         {
             _appSettings = options.Value;
         }
-        public void Dispose() { }
 
-        public IMongoCollection<Product> ProductCollection()
+        private IMongoCollection<Product> ProductCollection()
         {
             string connStr = _appSettings.DatabaseConnection.ConnectionString;
             var databaseName = MongoUrl.Create(connStr).DatabaseName;
@@ -34,14 +33,27 @@ namespace MongoMission.Core.Services
 
             return productCollection;
         }
-        public List<Product> Method1()
+        public List<Product> GetProducts()
         {
-            
-
+            var productCollection = ProductCollection();
             var filterdefinition = Builders<Product>.Filter.Empty;
             var products = productCollection.Find(filterdefinition).ToList();
 
             return products;
+        }
+
+        public bool SaveProduct(Product product)
+        {
+            try
+            {
+                var productCollection = ProductCollection();
+                productCollection.InsertOne(product);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }
