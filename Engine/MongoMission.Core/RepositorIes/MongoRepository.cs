@@ -69,19 +69,19 @@ namespace MongoMission.Core.RepositorIes
 
         public virtual async Task<bool> DeleteAsync(ObjectId id)
         {
-            var result = await _collection.DeleteOneAsync(t => t.Id == id.ToString());
+            var result = await _collection.DeleteOneAsync(t => t.Id == id);
 
             return result.IsAcknowledged;
         }
 
         public virtual async Task<bool> DeleteAsync(T obj)
         {
-            return await DeleteAsync(ObjectId.Parse(obj.Id));
+            return await DeleteAsync(obj.Id);
         }
 
         public virtual async Task<T> GetAsync(ObjectId id)
         {
-            IFindFluent<T, T> findFluent = _collection.Find(x => x.Id == id.ToString());
+            IFindFluent<T, T> findFluent = _collection.Find(x => x.Id == id);
             findFluent = findFluent.Limit(1);
             T data = await findFluent.FirstOrDefaultAsync();
 

@@ -29,8 +29,8 @@ namespace MongoMission.Controllers
             var prod = new Product
             {
                 Price = 10m,
-                ProductCode = "MTN",
-                ProductName = "Mobile Telephone Network."
+                ProductCode = "Air-tel",
+                ProductName = "Air Tel"
             };
             _sampleService.SaveProduct(prod);
             _sampleService.GetProducts();
