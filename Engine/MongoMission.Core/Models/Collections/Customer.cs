@@ -15,9 +15,13 @@ namespace MongoMission.Core.Models.Collections
     {
         [BsonElement, BsonRepresentation(BsonType.String)]
         public string FullName { get; set; }
+        [BsonElement, BsonRepresentation(BsonType.DateTime)]
         public DateTime DateOfBirth { get; set; }
+        [BsonElement, BsonRepresentation(BsonType.String)]
         public string Address { get; set; }
+        [BsonElement, BsonRepresentation(BsonType.String)]
         public string PhoneNumber { get; set; }
+        [BsonElement, BsonRepresentation(BsonType.String)]
         public string Email { get; set; }
     }
 }
