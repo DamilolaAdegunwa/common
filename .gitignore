@@ -316,3 +316,9 @@
 /Engine/RetryApp/obj/Debug/net7.0/refint/RetryApp.dll
 /Engine/RetryApp/obj/Debug/net7.0/apphost.exe
 /Engine/RetryApp/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/Engine/Convert.ConsoleApp/obj/project.nuget.cache
+/Engine/Convert.ConsoleApp/obj/project.assets.json
+/Engine/Convert.ConsoleApp/obj/Debug/net7.0/ConvertApp.ConsoleApp.csproj.AssemblyReference.cache
+/Engine/Convert.ConsoleApp/obj/Debug/net7.0/ConvertApp.ConsoleApp.assets.cache
+/Engine/Convert.ConsoleApp/obj/ConvertApp.ConsoleApp.csproj.nuget.g.props
+/Engine/Convert.ConsoleApp/obj/ConvertApp.ConsoleApp.csproj.nuget.dgspec.json
