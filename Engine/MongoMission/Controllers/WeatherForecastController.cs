@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MongoMission.Core.Interfaces;
 
 namespace MongoMission.Controllers
 {
@@ -12,15 +13,18 @@ namespace MongoMission.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ISampleService _sampleService;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISampleService sampleService)
         {
             _logger = logger;
+            _sampleService = sampleService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            _sampleService.Method1();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

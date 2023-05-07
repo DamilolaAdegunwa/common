@@ -1,3 +1,4 @@
+using MongoMission.Core.Interfaces;
 using MongoMission.Core.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,9 @@ builder.Services.AddSwaggerGen();
 
 //app settings config
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
+
+//add serv
+builder.Services.AddScoped<ISampleService, SampleService>();
 
 var app = builder.Build();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Interfaces
 {
-    public interface IMongoCollection<T>
+    public interface IMongoRepository<T>
     {
     }
 }

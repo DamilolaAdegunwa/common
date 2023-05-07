@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "shnT6s4sz0Th3C1BNF6oN6iIkEfxk599yTj36kjtRrkp13ObIRT49tzYcG5zTN8PTad8eaZ1r2IpJbVjrCje2A==",
+  "dgSpecHash": "fSA7YhzqIfph9vRPcqWzNKE0YzPtrJbtxicQ3kCiwauPcNYC1BU6nsJfnwfcjBQ6T8JxxOqr2vAUxh8A8pjhNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission\\MongoMission.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,12 @@
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

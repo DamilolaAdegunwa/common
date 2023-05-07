@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
-    public class MongoCollection<T>: IMongoCollection<T>
+    public class MongoRepository<T>: IMongoRepository<T>
     {
-        public MongoCollection() { }
+        public MongoRepository() { }
     }
 }
