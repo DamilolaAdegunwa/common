@@ -11,6 +11,6 @@ namespace MongoMission.Core.Models.Collections.Base
     public class BaseEntity
     {
         [BsonId, BsonElement("_id"), BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public ObjectId Id { get; set; }
     }
 }

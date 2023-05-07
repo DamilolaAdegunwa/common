@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using MongoMission.Core.Interfaces;
 using MongoMission.Core.Models.Collections;
+using MongoMission.Core.Services.Interfaces;
 using System.Net.Mime;
 
 namespace MongoMission.Controllers
@@ -15,9 +15,9 @@ namespace MongoMission.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly ISampleService _sampleService;
+        private readonly ISalesService _sampleService;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISampleService sampleService)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISalesService sampleService)
         {
             _logger = logger;
             _sampleService = sampleService;

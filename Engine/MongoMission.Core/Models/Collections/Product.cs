@@ -9,6 +9,7 @@ using MongoMission.Core.Models.Collections.Base;
 
 namespace MongoMission.Core.Models.Collections
 {
+    [BsonIgnoreExtraElements]
     [Serializable]
     public class Product: BaseEntity
     {
