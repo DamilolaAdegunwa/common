@@ -11,11 +11,8 @@ namespace CodeSnippet.ConsoleApp.firs
 {
     public class MainFIRS
     {
-<<<<<<< HEAD
-        public static void MainFirs()
-=======
+        //public static void MainFirs()
         public static void MaMethodinFIRS()
->>>>>>> fb7cf8313c2e94c61b05ce1802c287d8c8699072
         {
             //var date = DateTimeOffset.Now;
             //var epoch2 = date.ToUnixTimeSeconds();//client ref

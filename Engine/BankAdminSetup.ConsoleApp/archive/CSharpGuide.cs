@@ -1,4 +1,4 @@
-﻿using Nito.AsyncEx;
+﻿//using Nito.AsyncEx;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -154,12 +154,12 @@ namespace CodeSnippet.ConsoleApp
                 var ret = new MyClass();
                 return ret.InitializeAsync();
             }
-            private static AsyncLazy<String> resource = new AsyncLazy<String>(async () =>
-            {
-                string data = await GetResource();
-                //string ~ ReadOnlySpan<char>
-                return new String(data);
-            });
+            //private static AsyncLazy<String> resource = new AsyncLazy<String>(async () =>
+            //{
+            //    string data = await GetResource();
+            //    //string ~ ReadOnlySpan<char>
+            //    return new String(data);
+            //});
 
             private static Task<String> GetResource()
             {
@@ -167,10 +167,10 @@ namespace CodeSnippet.ConsoleApp
                 //throw new NotImplementedException();
             }
 
-            public static async Task UseResourceAsync()
-            {
-                String res = await resource;
-            }
+            //public static async Task UseResourceAsync()
+            //{
+            //    String res = await resource;
+            //}
         }
 
         public static async Task UseMyClassAsync()

@@ -1,5 +1,5 @@
-﻿using EventStore.ClientAPI;
-using EventStore.ClientAPI.SystemData;
+﻿//using EventStore.ClientAPI;
+//using EventStore.ClientAPI.SystemData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +11,10 @@ namespace CodeSnippet.ConsoleApp
 {
     public class ShowEventStoreSampleViaGRPC
     {
-        public static void Main()
-        {
+        //public static void Main()
+        //{
 
-        }
+        //}
     }
     //public class ESAgain
     //{
