@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
-    //"transaction service" or "financial service"
-    public class PaymentService
+    //"logistics" or "transportation"
+    internal class SupplyChainManagementService
     {
     }
 }
