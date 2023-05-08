@@ -1,10 +1,23 @@
-﻿using RetryApp.Services;
+﻿using Polly;
+using Polly.Retry;
+using RetryApp.Services;
+using System.Net.Http;
+
 namespace RetryApp
 {
     public class Program
     {
+        public static string _namespace;
+        public static string _name;
+        public Program()
+        {
+            _namespace = this.GetType().Namespace;
+            _name = this.GetType().Name;
+        }
         public static void Main(string[] args)
         {
+            _ = new Program();
+            var fns = $"{_namespace}.{_name}";
             var str = "www";
             var byt = System.Text.Encoding.UTF8.GetBytes(str);
             var hexStr = Convert.ToHexString(byt);
@@ -24,6 +37,35 @@ namespace RetryApp
             var client = new HttpClient(new RetryHandler());
             var response = await client.GetAsync("http://example.com");
             Console.WriteLine(response);
+        }
+
+        public async Task RetrySample2()
+        {
+            AsyncRetryPolicy policy = Policy
+    .Handle<HttpRequestException>()
+    //.OrResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
+    .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+            var handler = new RetryHandler(policy);
+            var client = new HttpClient(handler);
+            var response = await client.GetAsync("http://example.com");
+
+        }
+
+        public async Task RetrySample3()
+        {
+            var policy = Policy
+    .Handle<TimeoutException>()
+    .RetryAsync(3, onRetry: (ex, count) => Console.WriteLine($"Timeout retry #{count}"));
+            var handlers = new List<DelegatingHandler>()
+            {
+                new RetryHandler(policy),
+                new AuthenticationHandler(),
+                new LoggingHandler(),
+                new TimeoutHandler()
+            };
+            var client = HttpClientFactory.Create(handlers.ToArray());
+            var response = await client.GetAsync("http://example.com");
+
         }
     }
 
