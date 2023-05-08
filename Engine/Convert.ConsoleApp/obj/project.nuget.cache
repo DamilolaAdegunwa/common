@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pMQa4HIcCVF90vV+3LTNe5D+/Xn8EFB3OymZWmkRsvxCH+Yw4KEsVD/NpjDEUWuy4eUC+yQySG9r2ekiflRK/Q==",
+  "dgSpecHash": "mkw0dqYHgN+2ZRvXsXsZlq7aLhHOjbxosOo11VY0/vayN3BK48PoicT2ff6pjf0SyeJkILwE6LWlr7bm9syEPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damil\\.nuget\\packages\\benchmarkdotnet\\0.13.5\\benchmarkdotnet.0.13.5.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.5\\benchmarkdotnet.annotations.0.13.5.nupkg.sha512",

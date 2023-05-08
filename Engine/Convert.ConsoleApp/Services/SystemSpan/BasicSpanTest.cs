@@ -125,5 +125,22 @@ namespace ConvertApp.ConsoleApp.Services.SystemSpan
 		//    The sum is 4,950
 		//    The sum is 4,950
 		#endregion
+
+		#region Test 6
+		static void MainX()
+		{
+			string contentLength = "Content-Length: 132";
+			var length = GetContentLength(contentLength.ToCharArray());
+			Console.WriteLine($"Content length: {length}");
+		}
+
+		private static int GetContentLength(ReadOnlySpan<char> span)
+		{
+			List<string> names = new List<string>() { "10", "2", "3" };
+			names.Sort();
+			var slice = span.Slice(16);
+			return int.Parse(slice);
+		}
+		#endregion
 	}
 }

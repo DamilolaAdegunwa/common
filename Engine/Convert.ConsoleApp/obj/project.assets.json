@@ -1410,11 +1410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
       "projectName": "ConvertApp.ConsoleApp",
-      "projectPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\source\\repos\\C#\\common\\Engine\\Convert.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
