@@ -14,5 +14,9 @@ namespace MongoMission.Core.Utilities
         public const string InvoiceCollectionName = "invoice";
         public const string ReceiptCollectionName = "receipt";
         public const string TransactionCollectionName = "transaction";
+        public const string CartCollectionName = "cart";
+        public const string CommentCollectionName = "comment";
+        public const string NotificationCollectionName = "notification";
+        public const string WalletCollectionName = "wallet";
     }
 }
