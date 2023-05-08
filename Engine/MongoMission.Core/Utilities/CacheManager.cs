@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Utilities
 {
-    internal class CacheManager
+    public class CacheManager
     {
     }
 }

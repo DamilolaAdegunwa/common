@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
-    internal class ReportService
+    public class ReportService
     {
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MongoMission.Core.Services
 {
     //"logistics" or "transportation"
-    internal class SupplyChainManagementService
+    public class SupplyChainManagementService
     {
     }
 }
