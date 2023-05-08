@@ -5,7 +5,34 @@ using System.Net.Http;
 
 namespace RetryApp
 {
-    public class Program
+    class BaseClass
+    {
+        public BaseClass() 
+        {
+            DoWork();
+        }
+        public virtual void DoWork() {
+        
+        }
+    }
+	class DerivedClass : BaseClass
+	{
+        private string _name = "untouched!";
+		public DerivedClass()
+		{
+			_name = "touched!";
+		}
+		public override void DoWork() 
+        {
+            if(string.IsNullOrEmpty(_name))
+            {
+                _name = "empty!";
+            }
+            Console.WriteLine(_name);
+        }
+	}
+
+	public class Program
     {
         public static string _namespace;
         public static string _name;
@@ -16,6 +43,13 @@ namespace RetryApp
         }
         public static void Main(string[] args)
         {
+            DerivedClass d = (DerivedClass)new object();
+            d.DoWork();
+            var q = System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(typeof(DerivedClass));
+            ((DerivedClass)q).DoWork();
+            var w = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(typeof(DerivedClass));
+            ((DerivedClass)w).DoWork();
+            var x = new DerivedClass();
             _ = new Program();
             var fns = $"{_namespace}.{_name}";
             var str = "www";
