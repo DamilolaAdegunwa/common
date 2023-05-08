@@ -14,15 +14,15 @@ namespace MongoMission.Core.Services
     public class ReportService : IReportService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<ReportService> _logger;
         private readonly string _fullClassName;
 
-        public ReportService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<ReportService> logger)
+        public ReportService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<ReportService> logger)
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";

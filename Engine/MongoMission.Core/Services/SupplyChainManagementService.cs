@@ -15,15 +15,15 @@ namespace MongoMission.Core.Services
     public class SupplyChainManagementService: ISupplyChainManagementService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<SupplyChainManagementService> _logger;
         private readonly string _fullClassName;
 
-        public SupplyChainManagementService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<SupplyChainManagementService> logger)
+        public SupplyChainManagementService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<SupplyChainManagementService> logger)
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";

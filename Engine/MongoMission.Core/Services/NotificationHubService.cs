@@ -14,12 +14,12 @@ namespace MongoMission.Core.Services
     public class NotificationHubService: INotificationHubService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<NotificationHubService> _logger;
         private readonly string _fullClassName;
 
-        public NotificationHubService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<NotificationHubService> logger)
+        public NotificationHubService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<NotificationHubService> logger)
         {
             _appSettings = options.Value;
             _processor = processor;

@@ -14,15 +14,15 @@ namespace MongoMission.Core.Services
     public class EcommerceService : IEcommerceService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<EcommerceService> _logger;
         private readonly string _fullClassName;
 
-        public EcommerceService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<EcommerceService> logger)
+        public EcommerceService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<EcommerceService> logger)
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";

@@ -20,15 +20,15 @@ namespace MongoMission.Core.Services
     public class SalesService : ISalesService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<SalesService> _logger;
         private readonly string _fullClassName;
         
-        public SalesService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<SalesService> logger) 
+        public SalesService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<SalesService> logger) 
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";

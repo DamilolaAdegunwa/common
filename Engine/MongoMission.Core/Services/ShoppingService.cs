@@ -14,15 +14,15 @@ namespace MongoMission.Core.Services
     public class ShoppingService: IShoppingService
     {
         private readonly AppSettings _appSettings;
-        private readonly IProcessor _processor;
+        //private readonly IProcessor _processor;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<ShoppingService> _logger;
         private readonly string _fullClassName;
 
-        public ShoppingService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<ShoppingService> logger)
+        public ShoppingService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<ShoppingService> logger)
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";
