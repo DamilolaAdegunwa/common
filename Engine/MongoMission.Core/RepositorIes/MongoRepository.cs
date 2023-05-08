@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
 using MongoMission.Core.Models.Collections;
 using MongoMission.Core.Models;
-using MongoMission.Core.RepositorIes.Interfaces;
+using MongoMission.Core.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using MongoDB.Bson;
 using System.Linq.Expressions;
 using MongoMission.Core.Models.Collections.Base;
 
-namespace MongoMission.Core.RepositorIes
+namespace MongoMission.Core.Repositories
 {
     public class MongoRepository<T> : IMongoRepository<T> where T : BaseEntity
     {

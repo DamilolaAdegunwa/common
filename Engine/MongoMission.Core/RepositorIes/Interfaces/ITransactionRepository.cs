@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MongoMission.Core.RepositorIes.Interfaces
+namespace MongoMission.Core.Repositories.Interfaces
 {
     // ITransactionRepository interface
     public interface ITransactionRepository : IMongoRepository<Transaction>

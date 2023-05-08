@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoMission.Core.Models.Collections;
 using MongoMission.Core.Models;
-using MongoMission.Core.RepositorIes.Interfaces;
+using MongoMission.Core.Repositories.Interfaces;
 using MongoMission.Core.Utilities;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MongoMission.Core.RepositorIes
+namespace MongoMission.Core.Repositories
 {
     // ReceiptRepository class
     public class ReceiptRepository : MongoRepository<Receipt>, IReceiptRepository

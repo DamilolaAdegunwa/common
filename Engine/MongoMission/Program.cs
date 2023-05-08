@@ -1,6 +1,6 @@
 using MongoMission.Core.Models;
-using MongoMission.Core.RepositorIes;
-using MongoMission.Core.RepositorIes.Interfaces;
+using MongoMission.Core.Repositories;
+using MongoMission.Core.Repositories.Interfaces;
 using MongoMission.Core.Services;
 using MongoMission.Core.Services.Interfaces;
 
@@ -16,6 +16,9 @@ builder.Services.AddSwaggerGen();
 //app settings config
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 
+//add unit of work
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 //add repo
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
@@ -28,6 +31,8 @@ builder.Services.AddScoped<IReceiptRepository, ReceiptRepository>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IWalletRepository, WalletRepository>();
 
+//add processor
+builder.Services.AddScoped<IProcessor, Processor>();
 
 //add services
 builder.Services.AddScoped<ICustomerRelationshipService, CustomerRelationshipService>();

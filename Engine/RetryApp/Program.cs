@@ -7,8 +7,17 @@ namespace RetryApp
 {
     public class Program
     {
+        public static string _namespace;
+        public static string _name;
+        public Program()
+        {
+            _namespace = this.GetType().Namespace;
+            _name = this.GetType().Name;
+        }
         public static void Main(string[] args)
         {
+            _ = new Program();
+            var fns = $"{_namespace}.{_name}";
             var str = "www";
             var byt = System.Text.Encoding.UTF8.GetBytes(str);
             var hexStr = Convert.ToHexString(byt);

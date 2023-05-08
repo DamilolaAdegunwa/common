@@ -12,15 +12,26 @@ using MongoDB.Driver.Core.Configuration;
 using MongoDB.Driver;
 using MongoMission.Core.Models.Collections;
 using MongoMission.Core.Services.Interfaces;
+using MongoMission.Core.Repositories.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace MongoMission.Core.Services
 {
     public class SalesService : ISalesService
     {
         private readonly AppSettings _appSettings;
-        public SalesService(IOptions<AppSettings> options) 
+        private readonly IProcessor _processor;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<SalesService> _logger;
+        private readonly string _fullClassName;
+        
+        public SalesService(IOptions<AppSettings> options, IProcessor processor, IUnitOfWork unitOfWork, ILogger<SalesService> logger) 
         {
             _appSettings = options.Value;
+            _processor = processor;
+            _unitOfWork = unitOfWork;
+            _logger = logger;
+            _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";
         }
 
         private IMongoCollection<Product> ProductCollection()

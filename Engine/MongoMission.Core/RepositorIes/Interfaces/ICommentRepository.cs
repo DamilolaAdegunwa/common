@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MongoMission.Core.RepositorIes.Interfaces
+namespace MongoMission.Core.Repositories.Interfaces
 {
     // ICommentRepository interface
     public interface ICommentRepository : IMongoRepository<Comment>
