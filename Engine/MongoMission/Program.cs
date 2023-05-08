@@ -17,10 +17,28 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 
 //add repo
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IReceiptRepository, ReceiptRepository>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddScoped<IWalletRepository, WalletRepository>();
+
 
 //add services
+builder.Services.AddScoped<ICustomerRelationshipService, CustomerRelationshipService>();
+builder.Services.AddScoped<IEcommerceService, EcommerceService>();
+builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<INotificationHubService, NotificationHubService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IReportService, ReportService>();
 builder.Services.AddScoped<ISalesService, SalesService>();
+builder.Services.AddScoped<IShoppingService, ShoppingService>();
+builder.Services.AddScoped<ISupplyChainManagementService, SupplyChainManagementService>();
 
 var app = builder.Build();
 
