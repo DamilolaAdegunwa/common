@@ -22,7 +22,7 @@ namespace MongoMission.Core.Services
         public NotificationHubService(IOptions<AppSettings> options, /*IProcessor processor,*/ IUnitOfWork unitOfWork, ILogger<NotificationHubService> logger)
         {
             _appSettings = options.Value;
-            _processor = processor;
+            //_processor = processor;
             _unitOfWork = unitOfWork;
             _logger = logger;
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";
