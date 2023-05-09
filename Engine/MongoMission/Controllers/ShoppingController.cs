@@ -6,35 +6,35 @@ namespace MongoMission.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SalesController : ControllerBase
+    public class ShoppingController : ControllerBase
     {
-        // GET: api/<SalesController>
+        // GET: api/<ShoppingController>
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/<SalesController>/5
+        // GET api/<ShoppingController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/<SalesController>
+        // POST api/<ShoppingController>
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/<SalesController>/5
+        // PUT api/<ShoppingController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/<SalesController>/5
+        // DELETE api/<ShoppingController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
