@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MongoMission.Core.Services.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,12 +9,20 @@ namespace MongoMission.Controllers
     [ApiController]
     public class SalesController : ControllerBase
     {
+        private readonly IProcessor _processor;
+        public SalesController(IProcessor processor)
+        {
+            _processor = processor;
+        }
+
+        #region get all end-points
         // GET: api/<SalesController>
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
+        #endregion
 
         // GET api/<SalesController>/5
         [HttpGet("{id}")]

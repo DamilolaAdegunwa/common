@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
-    //"logistics" or "transportation"
+    //"logistics" or "transportation", tracking, google-map etc.
     public class SupplyChainManagementService: ISupplyChainManagementService
     {
         private readonly AppSettings _appSettings;

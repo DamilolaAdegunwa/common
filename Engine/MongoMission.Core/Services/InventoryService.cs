@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
+    //location, stocks, quantity, warehouse, delivery-type (door-to-door) 
     public class InventoryService : IInventoryService
     {
         private readonly AppSettings _appSettings;

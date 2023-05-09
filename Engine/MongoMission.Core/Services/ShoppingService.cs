@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
+    //(just think of what you can do at shopprite)
     public class ShoppingService: IShoppingService
     {
         private readonly AppSettings _appSettings;

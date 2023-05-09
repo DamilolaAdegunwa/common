@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
+    //support, complain, suggestions...
     public class CustomerRelationshipService : ICustomerRelationshipService
     {
         private readonly AppSettings _appSettings;

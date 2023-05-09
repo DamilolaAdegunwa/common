@@ -17,6 +17,7 @@ using Microsoft.Extensions.Logging;
 
 namespace MongoMission.Core.Services
 {
+    //tele-sales, leads, conversations with potential leads, marketing out reach, endorsement, celebrities-envangelist, 
     public class SalesService : ISalesService
     {
         private readonly AppSettings _appSettings;

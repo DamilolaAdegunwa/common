@@ -17,5 +17,6 @@ namespace MongoMission.Core.Services.Interfaces
         public ISalesService SalesService { get; }
         public IShoppingService ShoppingService { get; }
         public ISupplyChainManagementService SupplyChainManagementService { get; }
+        public IDatabaseService DatabaseService { get; }
     }
 }

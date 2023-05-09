@@ -1,0 +1,14 @@
+﻿using MongoMission.Core.Repositories.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MongoMission.Core.Services.Interfaces
+{
+    public interface IDatabaseService
+    {
+        public IUnitOfWork UnitOfWork { get; }
+    }
+}

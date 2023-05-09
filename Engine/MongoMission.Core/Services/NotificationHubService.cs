@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
+    //email, sms, otp, notification box
     public class NotificationHubService: INotificationHubService
     {
         private readonly AppSettings _appSettings;

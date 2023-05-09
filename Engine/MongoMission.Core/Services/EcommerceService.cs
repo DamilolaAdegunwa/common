@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
+    //categories, subcategories, range, cart, promo, AI-suggestions,  
     public class EcommerceService : IEcommerceService
     {
         private readonly AppSettings _appSettings;

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Services
 {
-    //"transaction service" or "financial service"
+    //"transaction service" or "financial service", wallet
     public class PaymentService : IPaymentService
     {
         private readonly AppSettings _appSettings;

@@ -18,7 +18,8 @@ namespace MongoMission.Core.Services
         IReportService reportService,
         ISalesService salesService,
         IShoppingService shoppingService,
-        ISupplyChainManagementService supplyChainManagementService)
+        ISupplyChainManagementService supplyChainManagementService,
+        IDatabaseService databaseService)
         {
             CustomerRelationshipService = customerRelationshipService;
             EcommerceService = ecommerceService;
@@ -29,6 +30,7 @@ namespace MongoMission.Core.Services
             SalesService = salesService;
             ShoppingService = shoppingService;
             SupplyChainManagementService = supplyChainManagementService;
+            DatabaseService = databaseService;
         }
 
         public ICustomerRelationshipService CustomerRelationshipService { get; }
@@ -40,5 +42,6 @@ namespace MongoMission.Core.Services
         public ISalesService SalesService { get; }
         public IShoppingService ShoppingService { get; }
         public ISupplyChainManagementService SupplyChainManagementService { get; }
+        public IDatabaseService DatabaseService { get; }
     }
 }
