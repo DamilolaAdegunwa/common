@@ -12,7 +12,7 @@ namespace RetryApp
             DoWork();
         }
         public virtual void DoWork() {
-        
+            
         }
     }
 	class DerivedClass : BaseClass
