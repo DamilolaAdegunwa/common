@@ -43,7 +43,9 @@ namespace RetryApp
         }
         public static void Main(string[] args)
         {
-            new EmailSender().SendEMail("damee1993@gmail.com", "shout out", "shout!!");
+			//SAC aSAC = new SAC();
+            SAC.Name();
+			new EmailSender().SendEMail("damee1993@gmail.com", "shout out", "shout!!");
             DerivedClass d = (DerivedClass)new object();
             d.DoWork();
             var q = System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(typeof(DerivedClass));
