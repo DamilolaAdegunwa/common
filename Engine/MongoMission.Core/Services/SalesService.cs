@@ -14,6 +14,7 @@ using MongoMission.Core.Models.Collections;
 using MongoMission.Core.Services.Interfaces;
 using MongoMission.Core.Repositories.Interfaces;
 using Microsoft.Extensions.Logging;
+using System.Runtime.CompilerServices;
 
 namespace MongoMission.Core.Services
 {
@@ -34,7 +35,11 @@ namespace MongoMission.Core.Services
             _fullClassName = $"{this.GetType().Namespace}.{this.GetType().Name}";
         }
 
-        private IMongoCollection<Product> ProductCollection()
+        private IMongoCollection<Product> ProductCollection(
+		[CallerMemberName] string memberName = "",
+		[CallerFilePath] string filePath = "",
+		[CallerLineNumber] int lineNumber = 0
+			)
         {
             string connStr = _appSettings.DatabaseConnection.ConnectionString;
             var databaseName = MongoUrl.Create(connStr).DatabaseName;
@@ -45,8 +50,12 @@ namespace MongoMission.Core.Services
             return productCollection;
         }
 
-        public List<Product> GetProducts()
-        {
+        public List<Product> GetProducts(
+		[CallerMemberName] string memberName = "",
+		[CallerFilePath] string filePath = "",
+		[CallerLineNumber] int lineNumber = 0
+			)
+		{
             var productCollection = ProductCollection();
             var filterdefinition = Builders<Product>.Filter.Empty;
             var products = productCollection.Find(filterdefinition).ToList();
@@ -54,8 +63,12 @@ namespace MongoMission.Core.Services
             return products;
         }
 
-        public bool SaveProduct(Product product)
-        {
+        public bool SaveProduct(Product product,
+		[CallerMemberName] string memberName = "",
+		[CallerFilePath] string filePath = "",
+		[CallerLineNumber] int lineNumber = 0
+			)
+		{
             try
             {
                 var productCollection = ProductCollection();
