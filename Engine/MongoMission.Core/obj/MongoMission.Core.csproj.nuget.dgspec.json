@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj": {}
+    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj": {
+    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
-        "projectName": "ConvertApp.ConsoleApp",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ConvertApp.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj",
+        "projectName": "MongoMission.Core",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,25 +43,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "BenchmarkDotNet": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[0.13.5, )"
+              "version": "[7.0.0, )"
             },
-            "RSG.Promise": {
+            "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[7.0.1, )"
             },
-            "System-Web-Helpers.dll": {
+            "MongoDB.Driver": {
               "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "System.Linq.Async": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Vse.Web.Serialization.ControlledSerializationJsonConverter": {
-              "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[2.19.1, )"
             }
           },
           "imports": [

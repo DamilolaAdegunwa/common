@@ -23,5 +23,54 @@ namespace MongoMission.Core.Models.Collections
         public string PhoneNumber { get; set; }
         [BsonElement, BsonRepresentation(BsonType.String)]
         public string Email { get; set; }
-    }
+
+
+		public void Deconstruct(
+			out string _FullName,
+			out DateTime _DateOfBirth,
+			out string _Address,
+			out string _PhoneNumber,
+			out string _Email
+			)
+		{
+			_FullName = FullName;
+			_DateOfBirth = DateOfBirth;
+			_Address = Address;
+			_PhoneNumber = PhoneNumber;
+			_Email = Email;
+		}
+		public void Deconstruct(
+			out ObjectId _Id,
+			out DateTime _DateCreated,
+			out ObjectId? _CreatedByUserId,
+			out bool _IsDeleted,
+			out DateTime? _DateDeleted,
+			out ObjectId? _DeletedByUserId,
+			out DateTime? _DateModified,
+			out ObjectId? _ModifiedByUserId,
+
+
+			out string _FullName,
+			out DateTime _DateOfBirth,
+			out string _Address,
+			out string _PhoneNumber,
+			out string _Email
+			)
+		{
+			_Id = Id;
+			_DateCreated = DateCreated;
+			_CreatedByUserId = CreatedByUserId;
+			_IsDeleted = IsDeleted;
+			_DateDeleted = DateDeleted;
+			_DeletedByUserId = DeletedByUserId;
+			_DateModified = DateModified;
+			_ModifiedByUserId = ModifiedByUserId;
+
+			_FullName = FullName;
+			_DateOfBirth = DateOfBirth;
+			_Address = Address;
+			_PhoneNumber = PhoneNumber;
+			_Email = Email;
+		}
+	}
 }
