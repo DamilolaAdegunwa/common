@@ -1452,23 +1452,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\damil\\.nuget\\packages\\": {},
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission\\MongoMission.csproj",
+      "projectUniqueName": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission\\MongoMission.csproj",
       "projectName": "MongoMission",
-      "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission\\MongoMission.csproj",
-      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission\\obj\\",
+      "projectPath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission\\MongoMission.csproj",
+      "packagesPath": "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oluwadamilola.Ade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1482,8 +1485,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj": {
-              "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj"
+            "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj": {
+              "projectPath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission.Core\\MongoMission.Core.csproj"
             }
           }
         }
@@ -1534,7 +1537,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
