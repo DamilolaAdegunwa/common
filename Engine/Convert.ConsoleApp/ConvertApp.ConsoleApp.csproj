@@ -10,9 +10,12 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+    <PackageReference Include="Castle.DynamicProxy" Version="2.2.0" />
     <PackageReference Include="RSG.Promise" Version="3.0.1" />
     <PackageReference Include="System-Web-Helpers.dll" Version="1.0.0" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    <PackageReference Include="System.Reactive.Runtime.Remoting" Version="6.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
     <PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
   </ItemGroup>
 

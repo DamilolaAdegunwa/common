@@ -23,6 +23,15 @@ namespace ConvertApp.ConsoleApp.Services.Junk
             Console.WriteLine("damilola is testing!");
         }
 
+        public void Int()
+        {
+            Console.WriteLine();
+        }
+
+        public Dummy _Name(Dummy dummy)
+        {
+            return new Dummy { Name = _nick_name };
+        }
         public Dummy CloneThis(Dummy dummy)
         {
             dummy.Work = "MS";

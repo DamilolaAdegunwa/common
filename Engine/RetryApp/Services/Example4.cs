@@ -9,7 +9,7 @@ using Polly.Retry;
 using Polly;
 using System.Xml.Linq;
 using System.Runtime.CompilerServices;
-
+using Newtonsoft.Json;
 namespace RetryApp.Services
 {
 
@@ -621,6 +621,12 @@ namespace RetryApp.Services
 		{
 			//name = "test";
 		}
+	}
+
+    //struct: partial, readonly, ref, unsafe
+    public unsafe struct TestThisStruct
+	{
+
 	}
 	public class TestClass2
 	{
