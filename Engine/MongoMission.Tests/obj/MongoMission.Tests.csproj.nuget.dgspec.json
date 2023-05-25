@@ -69,13 +69,13 @@
               "target": "Package",
               "version": "[4.9.1, )"
             },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[113.0.5672.6300, )"
-            },
             "Shouldly": {
               "target": "Package",
               "version": "[4.2.1, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.16.2, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

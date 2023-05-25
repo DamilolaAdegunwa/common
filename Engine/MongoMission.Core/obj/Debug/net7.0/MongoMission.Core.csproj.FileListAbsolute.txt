@@ -1,15 +1,3 @@
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.deps.json
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.dll
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.pdb
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.csproj.AssemblyReference.cache
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.AssemblyInfoInputs.cache
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.AssemblyInfo.cs
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.csproj.CoreCompileInputs.cache
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.dll
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\refint\MongoMission.Core.dll
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\MongoMission.Core.pdb
-C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Core\obj\Debug\net7.0\ref\MongoMission.Core.dll
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.deps.json
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.dll
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Core\bin\Debug\net7.0\MongoMission.Core.pdb
