@@ -316,3 +316,8 @@ C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\obj\Deb
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\obj\Debug\net7.0\MongoMission.Tests.pdb
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\obj\Debug\net7.0\MongoMission.Tests.genruntimeconfig.cache
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\obj\Debug\net7.0\ref\MongoMission.Tests.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\bin\Debug\net7.0\OpenQA.Selenium.Winium.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\bin\Debug\net7.0\WebDriver.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\MongoMission.Tests\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe

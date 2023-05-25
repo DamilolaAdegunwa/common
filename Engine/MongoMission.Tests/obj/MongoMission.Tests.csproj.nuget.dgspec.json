@@ -61,6 +61,18 @@
               "target": "Package",
               "version": "[4.18.4, )"
             },
+            "OpenQA.Selenium.Winium": {
+              "target": "Package",
+              "version": "[1.0.0.4, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[113.0.5672.6300, )"
+            },
             "Shouldly": {
               "target": "Package",
               "version": "[4.2.1, )"

@@ -7,9 +7,23 @@ using System.Configuration;
 using Microsoft.Extensions.Configuration;
 namespace MongoMission.Tests
 {
+
 	public class UnitTest1
 	{
-		public UnitTest1() {
+        [Theory]
+        [InlineData(3)]
+        [InlineData(5)]
+        [InlineData(6)]
+        public void MyFirstTheory(int value)
+        {
+            Assert.True(IsOdd(value));
+        }
+
+        bool IsOdd(int value)
+        {
+            return value % 2 == 1;
+        }
+        public UnitTest1() {
 			var configuration = new Mock<IConfiguration>();
 			var configSection = new Mock<IConfigurationSection>();
 

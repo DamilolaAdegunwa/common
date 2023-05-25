@@ -9,7 +9,7 @@ namespace ConvertApp.ConsoleApp.Services.Others
 {
     public class Program_DispatchProxyImpl
     {
-        static void Main(string[] args)
+        static void Main_DispatchProxyImpl(string[] args)
         {
             var decoratedCalculator = LoggingDecorator<ICalculator>.Create(new Calculator());
             decoratedCalculator.Add(3, 5);

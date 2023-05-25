@@ -314,3 +314,9 @@ C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\obj\Deb
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ref\ConvertApp.ConsoleApp.dll
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\System.Reactive.dll
 C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\System.Reactive.Runtime.Remoting.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\Castle.Services.Logging.NLogIntegration.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\Castle.Services.Logging.log4netIntegration.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\Castle.DynamicProxy2.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\log4net.dll
+C:\Users\Oluwadamilola.Ade\source\repos\common\Engine\Convert.ConsoleApp\bin\Debug\net7.0\NLog.dll
