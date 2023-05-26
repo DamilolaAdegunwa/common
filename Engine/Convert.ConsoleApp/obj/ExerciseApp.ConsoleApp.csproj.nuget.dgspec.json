@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[0.13.5, )"
             },
+            "Castle.DynamicProxy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "RSG.Promise": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -58,6 +62,14 @@
             "System.Linq.Async": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "System.Reactive.Runtime.Remoting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             },
             "Vse.Web.Serialization.ControlledSerializationJsonConverter": {
               "target": "Package",
