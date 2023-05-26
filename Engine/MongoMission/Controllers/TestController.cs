@@ -23,11 +23,11 @@ namespace MongoMission.Controllers
 			return product == null ? Results.NotFound() : Results.Ok(product);
 		}
 
-		[HttpGet("{id}")]
-		public Results<NotFound, Ok<Product>> GetById2(int id)
-		{
-			var product = new Product(); //_productContext.Products.Find(id);
-			return product == null ? TypedResults.NotFound() : TypedResults.Ok(product);
-		}
+		//[HttpGet("{id}")]
+		//public Results<NotFound, Ok<Product>> GetById2(int id)
+		//{
+		//	var product = new Product(); //_productContext.Products.Find(id);
+		//	return product == null ? TypedResults.NotFound() : TypedResults.Ok(product);
+		//}
 	}
 }

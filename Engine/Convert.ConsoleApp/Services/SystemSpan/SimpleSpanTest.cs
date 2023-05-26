@@ -58,7 +58,7 @@ namespace ConvertApp.ConsoleApp.Services.SystemSpan
 	{
 
 	}
-	public readonly ref partial struct ReadOnlySpanTest<T> //: INothing //cannot impl interface
+	public unsafe readonly ref partial struct ReadOnlySpanTest<T> //: INothing //cannot impl interface
 	{
 		public readonly int Age { get; }
 		public readonly int YearsOfExperience { get; }
