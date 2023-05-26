@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetryApp", "RetryApp\RetryA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{B7D67AEC-89B3-4ACE-A554-F20DA25F725B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertApp.ConsoleApp", "Convert.ConsoleApp\ConvertApp.ConsoleApp.csproj", "{4D4D2A26-952D-4A59-8A9B-2AB60136E2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseApp.ConsoleApp", "Convert.ConsoleApp\ExerciseApp.ConsoleApp.csproj", "{4D4D2A26-952D-4A59-8A9B-2AB60136E2B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Goals", "Goals", "{520DC19A-857A-4B5D-86ED-FD7B17095882}"
 EndProject
