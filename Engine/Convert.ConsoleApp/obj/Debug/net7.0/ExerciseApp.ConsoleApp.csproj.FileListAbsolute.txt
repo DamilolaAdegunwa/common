@@ -1,0 +1,5 @@
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ExerciseApp.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ExerciseApp.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ExerciseApp.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ExerciseApp.ConsoleApp.AssemblyInfo.cs
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\Convert.ConsoleApp\obj\Debug\net7.0\ExerciseApp.ConsoleApp.csproj.CoreCompileInputs.cache

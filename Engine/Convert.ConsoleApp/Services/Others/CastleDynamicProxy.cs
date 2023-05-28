@@ -10,9 +10,9 @@ using Castle.Core.Interceptor;
 
 namespace ConvertApp.ConsoleApp.Services.Others
 {
-    //internal class CastleDynamicProxy
-    //{
-    //}
+    internal class CastleDynamicProxy
+    {
+    }
     class Program_ProxyGenerator
     {
         private static readonly ProxyGenerator Generator = new ProxyGenerator();

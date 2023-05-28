@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MongoMission.Core.Models
 {
-    public class AppSettings
+	[System.Diagnostics.DebuggerDisplay("mostly DatabaseConnection")]
+	public class AppSettings
     {
         public DatabaseConnection DatabaseConnection { get; set; }
     }

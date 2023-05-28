@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[4.18.4, )"
             },
+            "OpenAiClient": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "OpenQA.Selenium.Winium": {
               "target": "Package",
               "version": "[1.0.0.4, )"

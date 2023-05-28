@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Security.Principal;
 using System.Web;
 using System.Web.Http;
-using System.Web.Mvc;
+//using System.Web.Mvc;
 using System.Web.Script.Serialization;
 using System.Web.Security;
 using System;
@@ -15,23 +15,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Security.Principal;
-using Microsoft.AspNet.Identity;
+//using Microsoft.AspNet.Identity;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.Owin.Security;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
+//using Microsoft.Owin.Security;
+//using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNet.Identity;
+//using Microsoft.AspNet.Identity.EntityFramework;
+//using Microsoft.AspNet.Identity.Owin;
 //using Microsoft.IdentityModel.Tokens;
-using Microsoft.Owin;
-using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.DataProtection;
+//using Microsoft.Owin;
+//using Microsoft.Owin.Security;
+//using Microsoft.Owin.Security.DataProtection;
 //using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Data.Entity;
+//using System.Data.Entity;
 //using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Linq;
@@ -49,17 +49,18 @@ using System.Web.Http;
 //using System.Web.Http.Cors;
 using System.Web.Script.Serialization;
 using System.Threading;
-using System.Web.Http.Routing;
-using System.Web.Http.Controllers;
-using System.Web.Http.Hosting;
+//using System.Web.Http.Routing;
+//using System.Web.Http.Controllers;
+//using System.Web.Http.Hosting;
 using System.Web.Routing;
-using Moq;
+//using Moq;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Auth.AspNet.MVC.Controllers
 {
     public class TestController : BaseController//Controller
     {
-        [System.Web.Mvc.HttpGet, System.Web.Mvc.HttpPost]
+        //[System.Web.Mvc.HttpGet, System.Web.Mvc.HttpPost]
         public ActionResult CreateCookieFromUser(ViewModel viewModel)
         {
             //HttpRuntime.;
@@ -90,9 +91,9 @@ namespace Auth.AspNet.MVC.Controllers
                 string encTicket = FormsAuthentication.Encrypt(authTicket);
                 HttpCookie faCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encTicket);
                 faCookie.HttpOnly = true;//this prevents javascript from accessing it!!
-                Response.Cookies.Add(faCookie);
+                //Response.Cookies.Add(faCookie);
                 //FormsAuthentication.SignOut();//to sign out
-                return RedirectToAction("Index", "Home");
+                return View("Index", "Home");
             }
             return View();
         }

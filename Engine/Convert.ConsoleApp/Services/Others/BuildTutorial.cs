@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExerciseApp.ConsoleApp.Services.Others
 {
-	//public class BuildTutorial
-	//{
-	//}
+	public class BuildTutorial
+	{
+	}
 	public readonly record struct DailyTemperature
 		(double HighTemp, double LowTemp)
 	{

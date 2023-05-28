@@ -25,6 +25,7 @@ namespace ConvertApp.ConsoleApp.Services.Others.Variance
 
     public class Cat : Animal
     {
+        public string Name { get; set; }
         public void Meow()
         {
             Console.WriteLine("Meow!");
