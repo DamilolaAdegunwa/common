@@ -48,7 +48,7 @@ namespace ExerciseApp.ConsoleApp.Services.Others
 			new DailyTemperature(85, 66)
 		};
 
-		public static void Main()
+		public static void Main_()
 		{
 			foreach (var item in data)
 			{

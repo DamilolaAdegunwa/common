@@ -16,7 +16,7 @@ namespace CodeSnippet.ConsoleApp
 {
     public class arrayManipulation
     {
-        public static void MainarrayManipulation()
+        public static async Task MainarrayManipulation()
         {
             //int[,] queries = new int[200000, 3];
             //var n = 10_000_000;
@@ -47,7 +47,7 @@ namespace CodeSnippet.ConsoleApp
                 queries[i] = new int[3] { 1, n, 1_000_000_000 };
                 
             }
-            ArrayManipulation(n, queries);
+            await ArrayManipulation(n, queries);
 
             var x = "done";
             while(true)

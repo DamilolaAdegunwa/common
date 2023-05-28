@@ -55,6 +55,7 @@ using System.Threading;
 using System.Web.Routing;
 //using Moq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Auth.AspNet.MVC.Controllers
 {
@@ -112,7 +113,7 @@ namespace Auth.AspNet.MVC.Controllers
                 FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, username, DateTime.Now, DateTime.Now.AddMinutes(30), true, userData);
                 string encTicket = FormsAuthentication.Encrypt(ticket);
                 HttpCookie faCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encTicket);
-                Response.Cookies.Add(faCookie);
+               // Response.Cookies.Add(faCookie);
                 //And send the user where they were heading
                 string redirectUrl = FormsAuthentication.GetRedirectUrl(username, false);
                 Response.Redirect(redirectUrl);
@@ -120,7 +121,7 @@ namespace Auth.AspNet.MVC.Controllers
         }
         protected void Application_PostAuthenticateRequest(Object sender, EventArgs e)
         {//get user from cookie
-            HttpCookie authCookie = Request.Cookies[FormsAuthentication.FormsCookieName];
+            HttpCookie authCookie = default;//Request.Cookies[FormsAuthentication.FormsCookieName];
 
             if (authCookie != null)
             {
@@ -135,7 +136,7 @@ namespace Auth.AspNet.MVC.Controllers
                 newUser.FirstName = serializeModel.FirstName;
                 newUser.LastName = serializeModel.LastName;
 
-                HttpContext.User = newUser;
+                //HttpContext.User = newUser;
 
                 /*
                 @((User as CustomPrincipal).Id)
@@ -155,8 +156,7 @@ namespace Auth.AspNet.MVC.Controllers
         }
         protected void Application_AuthenticateRequest(Object sender, EventArgs e)
         {
-            HttpCookie authCookie = Request.Cookies[
-                     FormsAuthentication.FormsCookieName];
+            HttpCookie authCookie = default; //Request.Cookies[FormsAuthentication.FormsCookieName];
             if (authCookie != null)
             {
                 //Extract the forms authentication cookie
@@ -167,7 +167,7 @@ namespace Auth.AspNet.MVC.Controllers
                 //=>CustomIdentity id = GetUserIdentity(authTicket.Name);
                 //CustomPrincipal implements System.Web.Security.IPrincipal
                 CustomPrincipal newUser = new CustomPrincipal("");
-                HttpContext.User = newUser;
+               // HttpContext.User = newUser;
             }
         }
         public void HelperCreateCookies()
@@ -228,8 +228,8 @@ namespace Auth.AspNet.MVC.Controllers
         }
 
 
-        [System.Web.Mvc.HttpPost]
-        [System.Web.Mvc.AllowAnonymous]
+        [HttpPost]
+        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginModel details, string returnUrl)
         {
@@ -289,7 +289,7 @@ namespace Auth.AspNet.MVC.Controllers
 
         protected void Application_PostAuthenticateRequest2(Object sender, EventArgs e)
         {
-            HttpCookie authCookie = Request.Cookies[FormsAuthentication.FormsCookieName];
+            HttpCookie authCookie = default; //Request.Cookies[FormsAuthentication.FormsCookieName];
 
             if (authCookie != null)
             {
@@ -339,23 +339,23 @@ namespace Auth.AspNet.MVC.Controllers
         {
         }
         #endregion
-        public void ShowMock()
-        {
-            var userMock = new Mock<IPrincipal>();
-            userMock.Setup(p => p.IsInRole("admin")).Returns(true);
-            userMock.SetupGet(p => p.Identity.Name).Returns("tester");
-            userMock.SetupGet(p => p.Identity.IsAuthenticated).Returns(true);
+        //public void ShowMock()
+        //{
+        //    var userMock = new Mock<IPrincipal>();
+        //    userMock.Setup(p => p.IsInRole("admin")).Returns(true);
+        //    userMock.SetupGet(p => p.Identity.Name).Returns("tester");
+        //    userMock.SetupGet(p => p.Identity.IsAuthenticated).Returns(true);
 
-            var requestContext = new Mock<HttpRequestContext>();
-            requestContext.Setup(x => x.Principal).Returns(userMock.Object);
+        //    var requestContext = new Mock<HttpRequestContext>();
+        //    requestContext.Setup(x => x.Principal).Returns(userMock.Object);
 
-            var controller = new ControllerToTest()
-            {
-                RequestContext = requestContext.Object,
-                Request = new HttpRequestMessage(),
-                Configuration = new HttpConfiguration()
-            };
-        }
+        //    var controller = new ControllerToTest()
+        //    {
+        //        RequestContext = requestContext.Object,
+        //        Request = new HttpRequestMessage(),
+        //        Configuration = new HttpConfiguration()
+        //    };
+        //}
         public void SetThreadPrincipal()
         {
             //var rc = new RequestContext().HttpContext.Request.Principal.Identity.Name;
@@ -375,7 +375,7 @@ namespace Auth.AspNet.MVC.Controllers
 
             public object RequestContext { get; set; }
             public HttpRequestMessage Request { get; set; }
-            public HttpConfiguration Configuration { get; set; }
+            //public HttpConfiguration Configuration { get; set; }
         }
         //public static ResourcesController SetupResourcesController(HttpRequestMessage request, IResourceMetadataRepository repo, IUnitOfWorkService unitOfWorkService)
         //{

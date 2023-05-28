@@ -26,7 +26,7 @@ namespace ConvertApp.ConsoleApp
         //public static void Main() { Console.WriteLine("working"); }
 
         //test 3
-        public static void Main()
+        public static void Main_()
         {
             VarianceCode.Main_VarianceCode();
         }
