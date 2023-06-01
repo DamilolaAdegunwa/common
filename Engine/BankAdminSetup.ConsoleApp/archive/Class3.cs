@@ -8,7 +8,7 @@
 //    {
 //        public void Summarize(T input) { }
 //    }
-//public interface ITest<T> { }
+//    public interface ITest<T> { }
 
 //    internal class Test1 : ITest<int> { }
 //    internal sealed class Test2 : ITest<int> { }
@@ -44,7 +44,7 @@
 //            new Class3().somemethod();
 //            _ = "";
 //        }
-        
+
 //    }
 //    public class YForm : YWindowForm<MyDBObject> { }
 //    public class YWindowForm<T> : YWindowFormBase where T : DBBaseObject
@@ -66,7 +66,7 @@
 //}
 //namespace test
 //{
-    
+
 //    public class BetterInputSelect<TItem> : InputBase<TItem>
 //    {
 

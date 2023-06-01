@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-
 namespace CodeSnippet.ConsoleApp
 {
     public partial class HowTo

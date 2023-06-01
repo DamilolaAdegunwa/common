@@ -29,7 +29,7 @@ namespace CodeSnippet.ConsoleApp
                 }
             }
         }
-        class Chunk<TKey, TSource> : IGrouping<TKey, TSource>
+        public class Chunk<TKey, TSource> : IGrouping<TKey, TSource>
         {
             class ChunkItem
             {
@@ -143,7 +143,7 @@ namespace CodeSnippet.ConsoleApp
         public string Key { get; set; }
         public string Value { get; set; }
     }
-    class ProgramChunk
+    public class ProgramChunk
     {
         // The source sequence.
         public static IEnumerable<KeyValPair> list;

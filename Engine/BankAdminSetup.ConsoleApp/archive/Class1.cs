@@ -13,12 +13,12 @@ using System.Text;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-class Solution
+public class Solution
 {
     
 
     // Complete the minimumSwaps function below.
-    static int minimumSwaps(int[] arr)
+    public static int minimumSwaps(int[] arr)
     {
         var arrlist = arr.ToList();
         var n = arrlist.Count;
@@ -59,7 +59,7 @@ class Solution
             return newStr;
         }
     }
-    static void OldMain(string[] args)
+    public static void OldMain(string[] args)
     {
         var x1 = ConstructCorpCode("SAUDAHNG");
         var x2 = ConstructCorpCode("SAUDADAM");
@@ -109,9 +109,6 @@ class Solution
     //    }
     //}
 }
-
-
-
 public class SomeClass
 {
     

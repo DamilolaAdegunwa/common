@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.ObjectPool;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -8,9 +9,11 @@ namespace ConvertApp.ConsoleApp.Services.Others
 {
     public class StaticVirtual
     {
-        //public void Clone() { }
-        //public static double MidPoint(double left, double right) => (left + right) / (2.0);
-        public static T MidPoint<T>(T left, T right) where T : INumber<T> => (left + right) / T.CreateChecked(2);  
+		private readonly ObjectPool<StringBuilder> _stringBuilderPool =
+	new DefaultObjectPoolProvider().CreateStringBuilderPool();
+		//public void Clone() { }
+		//public static double MidPoint(double left, double right) => (left + right) / (2.0);
+		public static T MidPoint<T>(T left, T right) where T : INumber<T> => (left + right) / T.CreateChecked(2);  
         // note: the addition of left and right may overflow here; it's just for demonstration purposes
     }
 
