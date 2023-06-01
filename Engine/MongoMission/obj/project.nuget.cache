@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TJeX/MW6kDjy48fH7BBgIPEKcDNbOxCw9XT3kclyPSTEpxKSQQsFdfd6SAYi0j/OtxBKvfIoJCCBbHpqDlxjuQ==",
+  "dgSpecHash": "R7e5A1s3R+85kizXLXL+Eo/+vtdXv+TyosWe4ph6XvABmnPm1cWRee/H1kLiDhzRA1z+B+qhJ4GgkVQIg3IZCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission\\MongoMission.csproj",
   "expectedPackageFiles": [
@@ -29,10 +29,30 @@
     "C:\\Users\\damil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\system.reactive.windows.threading\\6.0.0\\system.reactive.windows.threading.6.0.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\damil\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\damil\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reactive.Windows.Threading 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Reactive.Windows.Threading",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
