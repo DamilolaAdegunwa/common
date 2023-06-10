@@ -149,7 +149,7 @@ namespace MongoMission.Tests.Tests
 		public async Task TestPropertyChangedAsyncEvent()
 		{
 			var viewModel = new ExampleViewModel();
-			Task task = Task.Run(() => viewModel.Name = "New Name");
+			var  task = Task.Run(() => viewModel.Name = "New Name");
 			await Assert.PropertyChangedAsync(viewModel, nameof(ExampleViewModel.Name), () => task);
 			// This assertion passes since the PropertyChanged event is raised when Name is changed.
 		}

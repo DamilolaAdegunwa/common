@@ -119,7 +119,7 @@ namespace ConvertApp.ConsoleApp.Services.Junk
 	{
 		public static readonly string s = "";
 		public static readonly string E = null;
-		public static void Main(string[] args)
+		public static void Main_Readonly(string[] args)
 		{
 			int x = 42;
 			TypedReference tr = __makeref(x);

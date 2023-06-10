@@ -7,6 +7,7 @@ using BenchmarkDotNet.Running;
 using ConvertApp.ConsoleApp.Services.Junk;
 using ConvertApp.ConsoleApp.Services.Others;
 using ConvertApp.ConsoleApp.Services.SystemSpan;
+using ExerciseApp.ConsoleApp.Services.WealthHub.Events;
 
 namespace ConvertApp.ConsoleApp
 {
@@ -26,9 +27,10 @@ namespace ConvertApp.ConsoleApp
         //public static void Main() { Console.WriteLine("working"); }
 
         //test 3
-        public static void Main_()
+        public static void Main()
         {
-            VarianceCode.Main_VarianceCode();
+            Program_SavingsGoalDTO.Main_SavingsGoalDTO();
+            //VarianceCode.Main_VarianceCode();
         }
     }
 }
