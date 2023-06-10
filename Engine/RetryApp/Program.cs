@@ -28,7 +28,8 @@ namespace RetryApp
 			//var s = await ts;
 			//Console.WriteLine($"the 's' value is: {s}");
 			//ExampleAwaitClass.Main_Example();
-			ThreadStaticClass.Main_ThreadStaticClass();
+			//ThreadStaticClass.Main_ThreadStaticClass();
+			Program_AutoResetEvent.Main_AutoResetEvent();
 		}
 		public void Method()
 		{
