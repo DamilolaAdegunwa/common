@@ -38,7 +38,7 @@ namespace ConvertApp.ConsoleApp.Services.Others
 
 	public class Example
 	{
-		public static void Main()
+		public static void Main_Example()
 		{
 			// Create a proxy generator
 			var proxyGenerator = new ProxyGenerator();

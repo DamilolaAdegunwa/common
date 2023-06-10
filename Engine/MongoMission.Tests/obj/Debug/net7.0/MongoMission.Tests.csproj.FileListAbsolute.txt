@@ -352,3 +352,9 @@ C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\obj\De
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\obj\Debug\net7.0\MongoMission.Tests.pdb
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\obj\Debug\net7.0\MongoMission.Tests.genruntimeconfig.cache
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\obj\Debug\net7.0\ref\MongoMission.Tests.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\MongoMission.Tests\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

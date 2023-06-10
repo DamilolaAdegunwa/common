@@ -20,7 +20,7 @@ namespace CodeSnippet.ConsoleApp
         public void Method1()
         {
             var s = new System.Numerics.Complex();
-            var a = System.ServiceProcess.StartInfo.FileName;
+            //var a = System.ServiceProcess.StartInfo.FileName;
 		}
     }
 }
