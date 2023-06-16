@@ -3,14 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConvertApp.ConsoleApp.Services.Records;
 using Microsoft.Extensions.Logging;
 namespace ExerciseApp.ConsoleApp
 {
-	internal class Program_ILoggerFactory
+	public record struct  testRec
+	{
+		public int firstNum ; public int secondNum;
+	}
+	internal unsafe class Program_ILoggerFactory
 	{
 		//static void Main_ILoggerFactory()
 		static void Main_ILoggerFactory()
 		{
+			var a = new testRec() { firstNum = 1, secondNum = 2 };
+			var b = a with { };
+			int c = 4;
+            _ = sizeof(int);
 			// Create an instance of ILoggerFactory
 			ILoggerFactory loggerFactory = LoggerFactory.Create(builder =>
 			{
