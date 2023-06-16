@@ -7688,26 +7688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\damil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission.Tests\\MongoMission.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Tests\\MongoMission.Tests.csproj",
       "projectName": "MongoMission.Tests",
-      "projectPath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission.Tests\\MongoMission.Tests.csproj",
-      "packagesPath": "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\MongoMission.Tests\\obj\\",
+      "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Tests\\MongoMission.Tests.csproj",
+      "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\MongoMission.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Oluwadamilola.Ade\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\damil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7806,7 +7803,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },
