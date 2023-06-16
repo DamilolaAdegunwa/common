@@ -157,8 +157,12 @@ namespace ExerciseApp.ConsoleApp
 		public static void Main()
 		{
 			//coordinates for Lagos, Nigeria (6.465422, 3.406448)
-			var enc = Encode(6.465422, 3.406448);
-			Console.WriteLine(enc);
+			var enc1 = Encode(6.465422, 3.406448);
+			Console.WriteLine($"enc1 = {enc1}");
+
+			//coordinates for 0,0
+			var enc2 = Encode(0, 0);
+			Console.WriteLine($"enc2 = {enc2}");
 			//done
 		}
 	}
