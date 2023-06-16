@@ -322,3 +322,9 @@
 /Engine/Convert.ConsoleApp/obj/Debug/net7.0/ConvertApp.ConsoleApp.assets.cache
 /Engine/Convert.ConsoleApp/obj/ConvertApp.ConsoleApp.csproj.nuget.g.props
 /Engine/Convert.ConsoleApp/obj/ConvertApp.ConsoleApp.csproj.nuget.dgspec.json
+/Engine/ApiAuthorizationDbContextWebApplication/obj/Debug/net7.0/ApiAuthorizationDbContextWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Engine/Convert.ConsoleApp/obj/Debug/net7.0/ExerciseApp.ConsoleApp.assets.cache
+/Engine/Convert.ConsoleApp/obj/Debug/net7.0/ExerciseApp.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Engine/MongoMission/obj/Debug/net7.0/MongoMission.GeneratedMSBuildEditorConfig.editorconfig
+/Engine/MongoMission.Core/obj/Debug/net7.0/MongoMission.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Engine/MongoMission.Tests/obj/Debug/net7.0/MongoMission.Tests.GeneratedMSBuildEditorConfig.editorconfig
