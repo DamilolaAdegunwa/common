@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "O33ac2s1Z4JEh6WP7357/9W124BoVGNM6bfGONUNcGA=",
+  "Source": "ApiAuthorizationOptionsWebApplication",
+  "BasePath": "_content/ApiAuthorizationOptionsWebApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

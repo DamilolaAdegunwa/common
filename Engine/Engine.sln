@@ -37,7 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{B7D67A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseApp.ConsoleApp", "Convert.ConsoleApp\ExerciseApp.ConsoleApp.csproj", "{4D4D2A26-952D-4A59-8A9B-2AB60136E2B6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Goals", "Goals", "{520DC19A-857A-4B5D-86ED-FD7B17095882}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{520DC19A-857A-4B5D-86ED-FD7B17095882}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoMission", "MongoMission\MongoMission.csproj", "{A48962EA-1317-447A-A1FC-0D0CBCEE50AA}"
 EndProject
@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoMission.Core", "MongoM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoMission.Tests", "MongoMission.Tests\MongoMission.Tests.csproj", "{E4DBD1C2-5D56-4A55-A585-0781F459816A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAuthorizationDbContextWebApplication", "ApiAuthorizationDbContextWebApplication\ApiAuthorizationDbContextWebApplication.csproj", "{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAuthorizationDbContextWebApplication", "ApiAuthorizationDbContextWebApplication\ApiAuthorizationDbContextWebApplication.csproj", "{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAuthorizationOptionsWebApplication", "ApiAuthorizationOptionsWebApplication\ApiAuthorizationOptionsWebApplication.csproj", "{976E181C-3830-4AF0-84F3-A321A6742E7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976E181C-3830-4AF0-84F3-A321A6742E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976E181C-3830-4AF0-84F3-A321A6742E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976E181C-3830-4AF0-84F3-A321A6742E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976E181C-3830-4AF0-84F3-A321A6742E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{D9CF0AAA-A8D5-4F98-904C-0CD3EAE0D745} = {B1B4D79C-8E84-4180-9485-9A9C81348C00}
 		{E4DBD1C2-5D56-4A55-A585-0781F459816A} = {B1B4D79C-8E84-4180-9485-9A9C81348C00}
 		{C198EF56-32A4-4F0D-8B9D-48B6A5E7EC0B} = {B7D67AEC-89B3-4ACE-A554-F20DA25F725B}
+		{976E181C-3830-4AF0-84F3-A321A6742E7A} = {B7D67AEC-89B3-4ACE-A554-F20DA25F725B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}

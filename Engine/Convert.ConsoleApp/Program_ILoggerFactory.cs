@@ -9,7 +9,7 @@ namespace ExerciseApp.ConsoleApp
 	internal class Program_ILoggerFactory
 	{
 		//static void Main_ILoggerFactory()
-		static void Main()
+		static void Main_ILoggerFactory()
 		{
 			// Create an instance of ILoggerFactory
 			ILoggerFactory loggerFactory = LoggerFactory.Create(builder =>
