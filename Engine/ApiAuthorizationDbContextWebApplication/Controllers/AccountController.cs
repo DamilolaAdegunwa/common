@@ -222,8 +222,8 @@ namespace ApiAuthorizationDbContextWebApplication.Controllers
 			{
 				Subject = new ClaimsIdentity(new[]
 				{
-			new Claim(ClaimTypes.NameIdentifier, user.Id),
-			new Claim(ClaimTypes.Email, user.Email)
+				new Claim(ClaimTypes.NameIdentifier, user.Id),
+				new Claim(ClaimTypes.Email, user.Email)
             // Add any additional claims as needed
         }),
 				Expires = DateTime.UtcNow.AddDays(7), // Token expiration time

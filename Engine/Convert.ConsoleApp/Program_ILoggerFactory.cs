@@ -13,9 +13,11 @@ namespace ExerciseApp.ConsoleApp
 	}
 	internal unsafe class Program_ILoggerFactory
 	{
+		
 		//static void Main_ILoggerFactory()
-		static void Main_ILoggerFactory()
+		static void Main()
 		{
+			new TestClass();
 			var a = new testRec() { firstNum = 1, secondNum = 2 };
 			var b = a with { };
 			int c = 4;
@@ -36,6 +38,18 @@ namespace ExerciseApp.ConsoleApp
 			logger.LogError("Error message");
 
 			Console.ReadLine();
+		}
+	}
+
+	public class TestClass
+	{
+		public TestClass() {
+			unchecked
+			{
+				int a = 1000000000 + 1000000000 + 1000000000 + 1000000000;
+				Console.WriteLine(a); // Output: -1294967296
+			}
+
 		}
 	}
 }

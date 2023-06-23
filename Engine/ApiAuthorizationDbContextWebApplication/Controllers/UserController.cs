@@ -9,7 +9,8 @@ namespace ApiAuthorizationDbContextWebApplication.Controllers
 	public class UserController : ControllerBase
 	{
 		[HttpGet]
-		[Authorize("AdminOnly")]
+		//[Authorize("AdminOnly")]
+		[Authorize]
 		public IActionResult GetAdminUsers()
 		{
 			// Only users with the "Admin" role can access this endpoint
@@ -22,6 +23,11 @@ namespace ApiAuthorizationDbContextWebApplication.Controllers
 		[Authorize]
 		public IActionResult GetUser(string id)
 		{
+			var usr = User;
+			var identity = User.Identity;
+			var claims = User.Claims;
+			var name = User.Identity.Name;
+			var req = Request;
 			// Only users with the "User" role can access this endpoint
 			// Perform user-specific logic here
 			return Ok($"User with ID: {id}");

@@ -68,9 +68,9 @@ builder.Services.AddAuthentication(options =>
 	options.TokenValidationParameters = new TokenValidationParameters
 	{
 		// Configure token validation parameters
-		ValidateIssuer = true,
-		ValidateAudience = true,
-		ValidateIssuerSigningKey = true,
+		ValidateIssuer = false,
+		ValidateAudience = false,
+		ValidateIssuerSigningKey = false,
 		ValidIssuer = "your-issuer",
 		ValidAudience = "your-audience",
 		IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(security_key))
@@ -196,6 +196,8 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
+
+app.UseAuthentication();
 
 app.UseHttpsRedirection();
 
