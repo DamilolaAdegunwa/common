@@ -13,3 +13,5 @@ C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\obj\Debug\
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\obj\Debug\net7.0\RaftConsoleApp.pdb
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\obj\Debug\net7.0\RaftConsoleApp.genruntimeconfig.cache
 C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\obj\Debug\net7.0\ref\RaftConsoleApp.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\damil\source\repos\MyCSharpApps\common\Engine\RaftConsoleApp\obj\Debug\net7.0\RaftConsoleApp.csproj.CopyComplete

@@ -8,7 +8,7 @@ namespace ExerciseApp.ConsoleApp.Algorithms
 {
 
 
-public class BloomFilter
+	public class BloomFilter
 	{
 		private bool[] filter;
 		private int size;
@@ -67,7 +67,8 @@ public class BloomFilter
 
 	public class Program_BloomFilter
 	{
-		public static void Main_BloomFilter(string[] args)
+		//public static void Main_BloomFilter(string[] args)
+		public static void Main(string[] args)
 		{
 			// Create a Bloom filter with a size of 100 and 3 hash functions
 			BloomFilter bloomFilter = new BloomFilter(100, 3);

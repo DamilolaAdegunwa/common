@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E+sYtxpcPd6Jbg0SWJ5gcrkYw7jTk6uEgdangA/5uoYK23VMEr+cVjI/tjPCKIxqEeWNWoScXoCva92RGsVoKA==",
+  "dgSpecHash": "zHWCbNmmsg8yAQaw2n6LCYzmYf3HR+CGDDVCGcLwbTzT6zUcepIs7HhlzzAj1zqAsbvitUuXv0xT8MaNXrbYqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\RaftConsoleApp\\RaftConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\damil\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
