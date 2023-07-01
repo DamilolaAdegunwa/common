@@ -59,14 +59,23 @@ namespace LeetCode
 		#endregion
 
 		#region problem 3
-		public static void Main(string[] args)
-		{
-			//var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("acbdddasasasasasdasasasabcdefghi");//10
-			var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("acbdddasasasasasdasasasab");//4
-			//var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("12341234123456");//6 6
-			Console.WriteLine(ans);
-			_ = "done";
-		}
+		//public static void Main(string[] args)
+		//{
+		//	//var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("acbdddasasasasasdasasasabcdefghi");//10
+		//	var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("acbdddasasasasasdasasasab");//4
+		//	//var ans = new LeetCode.Problems.Problem3.Solution().LengthOfLongestSubstring("12341234123456");//6 6
+		//	Console.WriteLine(ans);
+		//	_ = "done";
+		//}
+		#endregion
+
+		#region problem 4
+		//public static void Main(string[] args)
+		//{
+		//	var ans = new LeetCode.Problems.Problem4.Solution().FindMedianSortedArrays("12341234123456");
+		//	Console.WriteLine(ans);
+		//	_ = "done";
+		//}
 		#endregion
 	}
 }
