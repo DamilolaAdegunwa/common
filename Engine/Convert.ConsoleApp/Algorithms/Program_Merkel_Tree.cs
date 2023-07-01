@@ -13,7 +13,7 @@ namespace ExerciseApp.ConsoleApp.Algorithms
 	}
 
 
-public class MerkleTree
+	public class MerkleTree
 	{
 		private List<string> leaves;
 		private List<string> tree;

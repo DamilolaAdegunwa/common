@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thur", "Thur\Thur.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "BankAdminSetup.ConsoleApp\ConsoleApp.csproj", "{3F65FC08-1C29-44A6-8DE8-8A06402200A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{E73DA768-B172-4266-A492-B450B374D328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "LeetCode\Algorithms.csproj", "{E73DA768-B172-4266-A492-B450B374D328}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickTeller.Web", "QuickTeller.Web", "{B1B4D79C-8E84-4180-9485-9A9C81348C00}"
 EndProject
@@ -53,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemDesign", "SystemDesig
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaftApps", "RaftApps", "{AB7BE580-7241-44EE-9663-C78D6CDA7DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftConsoleApp", "RaftConsoleApp\RaftConsoleApp.csproj", "{1ADD1709-7BBC-4C4D-93D5-AE64236FA513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaftConsoleApp", "RaftConsoleApp\RaftConsoleApp.csproj", "{1ADD1709-7BBC-4C4D-93D5-AE64236FA513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -58,7 +58,8 @@ namespace ExerciseApp.ConsoleApp.Algorithms
 			for (int i = 0; i < numHashFunctions; i++)
 			{
 				// Combine the item's hash code and the iteration count to create a unique hash value
-				hashValues[i] = (item.GetHashCode() + i) % size;
+				var hc = Math.Abs(item.GetHashCode());
+				hashValues[i] = (hc + i) % size;
 			}
 
 			return hashValues;
@@ -67,8 +68,8 @@ namespace ExerciseApp.ConsoleApp.Algorithms
 
 	public class Program_BloomFilter
 	{
-		//public static void Main_BloomFilter(string[] args)
-		public static void Main(string[] args)
+		public static void Main_BloomFilter(string[] args)
+		//public static void Main(string[] args)
 		{
 			// Create a Bloom filter with a size of 100 and 3 hash functions
 			BloomFilter bloomFilter = new BloomFilter(100, 3);

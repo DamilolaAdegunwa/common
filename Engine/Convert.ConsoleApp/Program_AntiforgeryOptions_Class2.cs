@@ -24,7 +24,7 @@ namespace ExerciseApp.ConsoleApp
 
 	class Program
 	{
-		static async Task Main(string[] args)
+		static async Task Main_Program_AntiforgeryOptions_Class2(string[] args)
 		{
 			var host = Host.CreateDefaultBuilder(args)
 				.ConfigureWebHostDefaults(webBuilder =>
