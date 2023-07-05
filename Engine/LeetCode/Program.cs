@@ -77,5 +77,14 @@ namespace LeetCode
 		//	_ = "done";
 		//}
 		#endregion
+
+		#region problem 50
+		public static void Main(string[] args)
+		{
+			var ans = new Algorithms.Problems.LeetCode.Problem50.Solution().MyPow(2, -2147483648);
+			Console.WriteLine(ans);
+			_ = "done";
+		}
+		#endregion
 	}
 }
