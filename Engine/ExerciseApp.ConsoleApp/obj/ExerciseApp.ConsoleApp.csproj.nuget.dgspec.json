@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ExerciseApp.ConsoleApp.csproj": {}
+    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\ExerciseApp.ConsoleApp\\ExerciseApp.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ExerciseApp.ConsoleApp.csproj": {
+    "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\ExerciseApp.ConsoleApp\\ExerciseApp.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ExerciseApp.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\ExerciseApp.ConsoleApp\\ExerciseApp.ConsoleApp.csproj",
         "projectName": "ExerciseApp.ConsoleApp",
-        "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\ExerciseApp.ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\ExerciseApp.ConsoleApp\\ExerciseApp.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Convert.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\ExerciseApp.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

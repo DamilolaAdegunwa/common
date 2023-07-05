@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\LeetCode\\Algorithms.csproj",
+      "projectUniqueName": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\LeetCode\\Algorithms.csproj",
+      "projectPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\damil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\LeetCode\\obj\\",
+      "outputPath": "C:\\Users\\damil\\source\\repos\\MyCSharpApps\\common\\Engine\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
