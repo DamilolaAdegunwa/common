@@ -164,35 +164,57 @@ namespace LeetCode
 		#endregion
 
 		#region Problem 104
+		//public static void Main(string[] args)
+		//{
+		//	//level 5
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t5a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(16, null, null);
+
+		//	//level 4
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(8, t5a, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(9, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4c = new Algorithms.Problems.LeetCode.Problems104.TreeNode(10, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4d = new Algorithms.Problems.LeetCode.Problems104.TreeNode(11, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4e = new Algorithms.Problems.LeetCode.Problems104.TreeNode(12, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4f = new Algorithms.Problems.LeetCode.Problems104.TreeNode(13, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4g = new Algorithms.Problems.LeetCode.Problems104.TreeNode(14, null, null);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t4h = new Algorithms.Problems.LeetCode.Problems104.TreeNode(15, null, null);
+
+		//	//level 3
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t3a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(4, t4a, t4b);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t3b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(5, t4c, t4d);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t3c = new Algorithms.Problems.LeetCode.Problems104.TreeNode(6, t4e, t4f);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t3d = new Algorithms.Problems.LeetCode.Problems104.TreeNode(7, t4g, t4h);
+
+		//	//level 2
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t2a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(2, t3a, t3b);
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode t2b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(3, t3c, t3d);
+
+		//	//level 1
+		//	Algorithms.Problems.LeetCode.Problems104.TreeNode root = new Algorithms.Problems.LeetCode.Problems104.TreeNode(1, t2a, t2b);
+
+		//	var ans = new Algorithms.Problems.LeetCode.Problems104.Solution().MaxDepth(root);
+		//	Console.WriteLine(ans);
+		//	_ = "done";
+		//}
+		#endregion
+
+		#region problem 105
+		//public static void Main(string[] args)
+		//{
+		//	var ans = new Algorithms.Problems.LeetCode.Problems105.Solution()
+		//		.BuildTree(new int[] { 1,2,3 }, new int[] { 1,2,3 });
+		//	Console.WriteLine(ans);
+		//	_ = "done";
+		//}
+		#endregion
+
+		#region problem 105 B
 		public static void Main(string[] args)
 		{
-			//level 5
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t5a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(16, null, null);
+			//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 3, 9, 20, 15, 7 }, new int[] { 9, 3, 15, 20, 7 });
+			//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2,4,8,9,5,10,11,3,6,12,13,7,14,15}, new int[] { 8,4,9,2,10,5,11,1,12,6,13,3,14,7,15 });
+			var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2 }, new int[] { 2,1 });
 
-			//level 4
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(8, t5a, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(9, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4c = new Algorithms.Problems.LeetCode.Problems104.TreeNode(10, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4d = new Algorithms.Problems.LeetCode.Problems104.TreeNode(11, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4e = new Algorithms.Problems.LeetCode.Problems104.TreeNode(12, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4f = new Algorithms.Problems.LeetCode.Problems104.TreeNode(13, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4g = new Algorithms.Problems.LeetCode.Problems104.TreeNode(14, null, null);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t4h = new Algorithms.Problems.LeetCode.Problems104.TreeNode(15, null, null);
-
-			//level 3
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t3a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(4, t4a, t4b);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t3b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(5, t4c, t4d);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t3c = new Algorithms.Problems.LeetCode.Problems104.TreeNode(6, t4e, t4f);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t3d = new Algorithms.Problems.LeetCode.Problems104.TreeNode(7, t4g, t4h);
-
-			//level 2
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t2a = new Algorithms.Problems.LeetCode.Problems104.TreeNode(2, t3a, t3b);
-			Algorithms.Problems.LeetCode.Problems104.TreeNode t2b = new Algorithms.Problems.LeetCode.Problems104.TreeNode(3, t3c, t3d);
-
-			//level 1
-			Algorithms.Problems.LeetCode.Problems104.TreeNode root = new Algorithms.Problems.LeetCode.Problems104.TreeNode(1, t2a, t2b);
-
-			var ans = new Algorithms.Problems.LeetCode.Problems104.Solution().MaxDepth(root);
 			Console.WriteLine(ans);
 			_ = "done";
 		}
