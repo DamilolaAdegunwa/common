@@ -209,14 +209,42 @@ namespace LeetCode
 		#endregion
 
 		#region problem 105 B
-		public static void Main(string[] args)
-		{
-			//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 3, 9, 20, 15, 7 }, new int[] { 9, 3, 15, 20, 7 });
-			//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2,4,8,9,5,10,11,3,6,12,13,7,14,15}, new int[] { 8,4,9,2,10,5,11,1,12,6,13,3,14,7,15 });
-			var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2 }, new int[] { 2,1 });
+		//public static void Main(string[] args)
+		//{
+		//	//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 3, 9, 20, 15, 7 }, new int[] { 9, 3, 15, 20, 7 });
+		//	//var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2,4,8,9,5,10,11,3,6,12,13,7,14,15}, new int[] { 8,4,9,2,10,5,11,1,12,6,13,3,14,7,15 });
+		//	var ans = new Algorithms.Problems.LeetCode.Problems105.SolutionB().BuildTree(new int[] { 1,2 }, new int[] { 2,1 });
 
-			Console.WriteLine(ans);
-			_ = "done";
+		//	Console.WriteLine(ans);
+		//	_ = "done";
+		//}
+		#endregion
+
+		#region problem 106
+		//public static void Main(string[] args)
+		//{
+		//	int[] inorder = { 2, 1, 6, 4, 7, 8, 3, 5 };
+		//	int[] postorder = { 2, 6, 8, 7, 4, 5, 3, 1 };
+		//	var ans = new Algorithms.Problems.LeetCode.Problems106.Solution().BuildTree(inorder, postorder);
+		//	Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(ans));
+
+		//	unchecked
+		//	{
+		//		var cont = "sadornothing".Contains("or");
+		//		var cont2 = "sadornothing".IndexOf("or");
+
+
+		//		int a = int.MaxValue + 1;
+		//	}
+
+		//	_ = "done";
+		//}
+		#endregion
+
+		#region problem 41
+		public static void Main()
+		{
+			var ans = new Algorithms.Problems.LeetCode.Problems41.Solution().FirstMissingPositive(new int[] { 0, 2, 2, 1, 1 });
 		}
 		#endregion
 	}
@@ -230,4 +258,13 @@ studied-in-order
 4) leetcode 103✔️
 5) leetcode 104✔️
 6) leetcode 105✔️
+7) leetcode 106✔️
+8) leetcode 1✔️
+9) leetcode 2✔️
+10) leetcode 3✔️
+11) leetcode 4✔️
+12) leetcode 5✔️
+13) leetcode 6✔️
+14) leetcode 7
+
  */

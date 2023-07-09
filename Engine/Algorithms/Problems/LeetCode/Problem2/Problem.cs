@@ -42,5 +42,5 @@ namespace Algorithms.Problems.LeetCode.Problem2
             }
             return ans.next;
         }
-    }
+	}
 }
