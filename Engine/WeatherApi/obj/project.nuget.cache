@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tabdyXhdMUknyG19QUrl+lZ+SK6GtmNoHAklxDSi/xRLpE5df/2dp6VxVqvQjCalyiFS8yz2xVK2uVudwDZbrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\WeatherApi\\WeatherApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
