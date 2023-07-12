@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thur", "Thur\Thur.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "BankAdminSetup.ConsoleApp\ConsoleApp.csproj", "{3F65FC08-1C29-44A6-8DE8-8A06402200A7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickTeller.Web", "QuickTeller.Web", "{B1B4D79C-8E84-4180-9485-9A9C81348C00}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mongo_apps", "mongo_apps", "{B1B4D79C-8E84-4180-9485-9A9C81348C00}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetryApp", "RetryApp\RetryApp.csproj", "{40BC054A-27AA-4258-94DC-4A6446159786}"
 EndProject
@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAuthorizationDbContextWe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiAuthorizationOptionsWebApplication", "ApiAuthorizationOptionsWebApplication\ApiAuthorizationOptionsWebApplication.csproj", "{976E181C-3830-4AF0-84F3-A321A6742E7A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemDesign", "SystemDesign", "{A6E101AB-C7CE-435B-B91D-12A211DBDBFA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "system_design", "system_design", "{A6E101AB-C7CE-435B-B91D-12A211DBDBFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaftApps", "RaftApps", "{AB7BE580-7241-44EE-9663-C78D6CDA7DAF}"
 EndProject
@@ -54,6 +54,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseApp.ConsoleApp", "ExerciseApp.ConsoleApp\ExerciseApp.ConsoleApp.csproj", "{A6C3E661-9854-4010-AEFF-9241017B1348}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{A8835DA9-9302-4BDE-A6FF-2216CAACC23F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service_discovery", "service_discovery", "{E3A6C9CD-0DE3-4917-8C65-538C115E12B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
