@@ -8,12 +8,13 @@ namespace WeatherApi
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args).UseCloudHosting(81);
+            var builder = WebApplication.CreateBuilder(args).UseCloudHosting();
 
             // Add services to the container.
 
             builder.Services.AddDiscoveryClient();
             builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri("http://weatherapi/")).AddServiceDiscovery();
+            //builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri("http://localhost:5051/")).AddServiceDiscovery();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

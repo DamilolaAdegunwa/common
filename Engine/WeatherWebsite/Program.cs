@@ -8,12 +8,12 @@ namespace WeatherWebsite
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args).UseCloudHosting(80);
+            var builder = WebApplication.CreateBuilder(args).UseCloudHosting(5072);
 
             // Add services to the container.
 
             builder.Services.AddDiscoveryClient();
-            builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri("http://weatherapi/")).AddServiceDiscovery();
+            builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri("http://weatherapi")).AddServiceDiscovery();
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -26,7 +26,7 @@ namespace WeatherWebsite
                 app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
