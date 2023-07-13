@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApi", "WeatherApi\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EurekaRegisterExample", "EurekaRegisterExample\EurekaRegisterExample.csproj", "{E3802074-582D-4F97-9002-D4AC635C0048}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EurekaDiscoverExample", "EurekaDiscoverExample\EurekaDiscoverExample.csproj", "{E523A678-1752-4F0D-B6E5-E3AE52BFB648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{E3802074-582D-4F97-9002-D4AC635C0048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3802074-582D-4F97-9002-D4AC635C0048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3802074-582D-4F97-9002-D4AC635C0048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E523A678-1752-4F0D-B6E5-E3AE52BFB648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E523A678-1752-4F0D-B6E5-E3AE52BFB648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E523A678-1752-4F0D-B6E5-E3AE52BFB648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E523A678-1752-4F0D-B6E5-E3AE52BFB648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +201,7 @@ Global
 		{898DECCC-6311-4DA6-86BA-7EA5B818286B} = {E3A6C9CD-0DE3-4917-8C65-538C115E12B5}
 		{C24AF508-5769-46D5-9CE1-F94DE0E239DB} = {E3A6C9CD-0DE3-4917-8C65-538C115E12B5}
 		{E3802074-582D-4F97-9002-D4AC635C0048} = {E3A6C9CD-0DE3-4917-8C65-538C115E12B5}
+		{E523A678-1752-4F0D-B6E5-E3AE52BFB648} = {E3A6C9CD-0DE3-4917-8C65-538C115E12B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7FCB78A-9827-4034-BC67-859B357AB573}
