@@ -1,12 +1,19 @@
+using Steeltoe.Common.Hosting;
+using Steeltoe.Common.Http.Discovery;
+using Steeltoe.Discovery.Client;
+
 namespace WeatherWebsite
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            var builder = WebApplication.CreateBuilder(args).UseCloudHosting(80);
 
             // Add services to the container.
+
+            builder.Services.AddDiscoveryClient();
+            builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri("http://weatherapi/")).AddServiceDiscovery();
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -19,7 +26,7 @@ namespace WeatherWebsite
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -30,6 +37,7 @@ namespace WeatherWebsite
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.UseDiscoveryClient();
             app.Run();
         }
     }

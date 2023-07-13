@@ -6,16 +6,19 @@ namespace WeatherWebsite.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IHttpClientFactory httpClientFactory, ILogger<HomeController> logger)
         {
             _logger = logger;
+            _httpClientFactory = httpClientFactory;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var client = _httpClientFactory.CreateClient("weather");
+            var weather = await client.GetFromJsonAsync<IList<WeatherForecast>>("weatherforecast");
+            return View(weather);
         }
 
         public IActionResult Privacy()
