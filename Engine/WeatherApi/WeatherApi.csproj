@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+    <PackageReference Include="Steeltoe.Common.Hosting" Version="3.2.3" />
+    <PackageReference Include="Steeltoe.Discovery.ClientCore" Version="3.2.3" />
   </ItemGroup>
 
 </Project>
