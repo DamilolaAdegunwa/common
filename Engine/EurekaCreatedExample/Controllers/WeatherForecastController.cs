@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace EurekaDiscoverExample.Controllers
+namespace EurekaCreatedExample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

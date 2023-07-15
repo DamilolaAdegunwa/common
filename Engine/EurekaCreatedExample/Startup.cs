@@ -5,10 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Steeltoe.Discovery.Client;
-using System;
-using Steeltoe.Common.Hosting;
-using Steeltoe.Common.Http.Discovery;
-namespace EurekaRegisterExample
+
+namespace EurekaCreatedExample
 {
     public class Startup
     {
@@ -22,14 +20,11 @@ namespace EurekaRegisterExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-			services.AddHttpClient(AppConstants.EurekaDiscoverExample, client => client.BaseAddress = new Uri("http://EurekaDiscoverExample/")).AddServiceDiscovery();
-			services.AddHttpClient(AppConstants.EurekaRegisterExample, client => client.BaseAddress = new Uri("http://EurekaRegisterExample/")).AddServiceDiscovery();
-
-			services.AddDiscoveryClient(Configuration);
+            services.AddDiscoveryClient(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EurekaRegisterExample", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "EurekaCreatedExample", Version = "v1" });
             });
         }
 
@@ -40,10 +35,10 @@ namespace EurekaRegisterExample
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EurekaRegisterExample"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EurekaCreatedExample"));
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Description>EurekaRegisterExample project</Description>
+    <Description>EurekaCreatedExample project</Description>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
@@ -11,7 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Steeltoe.Common.Hosting" Version="3.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.*" />
   </ItemGroup>
 

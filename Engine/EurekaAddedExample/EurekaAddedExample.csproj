@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Description>EurekaRegisterExample project</Description>
+    <Description>EurekaAddedExample project</Description>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Steeltoe.Discovery.Eureka" Version="$(SteeltoeVersion)" />
+    <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.3" />
   </ItemGroup>
 
 </Project>

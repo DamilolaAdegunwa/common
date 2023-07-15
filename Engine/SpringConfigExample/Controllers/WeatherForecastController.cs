@@ -4,10 +4,10 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace EurekaRegisterExample.Controllers
+namespace SpringConfigExample.Controllers
 {
-	[Route("api/[controller]")]
-	[ApiController]
+    [ApiController]
+    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -27,7 +27,7 @@ namespace EurekaRegisterExample.Controllers
         {
             _logger.LogInformation("Getting forecast");
             var rng = new Random();
-            return Enumerable.Range(1, 25).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
