@@ -420,7 +420,7 @@
     "Steeltoe.Extensions.Configuration.PlaceholderCore/3.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WZ/qtzJzfIXeFIcvH0HYGTorG/D0GHyLA8Pzxp5VI3vB+/cQF1KNwHOurrtPGoRSVRIvvobI4PmItAEujYUQtg==",
+      "sha512": "sha512-xgK7Y8p5whMxL3plKO307GCo5Rs+sGufu376a50f0VhrO1vohcVXkHtOEfv/RC8v/SmDVaXMCJj63QK+8HJXwg==",
       "path": "steeltoe.extensions.configuration.placeholdercore/3.2.3",
       "hashPath": "steeltoe.extensions.configuration.placeholdercore.3.2.3.nupkg.sha512"
     },
