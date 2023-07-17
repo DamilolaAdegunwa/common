@@ -1,69 +1,91 @@
-
+using System;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Steeltoe.Extensions.Configuration;
+using Steeltoe.Extensions.Configuration.Placeholder;
+using Steeltoe.Extensions.Configuration.RandomValue;
 namespace PlaceholderWebApi
 {
-	class Program
-	{
-		static void Main()
-		{
-			// Create the configuration
-			var configuration = new ConfigurationBuilder()
-				.SetBasePath(AppContext.BaseDirectory)
-				.AddJsonFile("appsettings.json")
-				.Build();
+	//class Program
+	//{
+	//	static void Main()
+	//	{
+	//		// Create the configuration
+	//		var configuration = new ConfigurationBuilder().AddPlaceholderResolver()
+	//			.SetBasePath(AppContext.BaseDirectory)
+	//			.AddJsonFile("appsettings.json")
+	//			.Build();
 
-			// Create the service collection and add the configuration
-			var services = new ServiceCollection();
-			services.AddOptions();
-			services.Configure<PlaceholderOptions>(configuration.GetSection("Placeholder"));
+	//		// Create the service collection and add the configuration
+	//		var services = new ServiceCollection();
+	//		services.AddSingleton<IConfiguration>(configuration);
+	//		services.AddOptions();
+	//		services.Configure<PlaceholderOptions>(configuration.GetSection("Placeholder"));
 
-			// Build the service provider
-			var serviceProvider = services.BuildServiceProvider();
+	//		// Build the service provider
+	//		var serviceProvider = services.BuildServiceProvider();
 
-			// Resolve the configuration with placeholders
-			var placeholderConfiguration = serviceProvider.GetRequiredService<IConfiguration>();
+	//		// Resolve the configuration with placeholders
+	//		var placeholderConfiguration = serviceProvider.GetRequiredService<IConfiguration>();
 
-			// Access the configuration value with placeholders resolved
-			var mySetting = placeholderConfiguration.GetValue<string>("MySetting");
-			Console.WriteLine(mySetting);
+	//		// Access the configuration value with placeholders resolved
+	//		var mySetting = placeholderConfiguration.GetValue<string>("MySetting");
+	//		Console.WriteLine(mySetting);
 
-			// Wait for user input before closing the console window
-			Console.ReadLine();
-		}
-	}
+	//		// Wait for user input before closing the console window
+	//		Console.ReadLine();
+	//	}
+	//}
 	public class PlaceholderOptions
 	{
 		public string Name { get; set; }
 	}
-	//public class Program
-	//{
-	//	public static void Main(string[] args)
-	//	{
-	//		var builder = WebApplication.CreateBuilder(args);
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			//1) test placeholder
+			var builder = WebApplication.CreateBuilder(args).AddPlaceholderResolver();
+			// Add services to the container.
+			builder.Services.AddControllers();
+			builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+			builder.Services.AddEndpointsApiExplorer();
+			builder.Services.AddSwaggerGen();
+			builder.Services.AddOptions();
+			builder.Services.Configure<PlaceholderOptions>(builder.Configuration.GetSection("Placeholder"));
+			//var serviceProvider = builder.Services.BuildServiceProvider();
+			//serviceProvider.
+			var mySetting = builder.Configuration.GetValue<string>("MySetting");
 
-	//		// Add services to the container.
+			//test random value source
+			builder.Configuration.AddRandomValueSource();
 
-	//		builder.Services.AddControllers();
-	//		// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-	//		builder.Services.AddEndpointsApiExplorer();
-	//		builder.Services.AddSwaggerGen();
+			//var configuration = new ConfigurationBuilder().AddPlaceholderResolver()
+			//	.AddRandomValueSource()
+			//	.SetBasePath(AppContext.BaseDirectory)
+			//	.AddJsonFile("appsettings.json")
+			//	.Build();
 
-	//		var app = builder.Build();
+			var app = builder.Build();
+			//var PortNumberRand = configuration.GetValue<string>("PortNumberRand");
+			//var ProjectCodeNameRand = builder.Configuration.GetValue<string>("ProjectCodeNameRand");
+			//var ProjectRefRand = builder.Configuration.GetValue<long>("ProjectRefRand");
+			//var ProjectIdRand = builder.Configuration.GetValue<Guid>("ProjectIdRand");
+			// Configure the HTTP request pipeline.
+			if (app.Environment.IsDevelopment())
+			{
+				app.UseSwagger();
+				app.UseSwaggerUI();
+			}
 
-	//		// Configure the HTTP request pipeline.
-	//		if (app.Environment.IsDevelopment())
-	//		{
-	//			app.UseSwagger();
-	//			app.UseSwaggerUI();
-	//		}
+			app.UseHttpsRedirection();
 
-	//		app.UseHttpsRedirection();
+			app.UseAuthorization();
 
-	//		app.UseAuthorization();
+			app.MapControllers();
 
-
-	//		app.MapControllers();
-
-	//		app.Run();
-	//	}
-	//}
+			app.Run();
+		}
+	}
 }

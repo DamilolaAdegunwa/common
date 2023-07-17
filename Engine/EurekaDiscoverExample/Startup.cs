@@ -61,8 +61,8 @@ namespace EurekaDiscoverExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-			services.AddHttpClient(AppConstants.EurekaDiscoverExample, client => client.BaseAddress = new Uri("http://EurekaDiscoverExample:5000/")).AddServiceDiscovery();
-			services.AddHttpClient(AppConstants.EurekaRegisterExample, client => client.BaseAddress = new Uri("http://EurekaRegisterExample:5001/")).AddServiceDiscovery();
+			services.AddHttpClient(AppConstants.EurekaDiscoverExample, client => client.BaseAddress = new Uri("http://EurekaDiscoverExample:5000/")).AddServiceDiscovery().AddRandomLoadBalancer();
+			services.AddHttpClient(AppConstants.EurekaRegisterExample, client => client.BaseAddress = new Uri("http://EurekaRegisterExample:5001/")).AddServiceDiscovery().AddRoundRobinLoadBalancer();
 
 			services.AddDiscoveryClient(Configuration);
             services.AddControllers();

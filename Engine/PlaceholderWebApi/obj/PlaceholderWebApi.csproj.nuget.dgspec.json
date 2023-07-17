@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[1.18.1, )"
             },
+            "Steeltoe.Extensions.Configuration.PlaceholderCore": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "Steeltoe.Extensions.Configuration.RandomValueBase": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
