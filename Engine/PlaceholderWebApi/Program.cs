@@ -89,3 +89,37 @@ namespace PlaceholderWebApi
 		}
 	}
 }
+
+/*
+ 
+static void MigrationScript2(string directory, string connectionstring)
+{
+    //var connectionString = _config.ConnectionString;
+    EnsureDatabase.For.MySqlDatabase(connectionstring);
+
+    var dbUpgradeEngine = DeployChanges.To.MySqlDatabase(connectionstring)
+        .WithScriptsEmbeddedInAssembly(typeof(Program).Assembly)
+        .WithTransactionPerScript()
+        .LogToConsole()
+        .Build();
+
+    //var dbUpgradeEngine = dbUpgradeEngineBuilder.Build();
+
+    if (dbUpgradeEngine.IsUpgradeRequired())
+    {
+        //_logger.WriteInformation("Upgrades have been detected. Upgrading database now... ");
+        var operation = dbUpgradeEngine.PerformUpgrade();
+
+        if (operation.Successful)
+        {
+           // _logger.WriteInformation("Upgrade completed successfully");
+        }
+        else
+        {
+           // _logger.WriteInformation("Error happened in the upgrade. Please check the logs");
+        }
+    }
+
+    //return next;
+}
+ */
