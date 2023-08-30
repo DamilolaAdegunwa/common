@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GVdQ5YLyNlh9Z+FZkJJW5bUAXj6x8Wpiry02fPvkmwWev08tDVOGkKgX/xKwCfcLYA7xFrHFVBsfcaU1PUh/kw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oluwadamilola.Ade\\source\\repos\\common\\Engine\\RaftConsoleApp\\RaftConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oluwadamilola.Ade\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
